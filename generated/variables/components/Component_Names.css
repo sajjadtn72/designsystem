@@ -1,0 +1,205 @@
+/* Variables used by Component Names */
+/* Tailwind V4 */
+
+:root {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+[data-theme="baseline"] {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+
+[data-theme="compact"] {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+
+[data-theme="dark"], .dark {
+  --content-title: #d0d0d0;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #ebebeb;
+  --leading-20: 20px;
+  --outline-default: #666666;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+
+[data-theme="default"] {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+
+[data-theme="light"] {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-dark"] {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #863bff;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-light"] {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+
+[data-theme="mode-1"] {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+
+[data-theme="sale"] {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #ba4914;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+
+[data-theme="soniz"] {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #5860fc;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}
+
+[data-theme="value"] {
+  --content-title: #4d4d4d;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-20: 20px;
+  --outline-default: #8c8c8c;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --text-xs: 12px;
+}

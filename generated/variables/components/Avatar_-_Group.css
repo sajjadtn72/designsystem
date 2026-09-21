@@ -1,0 +1,253 @@
+/* Variables used by Avatar / Group */
+/* Tailwind V4 */
+
+:root {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #ebe4ff;
+  --primary-container-on: #7700ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+[data-theme="baseline"] {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #ebe4ff;
+  --primary-container-on: #7700ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="compact"] {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #ebe4ff;
+  --primary-container-on: #7700ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-page: #020202;
+  --bg-surface-medium: #333333;
+  --content-subtitle: #b3b3b3;
+  --feedback-success: #17b26a;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #ebe4ff;
+  --primary-container-on: #7700ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="default"] {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #ebe4ff;
+  --primary-container-on: #7700ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="light"] {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #ebe4ff;
+  --primary-container-on: #7700ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #330077;
+  --primary-container-on: #bfa6ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #ebe4ff;
+  --primary-container-on: #7700ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="mode-1"] {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #ebe4ff;
+  --primary-container-on: #7700ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="sale"] {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #40170a;
+  --primary-container-on: #f7bd7a;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="soniz"] {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #19174f;
+  --primary-container-on: #9eb1ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="value"] {
+  --bg-page: #ffffff;
+  --bg-surface-medium: #ebebeb;
+  --content-subtitle: #666666;
+  --feedback-success: #067647;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary-container: #ebe4ff;
+  --primary-container-on: #7700ff;
+  --radius-full: 500px;
+  --spacing-10: 40px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --text-2xs: 10px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}

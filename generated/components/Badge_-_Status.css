@@ -1,0 +1,48 @@
+.badge-status {
+  align-items: baseline;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-0-5);
+  height: fit-content;
+  justify-content: flex-start;
+  width: fit-content;
+}
+.badge-status [data-ds-part="0"] {
+  color: var(--content-main);
+  font-family: var(--typography-font-family-font-family);
+  font-size: var(--typography-font-size-font-size);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--typography-line-height-line-height);
+  text-align: right;
+  white-space: pre-wrap;
+}
+.badge-status [data-ds-part="1"] {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1-5);
+  padding-left: var(--spacing-1-5);
+  padding-right: var(--spacing-1-5);
+  padding-top: var(--spacing-1-5);
+}
+.badge-status [data-ds-part="1.0"] {
+  background-color: var(--bg-disabled);
+  height: var(--spacing-1-5);
+  width: 6px;
+}
+.badge-status[data-type="Error"] [data-ds-part="1.0"] {
+  background-color: var(--feedback-error);
+}
+.badge-status[data-type="Success"] [data-ds-part="1.0"] {
+  background-color: var(--feedback-success);
+}
+.badge-status[data-type="Warning"] [data-ds-part="1.0"] {
+  background-color: var(--feedback-warning);
+}
+.badge-status[data-type="Info"] [data-ds-part="1.0"] {
+  background-color: var(--feedback-info);
+}

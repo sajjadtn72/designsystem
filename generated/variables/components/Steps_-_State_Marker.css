@@ -1,0 +1,121 @@
+/* Variables used by Steps / State Marker */
+/* Tailwind V4 */
+
+:root {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --text-xs: 12px;
+}
+[data-theme="baseline"] {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --text-xs: 12px;
+}
+
+[data-theme="compact"] {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --text-xs: 12px;
+}
+
+[data-theme="dark"], .dark {
+  --content-placeholder: #757575;
+  --feedback-success: #17b26a;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --text-xs: 12px;
+}
+
+[data-theme="default"] {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --text-xs: 12px;
+}
+
+[data-theme="light"] {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-dark"] {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #863bff;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-light"] {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --text-xs: 12px;
+}
+
+[data-theme="mode-1"] {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --text-xs: 12px;
+}
+
+[data-theme="sale"] {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #ba4914;
+  --text-xs: 12px;
+}
+
+[data-theme="soniz"] {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="value"] {
+  --content-placeholder: #757575;
+  --feedback-success: #067647;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --text-xs: 12px;
+}

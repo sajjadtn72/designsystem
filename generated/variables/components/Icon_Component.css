@@ -1,0 +1,49 @@
+/* Variables used by Icon Component */
+/* Tailwind V4 */
+
+:root {
+  --icon-main: #1f1f1f;
+}
+[data-theme="baseline"] {
+  --icon-main: #1f1f1f;
+}
+
+[data-theme="compact"] {
+  --icon-main: #1f1f1f;
+}
+
+[data-theme="dark"], .dark {
+  --icon-main: #ebebeb;
+}
+
+[data-theme="default"] {
+  --icon-main: #1f1f1f;
+}
+
+[data-theme="light"] {
+  --icon-main: #1f1f1f;
+}
+
+[data-theme="logistic-dark"] {
+  --icon-main: #1f1f1f;
+}
+
+[data-theme="logistic-light"] {
+  --icon-main: #1f1f1f;
+}
+
+[data-theme="mode-1"] {
+  --icon-main: #1f1f1f;
+}
+
+[data-theme="sale"] {
+  --icon-main: #1f1f1f;
+}
+
+[data-theme="soniz"] {
+  --icon-main: #1f1f1f;
+}
+
+[data-theme="value"] {
+  --icon-main: #1f1f1f;
+}

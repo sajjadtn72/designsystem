@@ -1,0 +1,97 @@
+/* Variables used by Tree View / Icon */
+/* Tailwind V4 */
+
+:root {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+[data-theme="baseline"] {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="compact"] {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-surface-lowest: #141414;
+  --icon-main: #ebebeb;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="default"] {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="light"] {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="mode-1"] {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="sale"] {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="soniz"] {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="value"] {
+  --bg-surface-lowest: #f7f7f7;
+  --icon-main: #1f1f1f;
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}

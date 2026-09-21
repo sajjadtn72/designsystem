@@ -1,0 +1,259 @@
+.splitter-collapse-button {
+  align-items: center;
+  background-color: var(--bg-surface-lowest);
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2);
+  height: fit-content;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-0);
+  padding-right: var(--spacing-0);
+  padding-top: var(--spacing-1);
+  width: fit-content;
+}
+.splitter-collapse-button [data-ds-part="0"] {
+  height: 14px;
+  width: 14px;
+}
+.splitter-collapse-button [data-ds-part="0.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 4.6667px;
+  width: 2.3333px;
+}
+.splitter-collapse-button[data-direction="Up"] {
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Up"] [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Up"][data-state="Default"] {
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Up"][data-state="Default"] [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Down"] {
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Down"] [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Down"][data-state="Default"] {
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Down"][data-state="Default"] [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Up"]:active {
+  background-color: var(--primary);
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Up"]:active [data-ds-part="0.0"] {
+  border-color: var(--primary-on);
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Up"][data-state="Active"] {
+  background-color: var(--primary);
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Up"][data-state="Active"] [data-ds-part="0.0"] {
+  border-color: var(--primary-on);
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Up"]:hover {
+  background-color: var(--primary-container);
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Up"]:hover [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Up"][data-state="Hover"] {
+  background-color: var(--primary-container);
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Up"][data-state="Hover"] [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Down"]:hover {
+  background-color: var(--primary-container);
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Down"]:hover [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Down"][data-state="Hover"] {
+  background-color: var(--primary-container);
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Down"][data-state="Hover"] [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Down"]:active {
+  background-color: var(--primary);
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Down"]:active [data-ds-part="0.0"] {
+  border-color: var(--primary-on);
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Down"][data-state="Active"] {
+  background-color: var(--primary);
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Down"][data-state="Active"] [data-ds-part="0.0"] {
+  border-color: var(--primary-on);
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Left"]:active {
+  background-color: var(--primary);
+}
+.splitter-collapse-button[data-direction="Left"]:active [data-ds-part="0.0"] {
+  border-color: var(--primary-on);
+}
+.splitter-collapse-button[data-direction="Left"][data-state="Active"] {
+  background-color: var(--primary);
+}
+.splitter-collapse-button[data-direction="Left"][data-state="Active"] [data-ds-part="0.0"] {
+  border-color: var(--primary-on);
+}
+.splitter-collapse-button[data-direction="Left"]:hover {
+  background-color: var(--primary-container);
+}
+.splitter-collapse-button[data-direction="Left"][data-state="Hover"] {
+  background-color: var(--primary-container);
+}
+.splitter-collapse-button[data-direction="Right"]:hover {
+  background-color: var(--primary-container);
+}
+.splitter-collapse-button[data-direction="Right"][data-state="Hover"] {
+  background-color: var(--primary-container);
+}
+.splitter-collapse-button[data-direction="Right"]:active {
+  background-color: var(--primary);
+}
+.splitter-collapse-button[data-direction="Right"]:active [data-ds-part="0.0"] {
+  border-color: var(--primary-on);
+}
+.splitter-collapse-button[data-direction="Right"][data-state="Active"] {
+  background-color: var(--primary);
+}
+.splitter-collapse-button[data-direction="Right"][data-state="Active"] [data-ds-part="0.0"] {
+  border-color: var(--primary-on);
+}
+.splitter-collapse-button[data-direction="Left"]:focus-visible {
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+.splitter-collapse-button[data-direction="Left"][data-state="Focus"] {
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+.splitter-collapse-button[data-direction="Right"]:focus-visible {
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+.splitter-collapse-button[data-direction="Right"][data-state="Focus"] {
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+.splitter-collapse-button[data-direction="Down"]:focus-visible {
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+  overflow: hidden;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Down"]:focus-visible [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Down"][data-state="Focus"] {
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+  overflow: hidden;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Down"][data-state="Focus"] [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Up"]:focus-visible {
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+  overflow: hidden;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Up"]:focus-visible [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}
+.splitter-collapse-button[data-direction="Up"][data-state="Focus"] {
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+  overflow: hidden;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+}
+.splitter-collapse-button[data-direction="Up"][data-state="Focus"] [data-ds-part="0.0"] {
+  height: 2.3333px;
+  width: 4.6667px;
+}

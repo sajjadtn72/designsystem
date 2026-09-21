@@ -1,0 +1,145 @@
+/* Variables used by Watermark */
+/* Tailwind V4 */
+
+:root {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+[data-theme="baseline"] {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="compact"] {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="dark"], .dark {
+  --content-main: #ebebeb;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="default"] {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="light"] {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-dark"] {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-light"] {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="mode-1"] {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="sale"] {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="soniz"] {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="value"] {
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --spacing-0-5: 2px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}

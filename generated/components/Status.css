@@ -1,0 +1,268 @@
+.status {
+  align-items: center;
+  background-color: var(--feedback-success-bg);
+  border-color: var(--feedback-success);
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  height: fit-content;
+  justify-content: center;
+  padding-bottom: var(--spacing-1-5);
+  padding-left: var(--spacing-2);
+  padding-right: var(--spacing-2);
+  padding-top: var(--spacing-1-5);
+  width: fit-content;
+}
+.status [data-ds-part="0"] {
+  height: 24px;
+  width: 24px;
+}
+.status [data-ds-part="0.0"],
+.status [data-ds-part="0.0.0"],
+.status [data-ds-part="0.0.0.0"],
+.status [data-ds-part="0.0.0.0.0"] {
+  height: 20px;
+  width: 20px;
+}
+.status [data-ds-part="0.0.0.0.1"] {
+  border-color: var(--feedback-on-success-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 15px;
+  width: 15px;
+}
+.status [data-ds-part="0.0.0.0.2"] {
+  border-color: var(--feedback-on-success-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 4.1667px;
+  width: 6.6667px;
+}
+.status [data-ds-part="1"] {
+  color: var(--feedback-on-success-bg);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.status[data-region="EN"][data-type="In-Progress"] {
+  background-color: var(--feedback-warning-bg);
+  border-color: var(--feedback-on-warning-bg);
+}
+.status[data-region="EN"][data-type="In-Progress"] [data-ds-part="0.0.0"],
+.status[data-region="EN"][data-type="In-Progress"] [data-ds-part="0.0.0.0"] {
+  height: 20.0083px;
+  width: 20.0083px;
+}
+.status[data-region="EN"][data-type="In-Progress"] [data-ds-part="0.0.0.1"] {
+  border-color: var(--feedback-on-warning-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 0.8337px;
+  width: 2.501px;
+}
+.status[data-region="EN"][data-type="In-Progress"] [data-ds-part="0.0.0.2"] {
+  border-color: var(--feedback-on-warning-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 0.8337px;
+  width: 8.3368px;
+}
+.status[data-region="EN"][data-type="In-Progress"] [data-ds-part="0.0.0.3"] {
+  border-color: var(--feedback-on-warning-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 15.0415px;
+  width: 15.0415px;
+}
+.status[data-region="EN"][data-type="In-Progress"] [data-ds-part="0.0.0.4"] {
+  border-color: var(--feedback-on-warning-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 5.0021px;
+  width: 5.0021px;
+}
+.status[data-region="EN"][data-type="In-Progress"] [data-ds-part="1"] {
+  color: var(--feedback-on-warning-bg);
+}
+.status[data-region="EN"][data-type="To Do"] {
+  background-color: var(--feedback-info-bg);
+  border-color: var(--feedback-on-info-bg);
+}
+.status[data-region="EN"][data-type="To Do"] [data-ds-part="0.0.0.0"] {
+  height: 15px;
+  width: 13.3333px;
+}
+.status[data-region="EN"][data-type="To Do"] [data-ds-part="0.0.0.0.0"] {
+  border-color: var(--feedback-on-info-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 11.6667px;
+  width: 10px;
+}
+.status[data-region="EN"][data-type="To Do"] [data-ds-part="0.0.0.0.1"] {
+  border-color: var(--feedback-on-info-bg);
+  height: 11.6667px;
+  width: 10px;
+}
+.status[data-region="EN"][data-type="To Do"] [data-ds-part="0.0.0.0.2"] {
+  border-color: var(--feedback-on-info-bg);
+  height: 0.8333px;
+  width: 3.3333px;
+}
+.status[data-region="EN"][data-type="To Do"] [data-ds-part="0.0.0.0.3"] {
+  border-color: var(--feedback-on-info-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 0.8333px;
+  width: 3.3333px;
+}
+.status[data-region="EN"][data-type="To Do"] [data-ds-part="0.0.0.1"] {
+  height: 20px;
+  width: 20px;
+}
+.status[data-region="EN"][data-type="To Do"] [data-ds-part="1"] {
+  color: var(--feedback-on-info-bg);
+}
+.status[data-region="FA"][data-type="Done"] [data-ds-part="0"] {
+  color: var(--feedback-on-success-bg);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.status[data-region="FA"][data-type="Done"] [data-ds-part="1"] {
+  height: 24px;
+  width: 24px;
+}
+.status[data-region="FA"][data-type="Done"] [data-ds-part="1.0"],
+.status[data-region="FA"][data-type="Done"] [data-ds-part="1.0.0"],
+.status[data-region="FA"][data-type="Done"] [data-ds-part="1.0.0.0"],
+.status[data-region="FA"][data-type="Done"] [data-ds-part="1.0.0.0.0"] {
+  height: 20px;
+  width: 20px;
+}
+.status[data-region="FA"][data-type="Done"] [data-ds-part="1.0.0.0.1"] {
+  border-color: var(--feedback-on-success-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 15px;
+  width: 15px;
+}
+.status[data-region="FA"][data-type="Done"] [data-ds-part="1.0.0.0.2"] {
+  border-color: var(--feedback-on-success-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 4.1667px;
+  width: 6.6667px;
+}
+.status[data-region="FA"][data-type="In-Progress"] {
+  background-color: var(--feedback-warning-bg);
+  border-color: var(--feedback-on-warning-bg);
+}
+.status[data-region="FA"][data-type="In-Progress"] [data-ds-part="0"] {
+  color: var(--feedback-on-warning-bg);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.status[data-region="FA"][data-type="In-Progress"] [data-ds-part="1"] {
+  height: 24px;
+  width: 24px;
+}
+.status[data-region="FA"][data-type="In-Progress"] [data-ds-part="1.0"] {
+  height: 20px;
+  width: 20px;
+}
+.status[data-region="FA"][data-type="In-Progress"] [data-ds-part="1.0.0"],
+.status[data-region="FA"][data-type="In-Progress"] [data-ds-part="1.0.0.0"] {
+  height: 20.0083px;
+  width: 20.0083px;
+}
+.status[data-region="FA"][data-type="In-Progress"] [data-ds-part="1.0.0.1"] {
+  border-color: var(--feedback-on-warning-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 0.8337px;
+  width: 2.501px;
+}
+.status[data-region="FA"][data-type="In-Progress"] [data-ds-part="1.0.0.2"] {
+  border-color: var(--feedback-on-warning-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 0.8337px;
+  width: 8.3368px;
+}
+.status[data-region="FA"][data-type="In-Progress"] [data-ds-part="1.0.0.3"] {
+  border-color: var(--feedback-on-warning-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 15.0415px;
+  width: 15.0415px;
+}
+.status[data-region="FA"][data-type="In-Progress"] [data-ds-part="1.0.0.4"] {
+  border-color: var(--feedback-on-warning-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 5.0021px;
+  width: 5.0021px;
+}
+.status[data-region="FA"][data-type="To Do"] {
+  background-color: var(--feedback-info-bg);
+  border-color: var(--feedback-on-info-bg);
+}
+.status[data-region="FA"][data-type="To Do"] [data-ds-part="0"] {
+  color: var(--feedback-on-info-bg);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.status[data-region="FA"][data-type="To Do"] [data-ds-part="1"] {
+  height: 24px;
+  width: 24px;
+}
+.status[data-region="FA"][data-type="To Do"] [data-ds-part="1.0"],
+.status[data-region="FA"][data-type="To Do"] [data-ds-part="1.0.0"],
+.status[data-region="FA"][data-type="To Do"] [data-ds-part="1.0.0.1"] {
+  height: 20px;
+  width: 20px;
+}
+.status[data-region="FA"][data-type="To Do"] [data-ds-part="1.0.0.0"] {
+  height: 15px;
+  width: 13.3333px;
+}
+.status[data-region="FA"][data-type="To Do"] [data-ds-part="1.0.0.0.0"],
+.status[data-region="FA"][data-type="To Do"] [data-ds-part="1.0.0.0.1"] {
+  border-color: var(--feedback-on-info-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 11.6667px;
+  width: 10px;
+}
+.status[data-region="FA"][data-type="To Do"] [data-ds-part="1.0.0.0.2"],
+.status[data-region="FA"][data-type="To Do"] [data-ds-part="1.0.0.0.3"] {
+  border-color: var(--feedback-on-info-bg);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 0.8333px;
+  width: 3.3333px;
+}
