@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "files": [
+    "README.md",
+    "components.css",
+    "components.json",
+    "components/Anchor_Items.css",
+    "components/FloatButton_-_Group.css",
+    "diagnostics.json",
+    "docs/components/Anchor_Items.html",
+    "docs/components/FloatButton_-_Group.html",
+    "docs/index.html",
+    "docs/tokens.html",
+    "examples/Anchor_Items/32-35-31-34-3a-34-30-34.html",
+    "examples/FloatButton_-_Group/36-36-37-34-35-3a-33-38-39.html",
+    "examples/FloatButton_-_Group/36-36-37-34-35-3a-33-39-34.html",
+    "index.css",
+    "tailwind.config.ts",
+    "tailwind.css",
+    "theme.css",
+    "variables.css",
+    "variables/all.css",
+    "variables/components/Anchor_Items.css",
+    "variables/components/FloatButton_-_Group.css"
+  ]
+}
