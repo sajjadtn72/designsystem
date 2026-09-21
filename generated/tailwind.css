@@ -1,0 +1,6 @@
+/* Main Tailwind CSS Bundle */
+
+@import "tailwindcss";
+@import "./theme.css";
+@import "./variables.css";
+@import "./components.css";
