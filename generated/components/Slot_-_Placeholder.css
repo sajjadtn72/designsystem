@@ -1,0 +1,7 @@
+._slot-placeholder {
+  background-color: var(--bg-surface-low);
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 200px;
+  width: 320px;
+}

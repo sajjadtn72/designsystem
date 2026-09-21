@@ -1,0 +1,73 @@
+._filter-by-items-building-blocks {
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  height: fit-content;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-2);
+  padding-right: var(--spacing-2);
+  padding-top: var(--spacing-1);
+  width: 128px;
+}
+._filter-by-items-building-blocks [data-ds-part="0"] {
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-20);
+  text-align: right;
+  white-space: pre-wrap;
+}
+._filter-by-items-building-blocks [data-ds-part="1"] {
+  display: none;
+  height: 20px;
+  width: 20px;
+}
+._filter-by-items-building-blocks [data-ds-part="1.0"] {
+  height: 16px;
+  width: 16px;
+}
+._filter-by-items-building-blocks [data-ds-part="1.0.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 12px;
+  width: 12px;
+}
+._filter-by-items-building-blocks[data-state="Selected"] {
+  background-color: var(--bg-surface-lowest);
+}
+._filter-by-items-building-blocks[data-state="Selected"] [data-ds-part="0"] {
+  color: var(--brand-primary);
+}
+._filter-by-items-building-blocks[data-state="Selected"] [data-ds-part="1"] {
+  height: 16px;
+  width: 16px;
+}
+._filter-by-items-building-blocks[data-state="Selected"] [data-ds-part="1.0"] {
+  border-color: var(--primary);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 7.3333px;
+  width: 10.6667px;
+}
+._filter-by-items-building-blocks:hover {
+  background-color: var(--bg-surface-lowest);
+}
+._filter-by-items-building-blocks[data-state="Hover"] {
+  background-color: var(--bg-surface-lowest);
+}
+._filter-by-items-building-blocks:focus-visible {
+  background-color: var(--bg-page);
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+}
+._filter-by-items-building-blocks[data-state="Focus"] {
+  background-color: var(--bg-page);
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,2693 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Design tokens</title><link rel="stylesheet" href="../variables.css"><link rel="stylesheet" href="../components.css"><style>body{font:15px/1.6 system-ui;background:#f8fafc;color:#172033;margin:0 auto;padding:32px;max-width:1100px}h1{font-size:30px}a{color:#0369a1}table{border-collapse:collapse;width:100%;background:white}td,th{border:1px solid #dce3eb;padding:9px;text-align:left;vertical-align:top}.doc-code{background:#101827;color:#e2e8f0;padding:20px;overflow:auto;border-radius:8px}.preview{padding:24px;background:white;border:1px solid #dce3eb;overflow:auto;margin:16px 0}.doc-code code{overflow-wrap:anywhere}</style><main><a href="index.html">Overview</a><h1>Design tokens</h1><table><tr><th>Figma name</th><th>CSS variable</th><th>Tailwind classes</th><th>Values by mode</th></tr><tr><td>base/black</td><td><code>--base-black</code></td><td>bg-ds-base-black, text-ds-base-black, border-ds-base-black</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0078,
+    &quot;g&quot;: 0.0078,
+    &quot;b&quot;: 0.0078,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>base/white</td><td><code>--base-white</code></td><td>bg-ds-base-white, text-ds-base-white, border-ds-base-white</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 1,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>bg/disabled</td><td><code>--bg-disabled</code></td><td>bg-ds-bg-disabled, text-ds-bg-disabled, border-ds-bg-disabled</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2335&quot;,
+    &quot;tokenName&quot;: &quot;gray/300&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2342&quot;,
+    &quot;tokenName&quot;: &quot;gray/950&quot;
+  }
+}</pre></td></tr><tr><td>bg/page</td><td><code>--bg-page</code></td><td>bg-ds-bg-page, text-ds-bg-page, border-ds-bg-page</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2459&quot;,
+    &quot;tokenName&quot;: &quot;base/black&quot;
+  }
+}</pre></td></tr><tr><td>bg/page-inverse</td><td><code>--bg-page-inverse</code></td><td>bg-ds-bg-page-inverse, text-ds-bg-page-inverse, border-ds-bg-page-inverse</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2459&quot;,
+    &quot;tokenName&quot;: &quot;base/black&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  }
+}</pre></td></tr><tr><td>bg/scrim</td><td><code>--bg-scrim</code></td><td>bg-ds-bg-scrim, text-ds-bg-scrim, border-ds-bg-scrim</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2459&quot;,
+    &quot;tokenName&quot;: &quot;base/black&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  }
+}</pre></td></tr><tr><td>bg/surface-high</td><td><code>--bg-surface-high</code></td><td>bg-ds-bg-surface-high, text-ds-bg-surface-high, border-ds-bg-surface-high</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2334&quot;,
+    &quot;tokenName&quot;: &quot;gray/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2339&quot;,
+    &quot;tokenName&quot;: &quot;gray/700&quot;
+  }
+}</pre></td></tr><tr><td>bg/surface-low</td><td><code>--bg-surface-low</code></td><td>bg-ds-bg-surface-low, text-ds-bg-surface-low, border-ds-bg-surface-low</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1441:5029&quot;,
+    &quot;tokenName&quot;: &quot;gray/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2341&quot;,
+    &quot;tokenName&quot;: &quot;gray/900&quot;
+  }
+}</pre></td></tr><tr><td>bg/surface-lowest</td><td><code>--bg-surface-lowest</code></td><td>bg-ds-bg-surface-lowest, text-ds-bg-surface-lowest, border-ds-bg-surface-lowest</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1359:6431&quot;,
+    &quot;tokenName&quot;: &quot;gray/25&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2342&quot;,
+    &quot;tokenName&quot;: &quot;gray/950&quot;
+  }
+}</pre></td></tr><tr><td>bg/surface-medium</td><td><code>--bg-surface-medium</code></td><td>bg-ds-bg-surface-medium, text-ds-bg-surface-medium, border-ds-bg-surface-medium</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2333&quot;,
+    &quot;tokenName&quot;: &quot;gray/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2340&quot;,
+    &quot;tokenName&quot;: &quot;gray/800&quot;
+  }
+}</pre></td></tr><tr><td>blue-tag/100</td><td><code>--blue-tag-100</code></td><td>bg-ds-blue-tag-100, text-ds-blue-tag-100, border-ds-blue-tag-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.698,
+    &quot;g&quot;: 0.8667,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue-tag/150</td><td><code>--blue-tag-150</code></td><td>bg-ds-blue-tag-150, text-ds-blue-tag-150, border-ds-blue-tag-150</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2902,
+    &quot;g&quot;: 0.5647,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue-tag/200</td><td><code>--blue-tag-200</code></td><td>bg-ds-blue-tag-200, text-ds-blue-tag-200, border-ds-blue-tag-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.092,
+    &quot;g&quot;: 0.3619,
+    &quot;b&quot;: 0.828,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue-tag/300</td><td><code>--blue-tag-300</code></td><td>bg-ds-blue-tag-300, text-ds-blue-tag-300, border-ds-blue-tag-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.1657,
+    &quot;b&quot;: 0.4328,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue-tag/400</td><td><code>--blue-tag-400</code></td><td>bg-ds-blue-tag-400, text-ds-blue-tag-400, border-ds-blue-tag-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.0766,
+    &quot;b&quot;: 0.2,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue-tag/50</td><td><code>--blue-tag-50</code></td><td>bg-ds-blue-tag-50, text-ds-blue-tag-50, border-ds-blue-tag-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9373,
+    &quot;g&quot;: 0.9725,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/100</td><td><code>--blue-100</code></td><td>bg-ds-blue-100, text-ds-blue-100, border-ds-blue-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.7294,
+    &quot;g&quot;: 0.8784,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/200</td><td><code>--blue-200</code></td><td>bg-ds-blue-200, text-ds-blue-200, border-ds-blue-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.5686,
+    &quot;g&quot;: 0.7922,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/25</td><td><code>--blue-25</code></td><td>bg-ds-blue-25, text-ds-blue-25, border-ds-blue-25</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9608,
+    &quot;g&quot;: 0.9843,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/300</td><td><code>--blue-300</code></td><td>bg-ds-blue-300, text-ds-blue-300, border-ds-blue-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4118,
+    &quot;g&quot;: 0.6941,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/400</td><td><code>--blue-400</code></td><td>bg-ds-blue-400, text-ds-blue-400, border-ds-blue-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.251,
+    &quot;g&quot;: 0.5882,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/50</td><td><code>--blue-50</code></td><td>bg-ds-blue-50, text-ds-blue-50, border-ds-blue-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.902,
+    &quot;g&quot;: 0.9569,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/500</td><td><code>--blue-500</code></td><td>bg-ds-blue-500, text-ds-blue-500, border-ds-blue-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0863,
+    &quot;g&quot;: 0.4667,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/600</td><td><code>--blue-600</code></td><td>bg-ds-blue-600, text-ds-blue-600, border-ds-blue-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0353,
+    &quot;g&quot;: 0.3451,
+    &quot;b&quot;: 0.851,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/700</td><td><code>--blue-700</code></td><td>bg-ds-blue-700, text-ds-blue-700, border-ds-blue-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.2431,
+    &quot;b&quot;: 0.702,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/800</td><td><code>--blue-800</code></td><td>bg-ds-blue-800, text-ds-blue-800, border-ds-blue-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.1725,
+    &quot;b&quot;: 0.549,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/900</td><td><code>--blue-900</code></td><td>bg-ds-blue-900, text-ds-blue-900, border-ds-blue-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.1137,
+    &quot;b&quot;: 0.4,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>blue/950</td><td><code>--blue-950</code></td><td>bg-ds-blue-950, text-ds-blue-950, border-ds-blue-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.0588,
+    &quot;b&quot;: 0.2,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>Brand/primary</td><td><code>--brand-primary</code></td><td>bg-ds-brand-primary, text-ds-brand-primary, border-ds-brand-primary</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2284&quot;,
+    &quot;tokenName&quot;: &quot;logistic/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2331&quot;,
+    &quot;tokenName&quot;: &quot;hr/950&quot;
+  }
+}</pre></td></tr><tr><td>breakpoint/2xl</td><td><code>--breakpoint-2xl</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:2&quot;: 1440
+}</pre></td></tr><tr><td>breakpoint/3xl</td><td><code>--breakpoint-3xl</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:2&quot;: 1536
+}</pre></td></tr><tr><td>breakpoint/lg</td><td><code>--breakpoint-lg</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:2&quot;: 1024
+}</pre></td></tr><tr><td>breakpoint/md</td><td><code>--breakpoint-md</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:2&quot;: 768
+}</pre></td></tr><tr><td>breakpoint/sm</td><td><code>--breakpoint-sm</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:2&quot;: 640
+}</pre></td></tr><tr><td>breakpoint/xl</td><td><code>--breakpoint-xl</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:2&quot;: 1280
+}</pre></td></tr><tr><td>Colors/Gray/300</td><td><code>--colors-gray-300</code></td><td>bg-ds-gray-300, text-ds-gray-300, border-ds-gray-300</td><td><pre class="doc-code">{
+  &quot;4940:0&quot;: {
+    &quot;r&quot;: 0.8078,
+    &quot;g&quot;: 0.8118,
+    &quot;b&quot;: 0.8235,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>Colors/Text/Gray | Hint</td><td><code>--colors-text-gray-hint</code></td><td>bg-ds-text-gray-hint, text-ds-text-gray-hint, border-ds-text-gray-hint</td><td><pre class="doc-code">{
+  &quot;4938:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:bb481ceb586f6a8f2a6f3cbf99794d270ea1d2af/4957:823&quot;,
+    &quot;tokenName&quot;: &quot;Colors/Gray/300&quot;
+  }
+}</pre></td></tr><tr><td>Components/Card/Component/bodyPadding</td><td><code>--components-card-component-body-padding</code></td><td>p-ds-components-card-component-body-padding, gap-ds-components-card-component-body-padding, m-ds-components-card-component-body-padding</td><td><pre class="doc-code">{
+  &quot;288:4&quot;: 24
+}</pre></td></tr><tr><td>Components/Splitter/Component/splitBarDraggableSize</td><td><code>--components-splitter-component-split-bar-draggable-size</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;5009:0&quot;: 20
+}</pre></td></tr><tr><td>Components/Splitter/Component/splitBarSize</td><td><code>--components-splitter-component-split-bar-size</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;5009:0&quot;: 2
+}</pre></td></tr><tr><td>Components/Tooltip/Component/maxWidth</td><td><code>--components-tooltip-component-max-width</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;5009:0&quot;: 250
+}</pre></td></tr><tr><td>content/disabled</td><td><code>--content-disabled</code></td><td>bg-ds-content-disabled, text-ds-content-disabled, border-ds-content-disabled</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2336&quot;,
+    &quot;tokenName&quot;: &quot;gray/400&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2339&quot;,
+    &quot;tokenName&quot;: &quot;gray/700&quot;
+  }
+}</pre></td></tr><tr><td>content/helper</td><td><code>--content-helper</code></td><td>bg-ds-content-helper, text-ds-content-helper, border-ds-content-helper</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:66416:158&quot;,
+    &quot;tokenName&quot;: &quot;gray/575&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2337&quot;,
+    &quot;tokenName&quot;: &quot;gray/500&quot;
+  }
+}</pre></td></tr><tr><td>content/inverse</td><td><code>--content-inverse</code></td><td>bg-ds-content-inverse, text-ds-content-inverse, border-ds-content-inverse</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2459&quot;,
+    &quot;tokenName&quot;: &quot;base/black&quot;
+  }
+}</pre></td></tr><tr><td>content/main</td><td><code>--content-main</code></td><td>bg-ds-content-main, text-ds-content-main, border-ds-content-main</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2341&quot;,
+    &quot;tokenName&quot;: &quot;gray/900&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2333&quot;,
+    &quot;tokenName&quot;: &quot;gray/100&quot;
+  }
+}</pre></td></tr><tr><td>content/placeholder</td><td><code>--content-placeholder</code></td><td>bg-ds-content-placeholder, text-ds-content-placeholder, border-ds-content-placeholder</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:66416:159&quot;,
+    &quot;tokenName&quot;: &quot;gray/550&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:66416:159&quot;,
+    &quot;tokenName&quot;: &quot;gray/550&quot;
+  }
+}</pre></td></tr><tr><td>content/subtitle</td><td><code>--content-subtitle</code></td><td>bg-ds-content-subtitle, text-ds-content-subtitle, border-ds-content-subtitle</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2338&quot;,
+    &quot;tokenName&quot;: &quot;gray/600&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2336&quot;,
+    &quot;tokenName&quot;: &quot;gray/400&quot;
+  }
+}</pre></td></tr><tr><td>content/title</td><td><code>--content-title</code></td><td>bg-ds-content-title, text-ds-content-title, border-ds-content-title</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2339&quot;,
+    &quot;tokenName&quot;: &quot;gray/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2335&quot;,
+    &quot;tokenName&quot;: &quot;gray/300&quot;
+  }
+}</pre></td></tr><tr><td>cyan-tag/100</td><td><code>--cyan-tag-100</code></td><td>bg-ds-cyan-tag-100, text-ds-cyan-tag-100, border-ds-cyan-tag-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.7353,
+    &quot;g&quot;: 0.9647,
+    &quot;b&quot;: 0.9647,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>cyan-tag/200</td><td><code>--cyan-tag-200</code></td><td>bg-ds-cyan-tag-200, text-ds-cyan-tag-200, border-ds-cyan-tag-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.1267,
+    &quot;g&quot;: 0.6883,
+    &quot;b&quot;: 0.8018,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>cyan-tag/300</td><td><code>--cyan-tag-300</code></td><td>bg-ds-cyan-tag-300, text-ds-cyan-tag-300, border-ds-cyan-tag-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.4,
+    &quot;b&quot;: 0.4,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>cyan-tag/400</td><td><code>--cyan-tag-400</code></td><td>bg-ds-cyan-tag-400, text-ds-cyan-tag-400, border-ds-cyan-tag-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.2,
+    &quot;b&quot;: 0.2,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>cyan-tag/50</td><td><code>--cyan-tag-50</code></td><td>bg-ds-cyan-tag-50, text-ds-cyan-tag-50, border-ds-cyan-tag-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9001,
+    &quot;g&quot;: 0.9999,
+    &quot;b&quot;: 0.9999,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>duration/base</td><td><code>--duration-base</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:1&quot;: 200
+}</pre></td></tr><tr><td>duration/instant</td><td><code>--duration-instant</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:1&quot;: 0
+}</pre></td></tr><tr><td>duration/quick</td><td><code>--duration-quick</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:1&quot;: 100
+}</pre></td></tr><tr><td>duration/slow</td><td><code>--duration-slow</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:1&quot;: 300
+}</pre></td></tr><tr><td>duration/slower</td><td><code>--duration-slower</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:1&quot;: 500
+}</pre></td></tr><tr><td>ease/accelerate</td><td><code>--ease-accelerate</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:1&quot;: &quot;cubic-bezier(0.3, 0, 1, 1)&quot;
+}</pre></td></tr><tr><td>ease/decelerate</td><td><code>--ease-decelerate</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:1&quot;: &quot;cubic-bezier(0, 0, 0, 1)&quot;
+}</pre></td></tr><tr><td>ease/emphasized</td><td><code>--ease-emphasized</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:1&quot;: &quot;cubic-bezier(0.4, 0, 0.2, 1)&quot;
+}</pre></td></tr><tr><td>ease/standard</td><td><code>--ease-standard</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:1&quot;: &quot;cubic-bezier(0.2, 0, 0, 1)&quot;
+}</pre></td></tr><tr><td>feedback/error</td><td><code>--feedback-error</code></td><td>bg-ds-feedback-error, text-ds-feedback-error, border-ds-feedback-error</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2250&quot;,
+    &quot;tokenName&quot;: &quot;red/600&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2249&quot;,
+    &quot;tokenName&quot;: &quot;red/500&quot;
+  }
+}</pre></td></tr><tr><td>feedback/error-bg</td><td><code>--feedback-error-bg</code></td><td>bg-ds-feedback-error-bg, text-ds-feedback-error-bg, border-ds-feedback-error-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2244&quot;,
+    &quot;tokenName&quot;: &quot;red/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2254&quot;,
+    &quot;tokenName&quot;: &quot;red/950&quot;
+  }
+}</pre></td></tr><tr><td>feedback/error-bg-on</td><td><code>--feedback-error-bg-on</code></td><td>bg-ds-feedback-error-bg-on, text-ds-feedback-error-bg-on, border-ds-feedback-error-bg-on</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2251&quot;,
+    &quot;tokenName&quot;: &quot;red/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2247&quot;,
+    &quot;tokenName&quot;: &quot;red/300&quot;
+  }
+}</pre></td></tr><tr><td>feedback/error-hover</td><td><code>--feedback-error-hover</code></td><td>bg-ds-feedback-error-hover, text-ds-feedback-error-hover, border-ds-feedback-error-hover</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2249&quot;,
+    &quot;tokenName&quot;: &quot;red/500&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2249&quot;,
+    &quot;tokenName&quot;: &quot;red/500&quot;
+  }
+}</pre></td></tr><tr><td>feedback/error-on</td><td><code>--feedback-error-on</code></td><td>bg-ds-feedback-error-on, text-ds-feedback-error-on, border-ds-feedback-error-on</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  }
+}</pre></td></tr><tr><td>feedback/error-press</td><td><code>--feedback-error-press</code></td><td>bg-ds-feedback-error-press, text-ds-feedback-error-press, border-ds-feedback-error-press</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2251&quot;,
+    &quot;tokenName&quot;: &quot;red/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2251&quot;,
+    &quot;tokenName&quot;: &quot;red/700&quot;
+  }
+}</pre></td></tr><tr><td>feedback/info</td><td><code>--feedback-info</code></td><td>bg-ds-feedback-info, text-ds-feedback-info, border-ds-feedback-info</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2261&quot;,
+    &quot;tokenName&quot;: &quot;inventory/600&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2260&quot;,
+    &quot;tokenName&quot;: &quot;inventory/500&quot;
+  }
+}</pre></td></tr><tr><td>feedback/info-bg</td><td><code>--feedback-info-bg</code></td><td>bg-ds-feedback-info-bg, text-ds-feedback-info-bg, border-ds-feedback-info-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2256&quot;,
+    &quot;tokenName&quot;: &quot;inventory/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2265&quot;,
+    &quot;tokenName&quot;: &quot;inventory/950&quot;
+  }
+}</pre></td></tr><tr><td>feedback/info-bg-on</td><td><code>--feedback-info-bg-on</code></td><td>bg-ds-feedback-info-bg-on, text-ds-feedback-info-bg-on, border-ds-feedback-info-bg-on</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2262&quot;,
+    &quot;tokenName&quot;: &quot;inventory/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2258&quot;,
+    &quot;tokenName&quot;: &quot;inventory/300&quot;
+  }
+}</pre></td></tr><tr><td>feedback/info-hover</td><td><code>--feedback-info-hover</code></td><td>bg-ds-feedback-info-hover, text-ds-feedback-info-hover, border-ds-feedback-info-hover</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2260&quot;,
+    &quot;tokenName&quot;: &quot;inventory/500&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2260&quot;,
+    &quot;tokenName&quot;: &quot;inventory/500&quot;
+  }
+}</pre></td></tr><tr><td>feedback/info-on</td><td><code>--feedback-info-on</code></td><td>bg-ds-feedback-info-on, text-ds-feedback-info-on, border-ds-feedback-info-on</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  }
+}</pre></td></tr><tr><td>feedback/info-press</td><td><code>--feedback-info-press</code></td><td>bg-ds-feedback-info-press, text-ds-feedback-info-press, border-ds-feedback-info-press</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2262&quot;,
+    &quot;tokenName&quot;: &quot;inventory/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2262&quot;,
+    &quot;tokenName&quot;: &quot;inventory/700&quot;
+  }
+}</pre></td></tr><tr><td>Feedback/on-info-bg</td><td><code>--feedback-on-info-bg</code></td><td>bg-ds-feedback-on-info-bg, text-ds-feedback-on-info-bg, border-ds-feedback-on-info-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2262&quot;,
+    &quot;tokenName&quot;: &quot;inventory/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2260&quot;,
+    &quot;tokenName&quot;: &quot;inventory/500&quot;
+  }
+}</pre></td></tr><tr><td>Feedback/on-success-bg</td><td><code>--feedback-on-success-bg</code></td><td>bg-ds-feedback-on-success-bg, text-ds-feedback-on-success-bg, border-ds-feedback-on-success-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2240&quot;,
+    &quot;tokenName&quot;: &quot;green/600&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2239&quot;,
+    &quot;tokenName&quot;: &quot;green/500&quot;
+  }
+}</pre></td></tr><tr><td>Feedback/on-warning-bg</td><td><code>--feedback-on-warning-bg</code></td><td>bg-ds-feedback-on-warning-bg, text-ds-feedback-on-warning-bg, border-ds-feedback-on-warning-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2317&quot;,
+    &quot;tokenName&quot;: &quot;sale/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2315&quot;,
+    &quot;tokenName&quot;: &quot;sale/500&quot;
+  }
+}</pre></td></tr><tr><td>feedback/success</td><td><code>--feedback-success</code></td><td>bg-ds-feedback-success, text-ds-feedback-success, border-ds-feedback-success</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2241&quot;,
+    &quot;tokenName&quot;: &quot;green/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2239&quot;,
+    &quot;tokenName&quot;: &quot;green/500&quot;
+  }
+}</pre></td></tr><tr><td>feedback/success-bg</td><td><code>--feedback-success-bg</code></td><td>bg-ds-feedback-success-bg, text-ds-feedback-success-bg, border-ds-feedback-success-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2235&quot;,
+    &quot;tokenName&quot;: &quot;green/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1359:6428&quot;,
+    &quot;tokenName&quot;: &quot;green/950&quot;
+  }
+}</pre></td></tr><tr><td>feedback/success-bg-on</td><td><code>--feedback-success-bg-on</code></td><td>bg-ds-feedback-success-bg-on, text-ds-feedback-success-bg-on, border-ds-feedback-success-bg-on</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2241&quot;,
+    &quot;tokenName&quot;: &quot;green/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2238&quot;,
+    &quot;tokenName&quot;: &quot;green/400&quot;
+  }
+}</pre></td></tr><tr><td>feedback/success-hover</td><td><code>--feedback-success-hover</code></td><td>bg-ds-feedback-success-hover, text-ds-feedback-success-hover, border-ds-feedback-success-hover</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2240&quot;,
+    &quot;tokenName&quot;: &quot;green/600&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2238&quot;,
+    &quot;tokenName&quot;: &quot;green/400&quot;
+  }
+}</pre></td></tr><tr><td>feedback/success-on</td><td><code>--feedback-success-on</code></td><td>bg-ds-feedback-success-on, text-ds-feedback-success-on, border-ds-feedback-success-on</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  }
+}</pre></td></tr><tr><td>feedback/success-press</td><td><code>--feedback-success-press</code></td><td>bg-ds-feedback-success-press, text-ds-feedback-success-press, border-ds-feedback-success-press</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2242&quot;,
+    &quot;tokenName&quot;: &quot;green/800&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2240&quot;,
+    &quot;tokenName&quot;: &quot;green/600&quot;
+  }
+}</pre></td></tr><tr><td>feedback/warning</td><td><code>--feedback-warning</code></td><td>bg-ds-feedback-warning, text-ds-feedback-warning, border-ds-feedback-warning</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2317&quot;,
+    &quot;tokenName&quot;: &quot;sale/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2316&quot;,
+    &quot;tokenName&quot;: &quot;sale/600&quot;
+  }
+}</pre></td></tr><tr><td>feedback/warning-bg</td><td><code>--feedback-warning-bg</code></td><td>bg-ds-feedback-warning-bg, text-ds-feedback-warning-bg, border-ds-feedback-warning-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2311&quot;,
+    &quot;tokenName&quot;: &quot;sale/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2320&quot;,
+    &quot;tokenName&quot;: &quot;sale/950&quot;
+  }
+}</pre></td></tr><tr><td>feedback/warning-bg-on</td><td><code>--feedback-warning-bg-on</code></td><td>bg-ds-feedback-warning-bg-on, text-ds-feedback-warning-bg-on, border-ds-feedback-warning-bg-on</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2317&quot;,
+    &quot;tokenName&quot;: &quot;sale/700&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2313&quot;,
+    &quot;tokenName&quot;: &quot;sale/300&quot;
+  }
+}</pre></td></tr><tr><td>feedback/warning-hover</td><td><code>--feedback-warning-hover</code></td><td>bg-ds-feedback-warning-hover, text-ds-feedback-warning-hover, border-ds-feedback-warning-hover</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2316&quot;,
+    &quot;tokenName&quot;: &quot;sale/600&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2315&quot;,
+    &quot;tokenName&quot;: &quot;sale/500&quot;
+  }
+}</pre></td></tr><tr><td>feedback/warning-on</td><td><code>--feedback-warning-on</code></td><td>bg-ds-feedback-warning-on, text-ds-feedback-warning-on, border-ds-feedback-warning-on</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  }
+}</pre></td></tr><tr><td>feedback/warning-press</td><td><code>--feedback-warning-press</code></td><td>bg-ds-feedback-warning-press, text-ds-feedback-warning-press, border-ds-feedback-warning-press</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2318&quot;,
+    &quot;tokenName&quot;: &quot;sale/800&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2317&quot;,
+    &quot;tokenName&quot;: &quot;sale/700&quot;
+  }
+}</pre></td></tr><tr><td>finance/100</td><td><code>--finance-100</code></td><td>bg-ds-finance-100, text-ds-finance-100, border-ds-finance-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.8941,
+    &quot;b&quot;: 0.9098,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>finance/200</td><td><code>--finance-200</code></td><td>bg-ds-finance-200, text-ds-finance-200, border-ds-finance-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.8,
+    &quot;b&quot;: 0.8392,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>finance/300</td><td><code>--finance-300</code></td><td>bg-ds-finance-300, text-ds-finance-300, border-ds-finance-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9961,
+    &quot;g&quot;: 0.6392,
+    &quot;b&quot;: 0.7098,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>finance/400</td><td><code>--finance-400</code></td><td>bg-ds-finance-400, text-ds-finance-400, border-ds-finance-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9922,
+    &quot;g&quot;: 0.4353,
+    &quot;b&quot;: 0.5569,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>finance/50</td><td><code>--finance-50</code></td><td>bg-ds-finance-50, text-ds-finance-50, border-ds-finance-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.9451,
+    &quot;b&quot;: 0.9529,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>finance/500</td><td><code>--finance-500</code></td><td>bg-ds-finance-500, text-ds-finance-500, border-ds-finance-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9686,
+    &quot;g&quot;: 0.2353,
+    &quot;b&quot;: 0.4157,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>finance/600</td><td><code>--finance-600</code></td><td>bg-ds-finance-600, text-ds-finance-600, border-ds-finance-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8941,
+    &quot;g&quot;: 0.102,
+    &quot;b&quot;: 0.3333,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>finance/700</td><td><code>--finance-700</code></td><td>bg-ds-finance-700, text-ds-finance-700, border-ds-finance-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.7529,
+    &quot;g&quot;: 0.0627,
+    &quot;b&quot;: 0.2824,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>finance/800</td><td><code>--finance-800</code></td><td>bg-ds-finance-800, text-ds-finance-800, border-ds-finance-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.6314,
+    &quot;g&quot;: 0.0627,
+    &quot;b&quot;: 0.2627,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>finance/900</td><td><code>--finance-900</code></td><td>bg-ds-finance-900, text-ds-finance-900, border-ds-finance-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.5412,
+    &quot;g&quot;: 0.0667,
+    &quot;b&quot;: 0.2471,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>finance/950</td><td><code>--finance-950</code></td><td>bg-ds-finance-950, text-ds-finance-950, border-ds-finance-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.302,
+    &quot;g&quot;: 0.0157,
+    &quot;b&quot;: 0.1176,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>focus/ring</td><td><code>--focus-ring</code></td><td>bg-ds-focus-ring, text-ds-focus-ring, border-ds-focus-ring</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1353:423&quot;,
+    &quot;tokenName&quot;: &quot;primary&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1353:423&quot;,
+    &quot;tokenName&quot;: &quot;primary&quot;
+  }
+}</pre></td></tr><tr><td>font-weight/bold</td><td><code>--font-weight-bold</code></td><td>font-ds-bold</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: &quot;Bold&quot;
+}</pre></td></tr><tr><td>font-weight/medium</td><td><code>--font-weight-medium</code></td><td>font-ds-medium</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: &quot;Medium&quot;
+}</pre></td></tr><tr><td>font-weight/normal</td><td><code>--font-weight-normal</code></td><td>font-ds-normal</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: &quot;Regular&quot;
+}</pre></td></tr><tr><td>font-weight/semibold</td><td><code>--font-weight-semibold</code></td><td>font-ds-semibold</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: &quot;SemiBold&quot;
+}</pre></td></tr><tr><td>font/Font</td><td><code>--font-font</code></td><td>font-ds-font-font</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: &quot;Vazirmatn&quot;
+}</pre></td></tr><tr><td>gold-tag/100</td><td><code>--gold-tag-100</code></td><td>bg-ds-gold-tag-100, text-ds-gold-tag-100, border-ds-gold-tag-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.901,
+    &quot;b&quot;: 0.7,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gold-tag/200</td><td><code>--gold-tag-200</code></td><td>bg-ds-gold-tag-200, text-ds-gold-tag-200, border-ds-gold-tag-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.7631,
+    &quot;g&quot;: 0.5076,
+    &quot;b&quot;: 0,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gold-tag/300</td><td><code>--gold-tag-300</code></td><td>bg-ds-gold-tag-300, text-ds-gold-tag-300, border-ds-gold-tag-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.42,
+    &quot;g&quot;: 0.2794,
+    &quot;b&quot;: 0,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gold-tag/400</td><td><code>--gold-tag-400</code></td><td>bg-ds-gold-tag-400, text-ds-gold-tag-400, border-ds-gold-tag-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2,
+    &quot;g&quot;: 0.133,
+    &quot;b&quot;: 0,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gold-tag/50</td><td><code>--gold-tag-50</code></td><td>bg-ds-gold-tag-50, text-ds-gold-tag-50, border-ds-gold-tag-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.9875,
+    &quot;b&quot;: 0.92,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/100</td><td><code>--gray-100</code></td><td>bg-ds-gray-100, text-ds-gray-100, border-ds-gray-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9216,
+    &quot;g&quot;: 0.9216,
+    &quot;b&quot;: 0.9216,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/200</td><td><code>--gray-200</code></td><td>bg-ds-gray-200, text-ds-gray-200, border-ds-gray-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8784,
+    &quot;g&quot;: 0.8784,
+    &quot;b&quot;: 0.8784,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/25</td><td><code>--gray-25</code></td><td>bg-ds-gray-25, text-ds-gray-25, border-ds-gray-25</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9686,
+    &quot;g&quot;: 0.9686,
+    &quot;b&quot;: 0.9686,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/300</td><td><code>--gray-300</code></td><td>bg-ds-gray-300, text-ds-gray-300, border-ds-gray-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8157,
+    &quot;g&quot;: 0.8157,
+    &quot;b&quot;: 0.8157,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/400</td><td><code>--gray-400</code></td><td>bg-ds-gray-400, text-ds-gray-400, border-ds-gray-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.702,
+    &quot;g&quot;: 0.702,
+    &quot;b&quot;: 0.702,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/50</td><td><code>--gray-50</code></td><td>bg-ds-gray-50, text-ds-gray-50, border-ds-gray-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.949,
+    &quot;g&quot;: 0.949,
+    &quot;b&quot;: 0.949,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/500</td><td><code>--gray-500</code></td><td>bg-ds-gray-500, text-ds-gray-500, border-ds-gray-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.549,
+    &quot;g&quot;: 0.549,
+    &quot;b&quot;: 0.549,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/550</td><td><code>--gray-550</code></td><td>bg-ds-gray-550, text-ds-gray-550, border-ds-gray-550</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4588,
+    &quot;g&quot;: 0.4588,
+    &quot;b&quot;: 0.4588,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/575</td><td><code>--gray-575</code></td><td>bg-ds-gray-575, text-ds-gray-575, border-ds-gray-575</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4314,
+    &quot;g&quot;: 0.4314,
+    &quot;b&quot;: 0.4314,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/600</td><td><code>--gray-600</code></td><td>bg-ds-gray-600, text-ds-gray-600, border-ds-gray-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4,
+    &quot;g&quot;: 0.4,
+    &quot;b&quot;: 0.4,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/700</td><td><code>--gray-700</code></td><td>bg-ds-gray-700, text-ds-gray-700, border-ds-gray-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.302,
+    &quot;g&quot;: 0.302,
+    &quot;b&quot;: 0.302,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/800</td><td><code>--gray-800</code></td><td>bg-ds-gray-800, text-ds-gray-800, border-ds-gray-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2,
+    &quot;g&quot;: 0.2,
+    &quot;b&quot;: 0.2,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/900</td><td><code>--gray-900</code></td><td>bg-ds-gray-900, text-ds-gray-900, border-ds-gray-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.1216,
+    &quot;g&quot;: 0.1216,
+    &quot;b&quot;: 0.1216,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>gray/950</td><td><code>--gray-950</code></td><td>bg-ds-gray-950, text-ds-gray-950, border-ds-gray-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0784,
+    &quot;g&quot;: 0.0784,
+    &quot;b&quot;: 0.0784,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green-tag/100</td><td><code>--green-tag-100</code></td><td>bg-ds-green-tag-100, text-ds-green-tag-100, border-ds-green-tag-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.6706,
+    &quot;g&quot;: 0.9373,
+    &quot;b&quot;: 0.7765,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green-tag/200</td><td><code>--green-tag-200</code></td><td>bg-ds-green-tag-200, text-ds-green-tag-200, border-ds-green-tag-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0702,
+    &quot;g&quot;: 0.6639,
+    &quot;b&quot;: 0.4148,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green-tag/300</td><td><code>--green-tag-300</code></td><td>bg-ds-green-tag-300, text-ds-green-tag-300, border-ds-green-tag-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.367,
+    &quot;b&quot;: 0.203,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green-tag/400</td><td><code>--green-tag-400</code></td><td>bg-ds-green-tag-400, text-ds-green-tag-400, border-ds-green-tag-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.1,
+    &quot;b&quot;: 0.0553,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green-tag/50</td><td><code>--green-tag-50</code></td><td>bg-ds-green-tag-50, text-ds-green-tag-50, border-ds-green-tag-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9255,
+    &quot;g&quot;: 0.9922,
+    &quot;b&quot;: 0.9529,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/100</td><td><code>--green-100</code></td><td>bg-ds-green-100, text-ds-green-100, border-ds-green-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8627,
+    &quot;g&quot;: 0.9804,
+    &quot;b&quot;: 0.902,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/200</td><td><code>--green-200</code></td><td>bg-ds-green-200, text-ds-green-200, border-ds-green-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.6627,
+    &quot;g&quot;: 0.9373,
+    &quot;b&quot;: 0.7765,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/25</td><td><code>--green-25</code></td><td>bg-ds-green-25, text-ds-green-25, border-ds-green-25</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9647,
+    &quot;g&quot;: 0.9961,
+    &quot;b&quot;: 0.9765,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/300</td><td><code>--green-300</code></td><td>bg-ds-green-300, text-ds-green-300, border-ds-green-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4588,
+    &quot;g&quot;: 0.8784,
+    &quot;b&quot;: 0.6549,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/400</td><td><code>--green-400</code></td><td>bg-ds-green-400, text-ds-green-400, border-ds-green-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2784,
+    &quot;g&quot;: 0.8039,
+    &quot;b&quot;: 0.5373,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/50</td><td><code>--green-50</code></td><td>bg-ds-green-50, text-ds-green-50, border-ds-green-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9255,
+    &quot;g&quot;: 0.9922,
+    &quot;b&quot;: 0.9529,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/500</td><td><code>--green-500</code></td><td>bg-ds-green-500, text-ds-green-500, border-ds-green-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0902,
+    &quot;g&quot;: 0.698,
+    &quot;b&quot;: 0.4157,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/600</td><td><code>--green-600</code></td><td>bg-ds-green-600, text-ds-green-600, border-ds-green-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0275,
+    &quot;g&quot;: 0.5804,
+    &quot;b&quot;: 0.3333,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/700</td><td><code>--green-700</code></td><td>bg-ds-green-700, text-ds-green-700, border-ds-green-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0235,
+    &quot;g&quot;: 0.4627,
+    &quot;b&quot;: 0.2784,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/800</td><td><code>--green-800</code></td><td>bg-ds-green-800, text-ds-green-800, border-ds-green-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0314,
+    &quot;g&quot;: 0.3647,
+    &quot;b&quot;: 0.2275,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/900</td><td><code>--green-900</code></td><td>bg-ds-green-900, text-ds-green-900, border-ds-green-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0275,
+    &quot;g&quot;: 0.302,
+    &quot;b&quot;: 0.1922,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>green/950</td><td><code>--green-950</code></td><td>bg-ds-green-950, text-ds-green-950, border-ds-green-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0275,
+    &quot;g&quot;: 0.302,
+    &quot;b&quot;: 0.1922,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/100</td><td><code>--hr-100</code></td><td>bg-ds-hr-100, text-ds-hr-100, border-ds-hr-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9098,
+    &quot;g&quot;: 0.9294,
+    &quot;b&quot;: 0.9647,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/200</td><td><code>--hr-200</code></td><td>bg-ds-hr-200, text-ds-hr-200, border-ds-hr-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8039,
+    &quot;g&quot;: 0.851,
+    &quot;b&quot;: 0.9176,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/300</td><td><code>--hr-300</code></td><td>bg-ds-hr-300, text-ds-hr-300, border-ds-hr-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.6275,
+    &quot;g&quot;: 0.7216,
+    &quot;b&quot;: 0.851,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/400</td><td><code>--hr-400</code></td><td>bg-ds-hr-400, text-ds-hr-400, border-ds-hr-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4275,
+    &quot;g&quot;: 0.5765,
+    &quot;b&quot;: 0.7647,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/50</td><td><code>--hr-50</code></td><td>bg-ds-hr-50, text-ds-hr-50, border-ds-hr-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9569,
+    &quot;g&quot;: 0.9647,
+    &quot;b&quot;: 0.9843,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/500</td><td><code>--hr-500</code></td><td>bg-ds-hr-500, text-ds-hr-500, border-ds-hr-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2941,
+    &quot;g&quot;: 0.4627,
+    &quot;b&quot;: 0.6745,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/600</td><td><code>--hr-600</code></td><td>bg-ds-hr-600, text-ds-hr-600, border-ds-hr-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2235,
+    &quot;g&quot;: 0.3647,
+    &quot;b&quot;: 0.5647,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/700</td><td><code>--hr-700</code></td><td>bg-ds-hr-700, text-ds-hr-700, border-ds-hr-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.1843,
+    &quot;g&quot;: 0.2941,
+    &quot;b&quot;: 0.4588,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/800</td><td><code>--hr-800</code></td><td>bg-ds-hr-800, text-ds-hr-800, border-ds-hr-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.1647,
+    &quot;g&quot;: 0.251,
+    &quot;b&quot;: 0.3843,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/900</td><td><code>--hr-900</code></td><td>bg-ds-hr-900, text-ds-hr-900, border-ds-hr-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.1529,
+    &quot;g&quot;: 0.2196,
+    &quot;b&quot;: 0.3255,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>hr/950</td><td><code>--hr-950</code></td><td>bg-ds-hr-950, text-ds-hr-950, border-ds-hr-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0706,
+    &quot;g&quot;: 0.098,
+    &quot;b&quot;: 0.149,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>icon/disabled</td><td><code>--icon-disabled</code></td><td>bg-ds-icon-disabled, text-ds-icon-disabled, border-ds-icon-disabled</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2336&quot;,
+    &quot;tokenName&quot;: &quot;gray/400&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2339&quot;,
+    &quot;tokenName&quot;: &quot;gray/700&quot;
+  }
+}</pre></td></tr><tr><td>icon/inverse</td><td><code>--icon-inverse</code></td><td>bg-ds-icon-inverse, text-ds-icon-inverse, border-ds-icon-inverse</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2459&quot;,
+    &quot;tokenName&quot;: &quot;base/black&quot;
+  }
+}</pre></td></tr><tr><td>icon/main</td><td><code>--icon-main</code></td><td>bg-ds-icon-main, text-ds-icon-main, border-ds-icon-main</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2341&quot;,
+    &quot;tokenName&quot;: &quot;gray/900&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2333&quot;,
+    &quot;tokenName&quot;: &quot;gray/100&quot;
+  }
+}</pre></td></tr><tr><td>icon/rating</td><td><code>--icon-rating</code></td><td>bg-ds-icon-rating, text-ds-icon-rating, border-ds-icon-rating</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:421&quot;,
+    &quot;tokenName&quot;: &quot;gold-tag/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2269&quot;,
+    &quot;tokenName&quot;: &quot;orange/300&quot;
+  }
+}</pre></td></tr><tr><td>icon/subtle</td><td><code>--icon-subtle</code></td><td>bg-ds-icon-subtle, text-ds-icon-subtle, border-ds-icon-subtle</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2337&quot;,
+    &quot;tokenName&quot;: &quot;gray/500&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2337&quot;,
+    &quot;tokenName&quot;: &quot;gray/500&quot;
+  }
+}</pre></td></tr><tr><td>inventory/100</td><td><code>--inventory-100</code></td><td>bg-ds-inventory-100, text-ds-inventory-100, border-ds-inventory-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8392,
+    &quot;g&quot;: 0.9176,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>inventory/200</td><td><code>--inventory-200</code></td><td>bg-ds-inventory-200, text-ds-inventory-200, border-ds-inventory-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.7098,
+    &quot;g&quot;: 0.8588,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>inventory/300</td><td><code>--inventory-300</code></td><td>bg-ds-inventory-300, text-ds-inventory-300, border-ds-inventory-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.5137,
+    &quot;g&quot;: 0.7765,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>inventory/400</td><td><code>--inventory-400</code></td><td>bg-ds-inventory-400, text-ds-inventory-400, border-ds-inventory-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2824,
+    &quot;g&quot;: 0.6549,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>inventory/50</td><td><code>--inventory-50</code></td><td>bg-ds-inventory-50, text-ds-inventory-50, border-ds-inventory-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9294,
+    &quot;g&quot;: 0.9647,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>inventory/500</td><td><code>--inventory-500</code></td><td>bg-ds-inventory-500, text-ds-inventory-500, border-ds-inventory-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.1176,
+    &quot;g&quot;: 0.5137,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>inventory/600</td><td><code>--inventory-600</code></td><td>bg-ds-inventory-600, text-ds-inventory-600, border-ds-inventory-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0235,
+    &quot;g&quot;: 0.3961,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>inventory/700</td><td><code>--inventory-700</code></td><td>bg-ds-inventory-700, text-ds-inventory-700, border-ds-inventory-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0,
+    &quot;g&quot;: 0.3059,
+    &quot;b&quot;: 0.9216,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>inventory/800</td><td><code>--inventory-800</code></td><td>bg-ds-inventory-800, text-ds-inventory-800, border-ds-inventory-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0314,
+    &quot;g&quot;: 0.2588,
+    &quot;b&quot;: 0.7725,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>inventory/900</td><td><code>--inventory-900</code></td><td>bg-ds-inventory-900, text-ds-inventory-900, border-ds-inventory-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.051,
+    &quot;g&quot;: 0.2353,
+    &quot;b&quot;: 0.6078,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>inventory/950</td><td><code>--inventory-950</code></td><td>bg-ds-inventory-950, text-ds-inventory-950, border-ds-inventory-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0549,
+    &quot;g&quot;: 0.149,
+    &quot;b&quot;: 0.3647,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>leading/16</td><td><code>--leading-16</code></td><td>leading-ds-leading-16</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 16
+}</pre></td></tr><tr><td>leading/18</td><td><code>--leading-18</code></td><td>leading-ds-leading-18</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 18
+}</pre></td></tr><tr><td>leading/20</td><td><code>--leading-20</code></td><td>leading-ds-leading-20</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 20
+}</pre></td></tr><tr><td>leading/22</td><td><code>--leading-22</code></td><td>leading-ds-leading-22</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 22
+}</pre></td></tr><tr><td>leading/24</td><td><code>--leading-24</code></td><td>leading-ds-leading-24</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 24
+}</pre></td></tr><tr><td>leading/28</td><td><code>--leading-28</code></td><td>leading-ds-leading-28</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 28
+}</pre></td></tr><tr><td>leading/30</td><td><code>--leading-30</code></td><td>leading-ds-leading-30</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 30
+}</pre></td></tr><tr><td>leading/32</td><td><code>--leading-32</code></td><td>leading-ds-leading-32</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 32
+}</pre></td></tr><tr><td>leading/36</td><td><code>--leading-36</code></td><td>leading-ds-leading-36</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 36
+}</pre></td></tr><tr><td>leading/40</td><td><code>--leading-40</code></td><td>leading-ds-leading-40</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 40
+}</pre></td></tr><tr><td>leading/48</td><td><code>--leading-48</code></td><td>leading-ds-leading-48</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 48
+}</pre></td></tr><tr><td>leading/6</td><td><code>--leading-6</code></td><td>leading-ds-leading-6</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 6
+}</pre></td></tr><tr><td>logistic/100</td><td><code>--logistic-100</code></td><td>bg-ds-logistic-100, text-ds-logistic-100, border-ds-logistic-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9216,
+    &quot;g&quot;: 0.8941,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>logistic/200</td><td><code>--logistic-200</code></td><td>bg-ds-logistic-200, text-ds-logistic-200, border-ds-logistic-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8549,
+    &quot;g&quot;: 0.8039,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>logistic/300</td><td><code>--logistic-300</code></td><td>bg-ds-logistic-300, text-ds-logistic-300, border-ds-logistic-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.749,
+    &quot;g&quot;: 0.651,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>logistic/400</td><td><code>--logistic-400</code></td><td>bg-ds-logistic-400, text-ds-logistic-400, border-ds-logistic-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.6314,
+    &quot;g&quot;: 0.451,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>logistic/50</td><td><code>--logistic-50</code></td><td>bg-ds-logistic-50, text-ds-logistic-50, border-ds-logistic-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9569,
+    &quot;g&quot;: 0.9412,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>logistic/500</td><td><code>--logistic-500</code></td><td>bg-ds-logistic-500, text-ds-logistic-500, border-ds-logistic-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.5255,
+    &quot;g&quot;: 0.2314,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>logistic/600</td><td><code>--logistic-600</code></td><td>bg-ds-logistic-600, text-ds-logistic-600, border-ds-logistic-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4902,
+    &quot;g&quot;: 0.0784,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>logistic/700</td><td><code>--logistic-700</code></td><td>bg-ds-logistic-700, text-ds-logistic-700, border-ds-logistic-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4667,
+    &quot;g&quot;: 0,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>logistic/800</td><td><code>--logistic-800</code></td><td>bg-ds-logistic-800, text-ds-logistic-800, border-ds-logistic-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.3922,
+    &quot;g&quot;: 0.0039,
+    &quot;b&quot;: 0.8392,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>logistic/900</td><td><code>--logistic-900</code></td><td>bg-ds-logistic-900, text-ds-logistic-900, border-ds-logistic-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.3294,
+    &quot;g&quot;: 0.0118,
+    &quot;b&quot;: 0.6863,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>logistic/950</td><td><code>--logistic-950</code></td><td>bg-ds-logistic-950, text-ds-logistic-950, border-ds-logistic-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2,
+    &quot;g&quot;: 0,
+    &quot;b&quot;: 0.4667,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>magenta-tag/100</td><td><code>--magenta-tag-100</code></td><td>bg-ds-magenta-tag-100, text-ds-magenta-tag-100, border-ds-magenta-tag-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.8,
+    &quot;b&quot;: 0.9183,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>magenta-tag/200</td><td><code>--magenta-tag-200</code></td><td>bg-ds-magenta-tag-200, text-ds-magenta-tag-200, border-ds-magenta-tag-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0,
+    &quot;b&quot;: 0.5868,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>magenta-tag/300</td><td><code>--magenta-tag-300</code></td><td>bg-ds-magenta-tag-300, text-ds-magenta-tag-300, border-ds-magenta-tag-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.289,
+    &quot;g&quot;: 0,
+    &quot;b&quot;: 0.171,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>magenta-tag/400</td><td><code>--magenta-tag-400</code></td><td>bg-ds-magenta-tag-400, text-ds-magenta-tag-400, border-ds-magenta-tag-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.16,
+    &quot;g&quot;: 0,
+    &quot;b&quot;: 0.0939,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>magenta-tag/50</td><td><code>--magenta-tag-50</code></td><td>bg-ds-magenta-tag-50, text-ds-magenta-tag-50, border-ds-magenta-tag-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.96,
+    &quot;b&quot;: 0.9763,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/100</td><td><code>--mrp-100</code></td><td>bg-ds-mrp-100, text-ds-mrp-100, border-ds-mrp-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8235,
+    &quot;g&quot;: 0.9765,
+    &quot;b&quot;: 0.8784,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/200</td><td><code>--mrp-200</code></td><td>bg-ds-mrp-200, text-ds-mrp-200, border-ds-mrp-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.6588,
+    &quot;g&quot;: 0.949,
+    &quot;b&quot;: 0.7765,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/300</td><td><code>--mrp-300</code></td><td>bg-ds-mrp-300, text-ds-mrp-300, border-ds-mrp-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4392,
+    &quot;g&quot;: 0.898,
+    &quot;b&quot;: 0.6549,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/400</td><td><code>--mrp-400</code></td><td>bg-ds-mrp-400, text-ds-mrp-400, border-ds-mrp-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2157,
+    &quot;g&quot;: 0.8157,
+    &quot;b&quot;: 0.5176,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/50</td><td><code>--mrp-50</code></td><td>bg-ds-mrp-50, text-ds-mrp-50, border-ds-mrp-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9451,
+    &quot;g&quot;: 0.9922,
+    &quot;b&quot;: 0.9647,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/500</td><td><code>--mrp-500</code></td><td>bg-ds-mrp-500, text-ds-mrp-500, border-ds-mrp-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0745,
+    &quot;g&quot;: 0.7137,
+    &quot;b&quot;: 0.4157,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/600</td><td><code>--mrp-600</code></td><td>bg-ds-mrp-600, text-ds-mrp-600, border-ds-mrp-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0314,
+    &quot;g&quot;: 0.5765,
+    &quot;b&quot;: 0.3333,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/700</td><td><code>--mrp-700</code></td><td>bg-ds-mrp-700, text-ds-mrp-700, border-ds-mrp-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0235,
+    &quot;g&quot;: 0.4627,
+    &quot;b&quot;: 0.2784,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/800</td><td><code>--mrp-800</code></td><td>bg-ds-mrp-800, text-ds-mrp-800, border-ds-mrp-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0314,
+    &quot;g&quot;: 0.3647,
+    &quot;b&quot;: 0.2275,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/900</td><td><code>--mrp-900</code></td><td>bg-ds-mrp-900, text-ds-mrp-900, border-ds-mrp-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0275,
+    &quot;g&quot;: 0.302,
+    &quot;b&quot;: 0.1922,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>mrp/950</td><td><code>--mrp-950</code></td><td>bg-ds-mrp-950, text-ds-mrp-950, border-ds-mrp-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0118,
+    &quot;g&quot;: 0.1686,
+    &quot;b&quot;: 0.1098,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>Numbers/12</td><td><code>--numbers-12</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;64798:1&quot;: 12
+}</pre></td></tr><tr><td>Numbers/4</td><td><code>--numbers-4</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;64798:1&quot;: 4
+}</pre></td></tr><tr><td>orange-tag/100</td><td><code>--orange-tag-100</code></td><td>bg-ds-orange-tag-100, text-ds-orange-tag-100, border-ds-orange-tag-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.8757,
+    &quot;b&quot;: 0.8,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange-tag/200</td><td><code>--orange-tag-200</code></td><td>bg-ds-orange-tag-200, text-ds-orange-tag-200, border-ds-orange-tag-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.384,
+    &quot;b&quot;: 0,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange-tag/300</td><td><code>--orange-tag-300</code></td><td>bg-ds-orange-tag-300, text-ds-orange-tag-300, border-ds-orange-tag-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.36,
+    &quot;g&quot;: 0.1382,
+    &quot;b&quot;: 0,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange-tag/400</td><td><code>--orange-tag-400</code></td><td>bg-ds-orange-tag-400, text-ds-orange-tag-400, border-ds-orange-tag-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2,
+    &quot;g&quot;: 0.0768,
+    &quot;b&quot;: 0,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange-tag/50</td><td><code>--orange-tag-50</code></td><td>bg-ds-orange-tag-50, text-ds-orange-tag-50, border-ds-orange-tag-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.955,
+    &quot;b&quot;: 0.9,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/100</td><td><code>--orange-100</code></td><td>bg-ds-orange-100, text-ds-orange-100, border-ds-orange-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9961,
+    &quot;g&quot;: 0.9373,
+    &quot;b&quot;: 0.7804,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/200</td><td><code>--orange-200</code></td><td>bg-ds-orange-200, text-ds-orange-200, border-ds-orange-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9961,
+    &quot;g&quot;: 0.8745,
+    &quot;b&quot;: 0.5373,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/25</td><td><code>--orange-25</code></td><td>bg-ds-orange-25, text-ds-orange-25, border-ds-orange-25</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.9882,
+    &quot;b&quot;: 0.9608,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/300</td><td><code>--orange-300</code></td><td>bg-ds-orange-300, text-ds-orange-300, border-ds-orange-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9961,
+    &quot;g&quot;: 0.7843,
+    &quot;b&quot;: 0.2941,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/400</td><td><code>--orange-400</code></td><td>bg-ds-orange-400, text-ds-orange-400, border-ds-orange-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9922,
+    &quot;g&quot;: 0.6902,
+    &quot;b&quot;: 0.1333,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/50</td><td><code>--orange-50</code></td><td>bg-ds-orange-50, text-ds-orange-50, border-ds-orange-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.9804,
+    &quot;b&quot;: 0.9216,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/500</td><td><code>--orange-500</code></td><td>bg-ds-orange-500, text-ds-orange-500, border-ds-orange-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9686,
+    &quot;g&quot;: 0.5647,
+    &quot;b&quot;: 0.0353,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/600</td><td><code>--orange-600</code></td><td>bg-ds-orange-600, text-ds-orange-600, border-ds-orange-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8627,
+    &quot;g&quot;: 0.4078,
+    &quot;b&quot;: 0.0118,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/700</td><td><code>--orange-700</code></td><td>bg-ds-orange-700, text-ds-orange-700, border-ds-orange-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.7098,
+    &quot;g&quot;: 0.2784,
+    &quot;b&quot;: 0.0314,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/800</td><td><code>--orange-800</code></td><td>bg-ds-orange-800, text-ds-orange-800, border-ds-orange-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.5765,
+    &quot;g&quot;: 0.2157,
+    &quot;b&quot;: 0.051,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/900</td><td><code>--orange-900</code></td><td>bg-ds-orange-900, text-ds-orange-900, border-ds-orange-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4745,
+    &quot;g&quot;: 0.1804,
+    &quot;b&quot;: 0.0549,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>orange/950</td><td><code>--orange-950</code></td><td>bg-ds-orange-950, text-ds-orange-950, border-ds-orange-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.3059,
+    &quot;g&quot;: 0.1137,
+    &quot;b&quot;: 0.0353,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>outline/default</td><td><code>--outline-default</code></td><td>bg-ds-outline-default, text-ds-outline-default, border-ds-outline-default</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2337&quot;,
+    &quot;tokenName&quot;: &quot;gray/500&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2338&quot;,
+    &quot;tokenName&quot;: &quot;gray/600&quot;
+  }
+}</pre></td></tr><tr><td>outline/disabled</td><td><code>--outline-disabled</code></td><td>bg-ds-outline-disabled, text-ds-outline-disabled, border-ds-outline-disabled</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1441:5029&quot;,
+    &quot;tokenName&quot;: &quot;gray/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2342&quot;,
+    &quot;tokenName&quot;: &quot;gray/950&quot;
+  }
+}</pre></td></tr><tr><td>outline/strong</td><td><code>--outline-strong</code></td><td>bg-ds-outline-strong, text-ds-outline-strong, border-ds-outline-strong</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2340&quot;,
+    &quot;tokenName&quot;: &quot;gray/800&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2334&quot;,
+    &quot;tokenName&quot;: &quot;gray/200&quot;
+  }
+}</pre></td></tr><tr><td>outline/weak</td><td><code>--outline-weak</code></td><td>bg-ds-outline-weak, text-ds-outline-weak, border-ds-outline-weak</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2333&quot;,
+    &quot;tokenName&quot;: &quot;gray/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2341&quot;,
+    &quot;tokenName&quot;: &quot;gray/900&quot;
+  }
+}</pre></td></tr><tr><td>pink-tag/100</td><td><code>--pink-tag-100</code></td><td>bg-ds-pink-tag-100, text-ds-pink-tag-100, border-ds-pink-tag-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9755,
+    &quot;g&quot;: 0.84,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>pink-tag/200</td><td><code>--pink-tag-200</code></td><td>bg-ds-pink-tag-200, text-ds-pink-tag-200, border-ds-pink-tag-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.832,
+    &quot;g&quot;: 0,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>pink-tag/300</td><td><code>--pink-tag-300</code></td><td>bg-ds-pink-tag-300, text-ds-pink-tag-300, border-ds-pink-tag-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.3328,
+    &quot;g&quot;: 0,
+    &quot;b&quot;: 0.4,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>pink-tag/400</td><td><code>--pink-tag-400</code></td><td>bg-ds-pink-tag-400, text-ds-pink-tag-400, border-ds-pink-tag-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.1664,
+    &quot;g&quot;: 0,
+    &quot;b&quot;: 0.2,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>pink-tag/50</td><td><code>--pink-tag-50</code></td><td>bg-ds-pink-tag-50, text-ds-pink-tag-50, border-ds-pink-tag-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.991,
+    &quot;g&quot;: 0.94,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>primary</td><td><code>--primary</code></td><td>bg-ds-primary, text-ds-primary, border-ds-primary</td><td><pre class="doc-code">{
+  &quot;1353:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2284&quot;,
+    &quot;tokenName&quot;: &quot;logistic/700&quot;
+  },
+  &quot;1369:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2282&quot;,
+    &quot;tokenName&quot;: &quot;logistic/500&quot;
+  },
+  &quot;3057:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2317&quot;,
+    &quot;tokenName&quot;: &quot;sale/700&quot;
+  },
+  &quot;3094:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:3094:685&quot;,
+    &quot;tokenName&quot;: &quot;shoniz/500&quot;
+  }
+}</pre></td></tr><tr><td>primary/container</td><td><code>--primary-container</code></td><td>bg-ds-primary-container, text-ds-primary-container, border-ds-primary-container</td><td><pre class="doc-code">{
+  &quot;1353:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2278&quot;,
+    &quot;tokenName&quot;: &quot;logistic/100&quot;
+  },
+  &quot;1369:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2287&quot;,
+    &quot;tokenName&quot;: &quot;logistic/950&quot;
+  },
+  &quot;3057:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2320&quot;,
+    &quot;tokenName&quot;: &quot;sale/950&quot;
+  },
+  &quot;3094:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:3094:690&quot;,
+    &quot;tokenName&quot;: &quot;shoniz/950&quot;
+  }
+}</pre></td></tr><tr><td>primary/container-hover</td><td><code>--primary-container-hover</code></td><td>bg-ds-primary-container-hover, text-ds-primary-container-hover, border-ds-primary-container-hover</td><td><pre class="doc-code">{
+  &quot;1353:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2279&quot;,
+    &quot;tokenName&quot;: &quot;logistic/200&quot;
+  },
+  &quot;1369:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2284&quot;,
+    &quot;tokenName&quot;: &quot;logistic/700&quot;
+  },
+  &quot;3057:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2317&quot;,
+    &quot;tokenName&quot;: &quot;sale/700&quot;
+  },
+  &quot;3094:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:3094:687&quot;,
+    &quot;tokenName&quot;: &quot;shoniz/700&quot;
+  }
+}</pre></td></tr><tr><td>primary/container-on</td><td><code>--primary-container-on</code></td><td>bg-ds-primary-container-on, text-ds-primary-container-on, border-ds-primary-container-on</td><td><pre class="doc-code">{
+  &quot;1353:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2284&quot;,
+    &quot;tokenName&quot;: &quot;logistic/700&quot;
+  },
+  &quot;1369:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2280&quot;,
+    &quot;tokenName&quot;: &quot;logistic/300&quot;
+  },
+  &quot;3057:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2313&quot;,
+    &quot;tokenName&quot;: &quot;sale/300&quot;
+  },
+  &quot;3094:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:3094:683&quot;,
+    &quot;tokenName&quot;: &quot;shoniz/300&quot;
+  }
+}</pre></td></tr><tr><td>primary/container-press</td><td><code>--primary-container-press</code></td><td>bg-ds-primary-container-press, text-ds-primary-container-press, border-ds-primary-container-press</td><td><pre class="doc-code">{
+  &quot;1353:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2280&quot;,
+    &quot;tokenName&quot;: &quot;logistic/300&quot;
+  },
+  &quot;1369:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2285&quot;,
+    &quot;tokenName&quot;: &quot;logistic/800&quot;
+  },
+  &quot;3057:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2318&quot;,
+    &quot;tokenName&quot;: &quot;sale/800&quot;
+  },
+  &quot;3094:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:3094:688&quot;,
+    &quot;tokenName&quot;: &quot;shoniz/800&quot;
+  }
+}</pre></td></tr><tr><td>primary/disabled</td><td><code>--primary-disabled</code></td><td>bg-ds-primary-disabled, text-ds-primary-disabled, border-ds-primary-disabled</td><td><pre class="doc-code">{
+  &quot;1353:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2278&quot;,
+    &quot;tokenName&quot;: &quot;logistic/100&quot;
+  },
+  &quot;1369:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2287&quot;,
+    &quot;tokenName&quot;: &quot;logistic/950&quot;
+  },
+  &quot;3057:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2320&quot;,
+    &quot;tokenName&quot;: &quot;sale/950&quot;
+  },
+  &quot;3094:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:3094:690&quot;,
+    &quot;tokenName&quot;: &quot;shoniz/950&quot;
+  }
+}</pre></td></tr><tr><td>primary/disabled-on</td><td><code>--primary-disabled-on</code></td><td>bg-ds-primary-disabled-on, text-ds-primary-disabled-on, border-ds-primary-disabled-on</td><td><pre class="doc-code">{
+  &quot;1353:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2280&quot;,
+    &quot;tokenName&quot;: &quot;logistic/300&quot;
+  },
+  &quot;1369:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2285&quot;,
+    &quot;tokenName&quot;: &quot;logistic/800&quot;
+  },
+  &quot;3057:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2318&quot;,
+    &quot;tokenName&quot;: &quot;sale/800&quot;
+  },
+  &quot;3094:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:3094:688&quot;,
+    &quot;tokenName&quot;: &quot;shoniz/800&quot;
+  }
+}</pre></td></tr><tr><td>primary/hover</td><td><code>--primary-hover</code></td><td>bg-ds-primary-hover, text-ds-primary-hover, border-ds-primary-hover</td><td><pre class="doc-code">{
+  &quot;1353:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2282&quot;,
+    &quot;tokenName&quot;: &quot;logistic/500&quot;
+  },
+  &quot;1369:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2283&quot;,
+    &quot;tokenName&quot;: &quot;logistic/600&quot;
+  },
+  &quot;3057:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2318&quot;,
+    &quot;tokenName&quot;: &quot;sale/800&quot;
+  },
+  &quot;3094:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:3094:686&quot;,
+    &quot;tokenName&quot;: &quot;shoniz/600&quot;
+  }
+}</pre></td></tr><tr><td>primary/on</td><td><code>--primary-on</code></td><td>bg-ds-primary-on, text-ds-primary-on, border-ds-primary-on</td><td><pre class="doc-code">{
+  &quot;1353:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;1369:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;3057:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;3094:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  }
+}</pre></td></tr><tr><td>primary/press</td><td><code>--primary-press</code></td><td>bg-ds-primary-press, text-ds-primary-press, border-ds-primary-press</td><td><pre class="doc-code">{
+  &quot;1353:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2286&quot;,
+    &quot;tokenName&quot;: &quot;logistic/900&quot;
+  },
+  &quot;1369:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2281&quot;,
+    &quot;tokenName&quot;: &quot;logistic/400&quot;
+  },
+  &quot;3057:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2319&quot;,
+    &quot;tokenName&quot;: &quot;sale/900&quot;
+  },
+  &quot;3094:0&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:3094:684&quot;,
+    &quot;tokenName&quot;: &quot;shoniz/400&quot;
+  }
+}</pre></td></tr><tr><td>purple-tag/100</td><td><code>--purple-tag-100</code></td><td>bg-ds-purple-tag-100, text-ds-purple-tag-100, border-ds-purple-tag-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8505,
+    &quot;g&quot;: 0.8,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>purple-tag/200</td><td><code>--purple-tag-200</code></td><td>bg-ds-purple-tag-200, text-ds-purple-tag-200, border-ds-purple-tag-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.5906,
+    &quot;g&quot;: 0.299,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>purple-tag/300</td><td><code>--purple-tag-300</code></td><td>bg-ds-purple-tag-300, text-ds-purple-tag-300, border-ds-purple-tag-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2496,
+    &quot;g&quot;: 0,
+    &quot;b&quot;: 0.6,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>purple-tag/400</td><td><code>--purple-tag-400</code></td><td>bg-ds-purple-tag-400, text-ds-purple-tag-400, border-ds-purple-tag-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.0832,
+    &quot;g&quot;: 0,
+    &quot;b&quot;: 0.2,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>purple-tag/50</td><td><code>--purple-tag-50</code></td><td>bg-ds-purple-tag-50, text-ds-purple-tag-50, border-ds-purple-tag-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9569,
+    &quot;g&quot;: 0.9412,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>radius/2xl</td><td><code>--radius-2xl</code></td><td>rounded-ds-ds-2xl</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 16
+}</pre></td></tr><tr><td>radius/3xl</td><td><code>--radius-3xl</code></td><td>rounded-ds-ds-3xl</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 24
+}</pre></td></tr><tr><td>radius/4xl</td><td><code>--radius-4xl</code></td><td>rounded-ds-ds-4xl</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 32
+}</pre></td></tr><tr><td>radius/5xl</td><td><code>--radius-5xl</code></td><td>rounded-ds-ds-5xl</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 40
+}</pre></td></tr><tr><td>radius/6xl</td><td><code>--radius-6xl</code></td><td>rounded-ds-ds-6xl</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 48
+}</pre></td></tr><tr><td>radius/full</td><td><code>--radius-full</code></td><td>rounded-ds-full</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 500
+}</pre></td></tr><tr><td>radius/lg</td><td><code>--radius-lg</code></td><td>rounded-ds-lg</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 8
+}</pre></td></tr><tr><td>radius/md</td><td><code>--radius-md</code></td><td>rounded-ds-md</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 6
+}</pre></td></tr><tr><td>radius/none</td><td><code>--radius-none</code></td><td>rounded-ds-none</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 0
+}</pre></td></tr><tr><td>Radius/Radius - 2</td><td><code>--radius-radius---2</code></td><td>rounded-ds-radius---2</td><td><pre class="doc-code">{
+  &quot;97:0&quot;: 8
+}</pre></td></tr><tr><td>Radius/Radius None</td><td><code>--radius-radius-none</code></td><td>rounded-ds-radius-none</td><td><pre class="doc-code">{
+  &quot;97:0&quot;: 0
+}</pre></td></tr><tr><td>radius/sm</td><td><code>--radius-sm</code></td><td>rounded-ds-sm</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 4
+}</pre></td></tr><tr><td>radius/xl</td><td><code>--radius-xl</code></td><td>rounded-ds-xl</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 12
+}</pre></td></tr><tr><td>radius/xs</td><td><code>--radius-xs</code></td><td>rounded-ds-xs</td><td><pre class="doc-code">{
+  &quot;1070:1&quot;: 2
+}</pre></td></tr><tr><td>red-tag/100</td><td><code>--red-tag-100</code></td><td>bg-ds-red-tag-100, text-ds-red-tag-100, border-ds-red-tag-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.854,
+    &quot;b&quot;: 0.84,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red-tag/200</td><td><code>--red-tag-200</code></td><td>bg-ds-red-tag-200, text-ds-red-tag-200, border-ds-red-tag-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.084,
+    &quot;b&quot;: 0,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red-tag/300</td><td><code>--red-tag-300</code></td><td>bg-ds-red-tag-300, text-ds-red-tag-300, border-ds-red-tag-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.36,
+    &quot;g&quot;: 0.0302,
+    &quot;b&quot;: 0,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red-tag/400</td><td><code>--red-tag-400</code></td><td>bg-ds-red-tag-400, text-ds-red-tag-400, border-ds-red-tag-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2,
+    &quot;g&quot;: 0.0168,
+    &quot;b&quot;: 0,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red-tag/50</td><td><code>--red-tag-50</code></td><td>bg-ds-red-tag-50, text-ds-red-tag-50, border-ds-red-tag-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.9469,
+    &quot;b&quot;: 0.94,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/100</td><td><code>--red-100</code></td><td>bg-ds-red-100, text-ds-red-100, border-ds-red-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9961,
+    &quot;g&quot;: 0.8941,
+    &quot;b&quot;: 0.8863,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/200</td><td><code>--red-200</code></td><td>bg-ds-red-200, text-ds-red-200, border-ds-red-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9961,
+    &quot;g&quot;: 0.8039,
+    &quot;b&quot;: 0.7922,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/25</td><td><code>--red-25</code></td><td>bg-ds-red-25, text-ds-red-25, border-ds-red-25</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 1,
+    &quot;g&quot;: 0.9843,
+    &quot;b&quot;: 0.9804,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/300</td><td><code>--red-300</code></td><td>bg-ds-red-300, text-ds-red-300, border-ds-red-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9922,
+    &quot;g&quot;: 0.6353,
+    &quot;b&quot;: 0.6078,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/400</td><td><code>--red-400</code></td><td>bg-ds-red-400, text-ds-red-400, border-ds-red-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9765,
+    &quot;g&quot;: 0.4392,
+    &quot;b&quot;: 0.4,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/50</td><td><code>--red-50</code></td><td>bg-ds-red-50, text-ds-red-50, border-ds-red-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9961,
+    &quot;g&quot;: 0.9529,
+    &quot;b&quot;: 0.949,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/500</td><td><code>--red-500</code></td><td>bg-ds-red-500, text-ds-red-500, border-ds-red-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9412,
+    &quot;g&quot;: 0.267,
+    &quot;b&quot;: 0.2188,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/600</td><td><code>--red-600</code></td><td>bg-ds-red-600, text-ds-red-600, border-ds-red-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.851,
+    &quot;g&quot;: 0.1765,
+    &quot;b&quot;: 0.1255,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/700</td><td><code>--red-700</code></td><td>bg-ds-red-700, text-ds-red-700, border-ds-red-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.7059,
+    &quot;g&quot;: 0.1373,
+    &quot;b&quot;: 0.0941,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/800</td><td><code>--red-800</code></td><td>bg-ds-red-800, text-ds-red-800, border-ds-red-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.5686,
+    &quot;g&quot;: 0.1255,
+    &quot;b&quot;: 0.0941,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/900</td><td><code>--red-900</code></td><td>bg-ds-red-900, text-ds-red-900, border-ds-red-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4784,
+    &quot;g&quot;: 0.1529,
+    &quot;b&quot;: 0.102,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>red/950</td><td><code>--red-950</code></td><td>bg-ds-red-950, text-ds-red-950, border-ds-red-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2902,
+    &quot;g&quot;: 0.0196,
+    &quot;b&quot;: 0.0314,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/100</td><td><code>--sale-100</code></td><td>bg-ds-sale-100, text-ds-sale-100, border-ds-sale-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9922,
+    &quot;g&quot;: 0.9333,
+    &quot;b&quot;: 0.8431,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/200</td><td><code>--sale-200</code></td><td>bg-ds-sale-200, text-ds-sale-200, border-ds-sale-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9804,
+    &quot;g&quot;: 0.851,
+    &quot;b&quot;: 0.6824,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/300</td><td><code>--sale-300</code></td><td>bg-ds-sale-300, text-ds-sale-300, border-ds-sale-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9686,
+    &quot;g&quot;: 0.7412,
+    &quot;b&quot;: 0.4784,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/400</td><td><code>--sale-400</code></td><td>bg-ds-sale-400, text-ds-sale-400, border-ds-sale-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.949,
+    &quot;g&quot;: 0.5922,
+    &quot;b&quot;: 0.2706,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/50</td><td><code>--sale-50</code></td><td>bg-ds-sale-50, text-ds-sale-50, border-ds-sale-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9961,
+    &quot;g&quot;: 0.9686,
+    &quot;b&quot;: 0.9333,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/500</td><td><code>--sale-500</code></td><td>bg-ds-sale-500, text-ds-sale-500, border-ds-sale-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9373,
+    &quot;g&quot;: 0.4784,
+    &quot;b&quot;: 0.1255,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/600</td><td><code>--sale-600</code></td><td>bg-ds-sale-600, text-ds-sale-600, border-ds-sale-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8745,
+    &quot;g&quot;: 0.3765,
+    &quot;b&quot;: 0.0863,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/700</td><td><code>--sale-700</code></td><td>bg-ds-sale-700, text-ds-sale-700, border-ds-sale-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.7294,
+    &quot;g&quot;: 0.2863,
+    &quot;b&quot;: 0.0784,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/800</td><td><code>--sale-800</code></td><td>bg-ds-sale-800, text-ds-sale-800, border-ds-sale-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.5804,
+    &quot;g&quot;: 0.2275,
+    &quot;b&quot;: 0.0941,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/900</td><td><code>--sale-900</code></td><td>bg-ds-sale-900, text-ds-sale-900, border-ds-sale-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4667,
+    &quot;g&quot;: 0.1961,
+    &quot;b&quot;: 0.0902,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>sale/950</td><td><code>--sale-950</code></td><td>bg-ds-sale-950, text-ds-sale-950, border-ds-sale-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.251,
+    &quot;g&quot;: 0.0902,
+    &quot;b&quot;: 0.0392,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shadow/2xl-blur</td><td><code>--shadow-2xl-blur</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:0&quot;: 48
+}</pre></td></tr><tr><td>shadow/lg-blur</td><td><code>--shadow-lg-blur</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:0&quot;: 16
+}</pre></td></tr><tr><td>shadow/md-blur</td><td><code>--shadow-md-blur</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:0&quot;: 8
+}</pre></td></tr><tr><td>shadow/sm-blur</td><td><code>--shadow-sm-blur</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:0&quot;: 3
+}</pre></td></tr><tr><td>shadow/xl-blur</td><td><code>--shadow-xl-blur</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:0&quot;: 24
+}</pre></td></tr><tr><td>shadow/xs-blur</td><td><code>--shadow-xs-blur</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:0&quot;: 2
+}</pre></td></tr><tr><td>shoniz/100</td><td><code>--shoniz-100</code></td><td>bg-ds-shoniz-100, text-ds-shoniz-100, border-ds-shoniz-100</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.8706,
+    &quot;g&quot;: 0.902,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shoniz/200</td><td><code>--shoniz-200</code></td><td>bg-ds-shoniz-200, text-ds-shoniz-200, border-ds-shoniz-200</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.7647,
+    &quot;g&quot;: 0.8157,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shoniz/300</td><td><code>--shoniz-300</code></td><td>bg-ds-shoniz-300, text-ds-shoniz-300, border-ds-shoniz-300</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.6196,
+    &quot;g&quot;: 0.6941,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shoniz/400</td><td><code>--shoniz-400</code></td><td>bg-ds-shoniz-400, text-ds-shoniz-400, border-ds-shoniz-400</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.4706,
+    &quot;g&quot;: 0.5333,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shoniz/50</td><td><code>--shoniz-50</code></td><td>bg-ds-shoniz-50, text-ds-shoniz-50, border-ds-shoniz-50</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.9294,
+    &quot;g&quot;: 0.949,
+    &quot;b&quot;: 1,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shoniz/500</td><td><code>--shoniz-500</code></td><td>bg-ds-shoniz-500, text-ds-shoniz-500, border-ds-shoniz-500</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.3451,
+    &quot;g&quot;: 0.3765,
+    &quot;b&quot;: 0.9882,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shoniz/600</td><td><code>--shoniz-600</code></td><td>bg-ds-shoniz-600, text-ds-shoniz-600, border-ds-shoniz-600</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.251,
+    &quot;g&quot;: 0.2275,
+    &quot;b&quot;: 0.9451,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shoniz/700</td><td><code>--shoniz-700</code></td><td>bg-ds-shoniz-700, text-ds-shoniz-700, border-ds-shoniz-700</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.2118,
+    &quot;g&quot;: 0.1765,
+    &quot;b&quot;: 0.8353,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shoniz/800</td><td><code>--shoniz-800</code></td><td>bg-ds-shoniz-800, text-ds-shoniz-800, border-ds-shoniz-800</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.1725,
+    &quot;g&quot;: 0.1529,
+    &quot;b&quot;: 0.6745,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shoniz/900</td><td><code>--shoniz-900</code></td><td>bg-ds-shoniz-900, text-ds-shoniz-900, border-ds-shoniz-900</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.1451,
+    &quot;g&quot;: 0.1412,
+    &quot;b&quot;: 0.4824,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>shoniz/950</td><td><code>--shoniz-950</code></td><td>bg-ds-shoniz-950, text-ds-shoniz-950, border-ds-shoniz-950</td><td><pre class="doc-code">{
+  &quot;1070:0&quot;: {
+    &quot;r&quot;: 0.098,
+    &quot;g&quot;: 0.0902,
+    &quot;b&quot;: 0.3098,
+    &quot;a&quot;: 1
+  }
+}</pre></td></tr><tr><td>spacing/0</td><td><code>--spacing-0</code></td><td>p-ds-ds-0, gap-ds-ds-0, m-ds-ds-0</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 0
+}</pre></td></tr><tr><td>spacing/0-5</td><td><code>--spacing-0-5</code></td><td>p-ds-ds-0-5, gap-ds-ds-0-5, m-ds-ds-0-5</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 2
+}</pre></td></tr><tr><td>spacing/1</td><td><code>--spacing-1</code></td><td>p-ds-ds-1, gap-ds-ds-1, m-ds-ds-1</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 4
+}</pre></td></tr><tr><td>spacing/1-5</td><td><code>--spacing-1-5</code></td><td>p-ds-ds-1-5, gap-ds-ds-1-5, m-ds-ds-1-5</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 6
+}</pre></td></tr><tr><td>spacing/10</td><td><code>--spacing-10</code></td><td>p-ds-ds-10, gap-ds-ds-10, m-ds-ds-10</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 40
+}</pre></td></tr><tr><td>spacing/12</td><td><code>--spacing-12</code></td><td>p-ds-ds-12, gap-ds-ds-12, m-ds-ds-12</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 48
+}</pre></td></tr><tr><td>spacing/14</td><td><code>--spacing-14</code></td><td>p-ds-ds-14, gap-ds-ds-14, m-ds-ds-14</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 56
+}</pre></td></tr><tr><td>spacing/16</td><td><code>--spacing-16</code></td><td>p-ds-ds-16, gap-ds-ds-16, m-ds-ds-16</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 64
+}</pre></td></tr><tr><td>spacing/18</td><td><code>--spacing-18</code></td><td>p-ds-ds-18, gap-ds-ds-18, m-ds-ds-18</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 72
+}</pre></td></tr><tr><td>spacing/2</td><td><code>--spacing-2</code></td><td>p-ds-ds-2, gap-ds-ds-2, m-ds-ds-2</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 8
+}</pre></td></tr><tr><td>spacing/2-5</td><td><code>--spacing-2-5</code></td><td>p-ds-ds-2-5, gap-ds-ds-2-5, m-ds-ds-2-5</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 10
+}</pre></td></tr><tr><td>spacing/20</td><td><code>--spacing-20</code></td><td>p-ds-ds-20, gap-ds-ds-20, m-ds-ds-20</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 80
+}</pre></td></tr><tr><td>spacing/22</td><td><code>--spacing-22</code></td><td>p-ds-ds-22, gap-ds-ds-22, m-ds-ds-22</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 88
+}</pre></td></tr><tr><td>spacing/24</td><td><code>--spacing-24</code></td><td>p-ds-ds-24, gap-ds-ds-24, m-ds-ds-24</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 96
+}</pre></td></tr><tr><td>spacing/3</td><td><code>--spacing-3</code></td><td>p-ds-ds-3, gap-ds-ds-3, m-ds-ds-3</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 12
+}</pre></td></tr><tr><td>spacing/3-5</td><td><code>--spacing-3-5</code></td><td>p-ds-ds-3-5, gap-ds-ds-3-5, m-ds-ds-3-5</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 14
+}</pre></td></tr><tr><td>spacing/4</td><td><code>--spacing-4</code></td><td>p-ds-ds-4, gap-ds-ds-4, m-ds-ds-4</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 16
+}</pre></td></tr><tr><td>spacing/5</td><td><code>--spacing-5</code></td><td>p-ds-ds-5, gap-ds-ds-5, m-ds-ds-5</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 20
+}</pre></td></tr><tr><td>spacing/6</td><td><code>--spacing-6</code></td><td>p-ds-ds-6, gap-ds-ds-6, m-ds-ds-6</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 24
+}</pre></td></tr><tr><td>spacing/8</td><td><code>--spacing-8</code></td><td>p-ds-ds-8, gap-ds-ds-8, m-ds-ds-8</td><td><pre class="doc-code">{
+  &quot;1070:2&quot;: 32
+}</pre></td></tr><tr><td>Spacing/Spacing - 2</td><td><code>--spacing-spacing---2</code></td><td>p-ds-spacing---2, gap-ds-spacing---2, m-ds-spacing---2</td><td><pre class="doc-code">{
+  &quot;97:0&quot;: 4
+}</pre></td></tr><tr><td>Spacing/Spacing - 3</td><td><code>--spacing-spacing---3</code></td><td>p-ds-spacing---3, gap-ds-spacing---3, m-ds-spacing---3</td><td><pre class="doc-code">{
+  &quot;97:0&quot;: 8
+}</pre></td></tr><tr><td>Spacing/Spacing - 3</td><td><code>--primitives-spacing-spacing---3</code></td><td>p-ds-primitives-spacing-spacing---3, gap-ds-primitives-spacing-spacing---3, m-ds-primitives-spacing-spacing---3</td><td><pre class="doc-code">{
+  &quot;97:0&quot;: 8
+}</pre></td></tr><tr><td>Spacing/Spacing - 5</td><td><code>--spacing-spacing---5</code></td><td>p-ds-spacing---5, gap-ds-spacing---5, m-ds-spacing---5</td><td><pre class="doc-code">{
+  &quot;97:0&quot;: 12
+}</pre></td></tr><tr><td>Spacing/Spacing - 7</td><td><code>--spacing-spacing---7</code></td><td>p-ds-spacing---7, gap-ds-spacing---7, m-ds-spacing---7</td><td><pre class="doc-code">{
+  &quot;97:0&quot;: 16
+}</pre></td></tr><tr><td>Spacing/Spacing - 7</td><td><code>--primitives-spacing-spacing---7</code></td><td>p-ds-primitives-spacing-spacing---7, gap-ds-primitives-spacing-spacing---7, m-ds-primitives-spacing-spacing---7</td><td><pre class="doc-code">{
+  &quot;97:0&quot;: 16
+}</pre></td></tr><tr><td>Spacing/Spacing None</td><td><code>--spacing-spacing-none</code></td><td>p-ds-spacing-none, gap-ds-spacing-none, m-ds-spacing-none</td><td><pre class="doc-code">{
+  &quot;97:0&quot;: 0
+}</pre></td></tr><tr><td>Spacing/Spacing-12</td><td><code>--spacing-spacing-12</code></td><td>font-ds-spacing-12</td><td><pre class="doc-code">{
+  &quot;55064:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:a46a2abb1d3c4ac2c1d87eb9124d6a9b7da8d89a/66792:248&quot;,
+    &quot;tokenName&quot;: &quot;Numbers/12&quot;
+  }
+}</pre></td></tr><tr><td>Spacing/Spacing-4</td><td><code>--spacing-spacing-4</code></td><td>font-ds-spacing-4</td><td><pre class="doc-code">{
+  &quot;55064:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:7a298a262350e4236e3354cb35b91b821c5b4a4b/66792:299&quot;,
+    &quot;tokenName&quot;: &quot;Numbers/4&quot;
+  }
+}</pre></td></tr><tr><td>static/black</td><td><code>--static-black</code></td><td>bg-ds-static-black, text-ds-static-black, border-ds-static-black</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2459&quot;,
+    &quot;tokenName&quot;: &quot;base/black&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2459&quot;,
+    &quot;tokenName&quot;: &quot;base/black&quot;
+  }
+}</pre></td></tr><tr><td>static/white</td><td><code>--static-white</code></td><td>bg-ds-static-white, text-ds-static-white, border-ds-static-white</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2458&quot;,
+    &quot;tokenName&quot;: &quot;base/white&quot;
+  }
+}</pre></td></tr><tr><td>tag/blue/bg</td><td><code>--tag-blue-bg</code></td><td>bg-ds-tag-blue-bg, text-ds-tag-blue-bg, border-ds-tag-blue-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:410&quot;,
+    &quot;tokenName&quot;: &quot;blue-tag/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:316&quot;,
+    &quot;tokenName&quot;: &quot;blue-tag/400&quot;
+  }
+}</pre></td></tr><tr><td>tag/blue/content</td><td><code>--tag-blue-content</code></td><td>bg-ds-tag-blue-content, text-ds-tag-blue-content, border-ds-tag-blue-content</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:412&quot;,
+    &quot;tokenName&quot;: &quot;blue-tag/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:66416:17547&quot;,
+    &quot;tokenName&quot;: &quot;blue-tag/150&quot;
+  }
+}</pre></td></tr><tr><td>tag/blue/outline</td><td><code>--tag-blue-outline</code></td><td>bg-ds-tag-blue-outline, text-ds-tag-blue-outline, border-ds-tag-blue-outline</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:411&quot;,
+    &quot;tokenName&quot;: &quot;blue-tag/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:315&quot;,
+    &quot;tokenName&quot;: &quot;blue-tag/300&quot;
+  }
+}</pre></td></tr><tr><td>tag/cyan/bg</td><td><code>--tag-cyan-bg</code></td><td>bg-ds-tag-cyan-bg, text-ds-tag-cyan-bg, border-ds-tag-cyan-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:416&quot;,
+    &quot;tokenName&quot;: &quot;cyan-tag/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:320&quot;,
+    &quot;tokenName&quot;: &quot;cyan-tag/400&quot;
+  }
+}</pre></td></tr><tr><td>tag/cyan/content</td><td><code>--tag-cyan-content</code></td><td>bg-ds-tag-cyan-content, text-ds-tag-cyan-content, border-ds-tag-cyan-content</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:418&quot;,
+    &quot;tokenName&quot;: &quot;cyan-tag/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:418&quot;,
+    &quot;tokenName&quot;: &quot;cyan-tag/200&quot;
+  }
+}</pre></td></tr><tr><td>tag/cyan/outline</td><td><code>--tag-cyan-outline</code></td><td>bg-ds-tag-cyan-outline, text-ds-tag-cyan-outline, border-ds-tag-cyan-outline</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:417&quot;,
+    &quot;tokenName&quot;: &quot;cyan-tag/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:319&quot;,
+    &quot;tokenName&quot;: &quot;cyan-tag/300&quot;
+  }
+}</pre></td></tr><tr><td>tag/gold/bg</td><td><code>--tag-gold-bg</code></td><td>bg-ds-tag-gold-bg, text-ds-tag-gold-bg, border-ds-tag-gold-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:419&quot;,
+    &quot;tokenName&quot;: &quot;gold-tag/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:322&quot;,
+    &quot;tokenName&quot;: &quot;gold-tag/400&quot;
+  }
+}</pre></td></tr><tr><td>tag/gold/content</td><td><code>--tag-gold-content</code></td><td>bg-ds-tag-gold-content, text-ds-tag-gold-content, border-ds-tag-gold-content</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:421&quot;,
+    &quot;tokenName&quot;: &quot;gold-tag/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:421&quot;,
+    &quot;tokenName&quot;: &quot;gold-tag/200&quot;
+  }
+}</pre></td></tr><tr><td>tag/gold/outline</td><td><code>--tag-gold-outline</code></td><td>bg-ds-tag-gold-outline, text-ds-tag-gold-outline, border-ds-tag-gold-outline</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:420&quot;,
+    &quot;tokenName&quot;: &quot;gold-tag/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:321&quot;,
+    &quot;tokenName&quot;: &quot;gold-tag/300&quot;
+  }
+}</pre></td></tr><tr><td>tag/gray/bg</td><td><code>--tag-gray-bg</code></td><td>bg-ds-tag-gray-bg, text-ds-tag-gray-bg, border-ds-tag-gray-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1359:6431&quot;,
+    &quot;tokenName&quot;: &quot;gray/25&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2342&quot;,
+    &quot;tokenName&quot;: &quot;gray/950&quot;
+  }
+}</pre></td></tr><tr><td>tag/gray/content</td><td><code>--tag-gray-content</code></td><td>bg-ds-tag-gray-content, text-ds-tag-gray-content, border-ds-tag-gray-content</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2341&quot;,
+    &quot;tokenName&quot;: &quot;gray/900&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2333&quot;,
+    &quot;tokenName&quot;: &quot;gray/100&quot;
+  }
+}</pre></td></tr><tr><td>tag/gray/outline</td><td><code>--tag-gray-outline</code></td><td>bg-ds-tag-gray-outline, text-ds-tag-gray-outline, border-ds-tag-gray-outline</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2333&quot;,
+    &quot;tokenName&quot;: &quot;gray/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1070:2340&quot;,
+    &quot;tokenName&quot;: &quot;gray/800&quot;
+  }
+}</pre></td></tr><tr><td>tag/green/bg</td><td><code>--tag-green-bg</code></td><td>bg-ds-tag-green-bg, text-ds-tag-green-bg, border-ds-tag-green-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:413&quot;,
+    &quot;tokenName&quot;: &quot;green-tag/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:318&quot;,
+    &quot;tokenName&quot;: &quot;green-tag/400&quot;
+  }
+}</pre></td></tr><tr><td>tag/green/content</td><td><code>--tag-green-content</code></td><td>bg-ds-tag-green-content, text-ds-tag-green-content, border-ds-tag-green-content</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:415&quot;,
+    &quot;tokenName&quot;: &quot;green-tag/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:415&quot;,
+    &quot;tokenName&quot;: &quot;green-tag/200&quot;
+  }
+}</pre></td></tr><tr><td>tag/green/outline</td><td><code>--tag-green-outline</code></td><td>bg-ds-tag-green-outline, text-ds-tag-green-outline, border-ds-tag-green-outline</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:414&quot;,
+    &quot;tokenName&quot;: &quot;green-tag/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:317&quot;,
+    &quot;tokenName&quot;: &quot;green-tag/300&quot;
+  }
+}</pre></td></tr><tr><td>tag/magenta/bg</td><td><code>--tag-magenta-bg</code></td><td>bg-ds-tag-magenta-bg, text-ds-tag-magenta-bg, border-ds-tag-magenta-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:398&quot;,
+    &quot;tokenName&quot;: &quot;magenta-tag/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:313&quot;,
+    &quot;tokenName&quot;: &quot;magenta-tag/400&quot;
+  }
+}</pre></td></tr><tr><td>tag/magenta/content</td><td><code>--tag-magenta-content</code></td><td>bg-ds-tag-magenta-content, text-ds-tag-magenta-content, border-ds-tag-magenta-content</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:409&quot;,
+    &quot;tokenName&quot;: &quot;magenta-tag/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:409&quot;,
+    &quot;tokenName&quot;: &quot;magenta-tag/200&quot;
+  }
+}</pre></td></tr><tr><td>tag/magenta/outline</td><td><code>--tag-magenta-outline</code></td><td>bg-ds-tag-magenta-outline, text-ds-tag-magenta-outline, border-ds-tag-magenta-outline</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:399&quot;,
+    &quot;tokenName&quot;: &quot;magenta-tag/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:314&quot;,
+    &quot;tokenName&quot;: &quot;magenta-tag/300&quot;
+  }
+}</pre></td></tr><tr><td>tag/orange/bg</td><td><code>--tag-orange-bg</code></td><td>bg-ds-tag-orange-bg, text-ds-tag-orange-bg, border-ds-tag-orange-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:422&quot;,
+    &quot;tokenName&quot;: &quot;orange-tag/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:324&quot;,
+    &quot;tokenName&quot;: &quot;orange-tag/400&quot;
+  }
+}</pre></td></tr><tr><td>tag/orange/content</td><td><code>--tag-orange-content</code></td><td>bg-ds-tag-orange-content, text-ds-tag-orange-content, border-ds-tag-orange-content</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:424&quot;,
+    &quot;tokenName&quot;: &quot;orange-tag/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:424&quot;,
+    &quot;tokenName&quot;: &quot;orange-tag/200&quot;
+  }
+}</pre></td></tr><tr><td>tag/orange/outline</td><td><code>--tag-orange-outline</code></td><td>bg-ds-tag-orange-outline, text-ds-tag-orange-outline, border-ds-tag-orange-outline</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:423&quot;,
+    &quot;tokenName&quot;: &quot;orange-tag/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:323&quot;,
+    &quot;tokenName&quot;: &quot;orange-tag/300&quot;
+  }
+}</pre></td></tr><tr><td>tag/pink/bg</td><td><code>--tag-pink-bg</code></td><td>bg-ds-tag-pink-bg, text-ds-tag-pink-bg, border-ds-tag-pink-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:428&quot;,
+    &quot;tokenName&quot;: &quot;pink-tag/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:328&quot;,
+    &quot;tokenName&quot;: &quot;pink-tag/400&quot;
+  }
+}</pre></td></tr><tr><td>tag/pink/content</td><td><code>--tag-pink-content</code></td><td>bg-ds-tag-pink-content, text-ds-tag-pink-content, border-ds-tag-pink-content</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:430&quot;,
+    &quot;tokenName&quot;: &quot;pink-tag/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:430&quot;,
+    &quot;tokenName&quot;: &quot;pink-tag/200&quot;
+  }
+}</pre></td></tr><tr><td>tag/pink/outline</td><td><code>--tag-pink-outline</code></td><td>bg-ds-tag-pink-outline, text-ds-tag-pink-outline, border-ds-tag-pink-outline</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:429&quot;,
+    &quot;tokenName&quot;: &quot;pink-tag/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:327&quot;,
+    &quot;tokenName&quot;: &quot;pink-tag/300&quot;
+  }
+}</pre></td></tr><tr><td>tag/purple/bg</td><td><code>--tag-purple-bg</code></td><td>bg-ds-tag-purple-bg, text-ds-tag-purple-bg, border-ds-tag-purple-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:431&quot;,
+    &quot;tokenName&quot;: &quot;purple-tag/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:330&quot;,
+    &quot;tokenName&quot;: &quot;purple-tag/400&quot;
+  }
+}</pre></td></tr><tr><td>tag/purple/content</td><td><code>--tag-purple-content</code></td><td>bg-ds-tag-purple-content, text-ds-tag-purple-content, border-ds-tag-purple-content</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:433&quot;,
+    &quot;tokenName&quot;: &quot;purple-tag/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:329&quot;,
+    &quot;tokenName&quot;: &quot;purple-tag/300&quot;
+  }
+}</pre></td></tr><tr><td>tag/purple/outline</td><td><code>--tag-purple-outline</code></td><td>bg-ds-tag-purple-outline, text-ds-tag-purple-outline, border-ds-tag-purple-outline</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:432&quot;,
+    &quot;tokenName&quot;: &quot;purple-tag/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:329&quot;,
+    &quot;tokenName&quot;: &quot;purple-tag/300&quot;
+  }
+}</pre></td></tr><tr><td>tag/red/bg</td><td><code>--tag-red-bg</code></td><td>bg-ds-tag-red-bg, text-ds-tag-red-bg, border-ds-tag-red-bg</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:425&quot;,
+    &quot;tokenName&quot;: &quot;red-tag/50&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:326&quot;,
+    &quot;tokenName&quot;: &quot;red-tag/400&quot;
+  }
+}</pre></td></tr><tr><td>tag/red/content</td><td><code>--tag-red-content</code></td><td>bg-ds-tag-red-content, text-ds-tag-red-content, border-ds-tag-red-content</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:427&quot;,
+    &quot;tokenName&quot;: &quot;red-tag/200&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:427&quot;,
+    &quot;tokenName&quot;: &quot;red-tag/200&quot;
+  }
+}</pre></td></tr><tr><td>tag/red/outline</td><td><code>--tag-red-outline</code></td><td>bg-ds-tag-red-outline, text-ds-tag-red-outline, border-ds-tag-red-outline</td><td><pre class="doc-code">{
+  &quot;1070:3&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1656:426&quot;,
+    &quot;tokenName&quot;: &quot;red-tag/100&quot;
+  },
+  &quot;1070:5&quot;: {
+    &quot;type&quot;: &quot;TOKEN_ALIAS&quot;,
+    &quot;tokenId&quot;: &quot;VariableID:1686:325&quot;,
+    &quot;tokenName&quot;: &quot;red-tag/300&quot;
+  }
+}</pre></td></tr><tr><td>text/2xl</td><td><code>--text-2xl</code></td><td>text-ds-text-2xl</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 24
+}</pre></td></tr><tr><td>text/2xs</td><td><code>--text-2xs</code></td><td>text-ds-text-2xs</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 10
+}</pre></td></tr><tr><td>text/3xl</td><td><code>--text-3xl</code></td><td>text-ds-text-3xl</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 32
+}</pre></td></tr><tr><td>text/base</td><td><code>--text-base</code></td><td>text-ds-text-base</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 16
+}</pre></td></tr><tr><td>text/lg</td><td><code>--text-lg</code></td><td>text-ds-text-lg</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 18
+}</pre></td></tr><tr><td>text/sm</td><td><code>--text-sm</code></td><td>text-ds-text-sm</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 14
+}</pre></td></tr><tr><td>text/xl</td><td><code>--text-xl</code></td><td>text-ds-text-xl</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 20
+}</pre></td></tr><tr><td>text/xs</td><td><code>--text-xs</code></td><td>text-ds-text-xs</td><td><pre class="doc-code">{
+  &quot;1070:4&quot;: 12
+}</pre></td></tr><tr><td>Typography/Font Family/fontFamily</td><td><code>--typography-font-family-font-family</code></td><td>font-ds-font-family-font-family</td><td><pre class="doc-code">{
+  &quot;5006:16&quot;: &quot;IRANSansXFaNum&quot;,
+  &quot;9189:0&quot;: &quot;IRANSansXFaNum&quot;
+}</pre></td></tr><tr><td>Typography/Font Size/fontSize</td><td><code>--typography-font-size-font-size</code></td><td>text-ds-font-size-font-size</td><td><pre class="doc-code">{
+  &quot;5006:16&quot;: 14,
+  &quot;9189:0&quot;: 12
+}</pre></td></tr><tr><td>Typography/Line Height/lineHeight</td><td><code>--typography-line-height-line-height</code></td><td>text-ds-line-height-line-height</td><td><pre class="doc-code">{
+  &quot;5006:16&quot;: 22,
+  &quot;9189:0&quot;: 20
+}</pre></td></tr><tr><td>z/base</td><td><code>--z-base</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:3&quot;: 0
+}</pre></td></tr><tr><td>z/dropdown</td><td><code>--z-dropdown</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:3&quot;: 400
+}</pre></td></tr><tr><td>z/header</td><td><code>--z-header</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:3&quot;: 300
+}</pre></td></tr><tr><td>z/modal</td><td><code>--z-modal</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:3&quot;: 600
+}</pre></td></tr><tr><td>z/raised</td><td><code>--z-raised</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:3&quot;: 100
+}</pre></td></tr><tr><td>z/scrim</td><td><code>--z-scrim</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:3&quot;: 500
+}</pre></td></tr><tr><td>z/sticky</td><td><code>--z-sticky</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:3&quot;: 200
+}</pre></td></tr><tr><td>z/toast</td><td><code>--z-toast</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:3&quot;: 700
+}</pre></td></tr><tr><td>z/tooltip</td><td><code>--z-tooltip</code></td><td>CSS variable only</td><td><pre class="doc-code">{
+  &quot;66416:3&quot;: 800
+}</pre></td></tr></table></main></html>

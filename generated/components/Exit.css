@@ -1,0 +1,17 @@
+.exit {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.exit [data-ds-part="0"] {
+  height: 18.3944px;
+  width: 18px;
+}
+.exit [data-ds-part="0.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 18.3944px;
+  width: 18px;
+}

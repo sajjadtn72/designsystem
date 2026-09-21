@@ -1,0 +1,11 @@
+.previous {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.previous [data-ds-part="0"] {
+  background-color: var(--icon-main);
+  height: 9.9994px;
+  width: 17.4124px;
+}

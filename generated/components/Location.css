@@ -1,0 +1,25 @@
+.location {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.location [data-ds-part="0"],
+.location [data-ds-part="0.0"] {
+  height: 18px;
+  width: 14px;
+}
+.location [data-ds-part="0.0.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 18px;
+  width: 14px;
+}
+.location [data-ds-part="0.0.1"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 6px;
+  width: 6px;
+}

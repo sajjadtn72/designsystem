@@ -1,0 +1,13 @@
+.to-do {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.to-do [data-ds-part="0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 18.0075px;
+  width: 18.0075px;
+}

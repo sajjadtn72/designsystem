@@ -1,0 +1,22 @@
+.component {
+  box-sizing: border-box;
+  height: 24px;
+  width: 24px;
+}
+.component [data-ds-part="0"],
+.component [data-ds-part="0.0"],
+.component [data-ds-part="0.0.0"] {
+  height: 24px;
+  width: 24px;
+}
+.component [data-ds-part="0.0.1"],
+.component [data-ds-part="0.0.2"],
+.component [data-ds-part="0.0.3"],
+.component [data-ds-part="0.0.4"] {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  border-style: solid;
+  border-width: 1px;
+  height: 5.4548px;
+  width: 5.4548px;
+}

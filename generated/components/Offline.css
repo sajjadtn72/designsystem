@@ -1,0 +1,23 @@
+.offline {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.offline [data-ds-part="0"],
+.offline [data-ds-part="0.0"] {
+  height: 12px;
+  width: 12px;
+}
+.offline [data-ds-part="0.0.0"] {
+  background-color: var(--outline-default);
+  height: 8px;
+  width: 8px;
+}
+.offline [data-ds-part="0.0.1"] {
+  border-color: var(--outline-default);
+  border-style: solid;
+  border-width: 1.253px;
+  height: 12px;
+  width: 12px;
+}

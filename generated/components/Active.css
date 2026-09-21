@@ -1,0 +1,16 @@
+.active {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.active [data-ds-part="0"],
+.active [data-ds-part="0.0"] {
+  height: 10px;
+  width: 10px;
+}
+.active [data-ds-part="0.0.0"] {
+  background-color: var(--feedback-success);
+  height: 10px;
+  width: 10px;
+}

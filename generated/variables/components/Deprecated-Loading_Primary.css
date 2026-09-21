@@ -1,0 +1,92 @@
+/* Variables used by Deprecated/Loading Primary */
+/* Tailwind V4 */
+
+:root {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+[data-theme="baseline"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="compact"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="dark"], .dark {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="default"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="light"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="light-mode"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="logistic-dark"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="logistic-light"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="mode-1"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="sale"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="soniz"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}
+
+[data-theme="value"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --static-black: var(--base-black);
+  --static-white: var(--base-white);
+}

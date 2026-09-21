@@ -1,0 +1,157 @@
+/* Variables used by Tree View / Icon */
+/* Tailwind V4 */
+
+:root {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+[data-theme="baseline"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="compact"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-surface-lowest: var(--gray-950);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-100);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="default"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="light"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="light-mode"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="mode-1"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="sale"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="soniz"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="value"] {
+  --bg-surface-lowest: var(--gray-25);
+  --gray-100: #ebebeb;
+  --gray-25: #f7f7f7;
+  --gray-900: #1f1f1f;
+  --gray-950: #141414;
+  --icon-main: var(--gray-900);
+  --radius-sm: 4px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
