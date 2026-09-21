@@ -1,0 +1,112 @@
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--spacing-4);
+  width: 800px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.descriptions-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  gap: var(--spacing-4);
+  overflow: hidden;
+  width: auto;
+}
+
+.descriptions-header-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-1);
+  padding: var(--spacing-1-5);
+  border-radius: 8px;
+}
+
+.descriptions-header-icon,
+.descriptions-header-icon-alt {
+  display: none;
+  width: 20px;
+  height: 20px;
+}
+
+.descriptions-header-icon-inner,
+.descriptions-header-icon-alt-inner {
+  border: 1.25px solid var(--primary);
+  width: 15px;
+  height: 15px;
+}
+
+.descriptions-title {
+  color: var(--primary);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  line-height: var(--leading-20);
+  letter-spacing: 0px;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.descriptions-value {
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 600;
+  line-height: var(--leading-24);
+  letter-spacing: 0em;
+  text-align: right;
+  white-space: pre-wrap;
+  flex: 1 1 0px;
+  width: 0px;
+}
+
+.descriptions-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  border: 1px solid var(--outline-weak);
+  border-radius: 8px;
+  overflow: hidden;
+  width: auto;
+}
+
+.descriptions-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  overflow: hidden;
+  width: auto;
+}
+
+.descriptions-cell {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1 1 0px;
+  align-self: stretch;
+  border: 1px solid var(--outline-weak);
+  width: 0px;
+  height: auto;
+}
+
+.descriptions-cell-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: 1 1 0px;
+  align-self: stretch;
+  gap: var(--spacing-2);
+}
