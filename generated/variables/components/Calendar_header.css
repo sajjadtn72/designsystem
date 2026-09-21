@@ -1,0 +1,170 @@
+/* Variables used by _Calendar header */
+/* Tailwind V4 */
+
+:root {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+[data-theme="baseline"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="compact"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="dark"], .dark {
+  --content-main: var(--gray-100);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-100);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="default"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="light"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="light-mode"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="logistic-dark"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="logistic-light"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="mode-1"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="sale"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="soniz"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="value"] {
+  --content-main: var(--gray-900);
+  --font-weight-semibold: SemiBold;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+  --leading-24: 24px;
+  --spacing-1: 4px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+}

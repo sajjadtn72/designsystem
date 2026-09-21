@@ -1,0 +1,157 @@
+/* Variables used by _Product Name & Logo */
+/* Tailwind V4 */
+
+:root {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+[data-theme="baseline"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="compact"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="dark"], .dark {
+  --feedback-info-bg: var(--inventory-950);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="default"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="light"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="light-mode"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="logistic-dark"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="logistic-light"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="mode-1"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="sale"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="soniz"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}
+
+[data-theme="value"] {
+  --feedback-info-bg: var(--inventory-100);
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --radius-sm: 4px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+}

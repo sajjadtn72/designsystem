@@ -1,0 +1,105 @@
+/* Variables used by Info */
+/* Tailwind V4 */
+
+:root {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+[data-theme="baseline"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="compact"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="dark"], .dark {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-500);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="default"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="light"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="light-mode"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="logistic-dark"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="logistic-light"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="mode-1"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="sale"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="soniz"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}
+
+[data-theme="value"] {
+  --base-white: #ffffff;
+  --feedback-info: var(--inventory-600);
+  --inventory-500: #1e83ff;
+  --inventory-600: #0665ff;
+  --primary-on: var(--base-white);
+}

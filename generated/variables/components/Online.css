@@ -1,0 +1,79 @@
+/* Variables used by Online */
+/* Tailwind V4 */
+
+:root {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+[data-theme="baseline"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="compact"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="dark"], .dark {
+  --feedback-success: var(--green-500);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="default"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="light"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="light-mode"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="logistic-dark"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="logistic-light"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="mode-1"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="sale"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="soniz"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}
+
+[data-theme="value"] {
+  --feedback-success: var(--green-700);
+  --green-500: #17b26a;
+  --green-700: #067647;
+}

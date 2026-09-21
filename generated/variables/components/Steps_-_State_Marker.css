@@ -1,0 +1,222 @@
+/* Variables used by Steps / State Marker */
+/* Tailwind V4 */
+
+:root {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+[data-theme="baseline"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="compact"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="dark"], .dark {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-500);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="default"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="light"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="light-mode"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-dark"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-500);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-light"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="mode-1"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="sale"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--sale-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="soniz"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--shoniz-500);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}
+
+[data-theme="value"] {
+  --content-placeholder: var(--gray-550);
+  --feedback-success: var(--green-700);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-550: #757575;
+  --green-500: #17b26a;
+  --green-700: #067647;
+  --leading-20: 20px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --text-xs: 12px;
+}

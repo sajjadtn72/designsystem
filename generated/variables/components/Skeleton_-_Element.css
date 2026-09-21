@@ -1,0 +1,287 @@
+/* Variables used by Skeleton / Element */
+/* Tailwind V4 */
+
+:root {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+[data-theme="baseline"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="compact"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-surface-low: var(--gray-900);
+  --bg-surface-medium: var(--gray-800);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="default"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="light"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="light-mode"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="mode-1"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="sale"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="soniz"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}
+
+[data-theme="value"] {
+  --bg-surface-low: var(--gray-50);
+  --bg-surface-medium: var(--gray-100);
+  --gray-100: #ebebeb;
+  --gray-50: #f2f2f2;
+  --gray-800: #333333;
+  --gray-900: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+}

@@ -1,0 +1,187 @@
+.space {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2);
+  height: fit-content;
+  justify-content: flex-start;
+  width: fit-content;
+}
+.space [data-ds-part="0"],
+.space [data-ds-part="1"],
+.space [data-ds-part="2"] {
+  background-color: var(--bg-surface-low);
+  border-radius: 8px;
+  height: 40px;
+  width: 96px;
+}
+.space[data-direction="Horizontal"][data-size="md"][data-split="false"] {
+  gap: var(--spacing-4);
+}
+.space[data-direction="Horizontal"][data-size="md"][data-split="true"] {
+  gap: var(--spacing-4);
+}
+.space[data-direction="Horizontal"][data-size="md"][data-split="true"] [data-ds-part="1"] {
+  background-color: var(--outline-weak);
+  border-radius: 0px;
+  height: 16px;
+  width: 1px;
+}
+.space[data-direction="Horizontal"][data-size="md"][data-split="true"] [data-ds-part="3"] {
+  background-color: var(--outline-weak);
+  height: 16px;
+  width: 1px;
+}
+.space[data-direction="Horizontal"][data-size="md"][data-split="true"] [data-ds-part="4"] {
+  background-color: var(--bg-surface-low);
+  border-radius: 8px;
+  height: 40px;
+  width: 96px;
+}
+.space[data-direction="Horizontal"][data-size="sm"][data-split="true"] [data-ds-part="1"] {
+  background-color: var(--outline-weak);
+  border-radius: 0px;
+  height: 16px;
+  width: 1px;
+}
+.space[data-direction="Horizontal"][data-size="sm"][data-split="true"] [data-ds-part="3"] {
+  background-color: var(--outline-weak);
+  height: 16px;
+  width: 1px;
+}
+.space[data-direction="Horizontal"][data-size="sm"][data-split="true"] [data-ds-part="4"] {
+  background-color: var(--bg-surface-low);
+  border-radius: 8px;
+  height: 40px;
+  width: 96px;
+}
+.space[data-direction="Horizontal"][data-size="lg"][data-split="false"] {
+  gap: var(--spacing-6);
+}
+.space[data-direction="Horizontal"][data-size="lg"][data-split="true"] {
+  gap: var(--spacing-6);
+}
+.space[data-direction="Horizontal"][data-size="lg"][data-split="true"] [data-ds-part="1"] {
+  background-color: var(--outline-weak);
+  border-radius: 0px;
+  height: 16px;
+  width: 1px;
+}
+.space[data-direction="Horizontal"][data-size="lg"][data-split="true"] [data-ds-part="3"] {
+  background-color: var(--outline-weak);
+  height: 16px;
+  width: 1px;
+}
+.space[data-direction="Horizontal"][data-size="lg"][data-split="true"] [data-ds-part="4"] {
+  background-color: var(--bg-surface-low);
+  border-radius: 8px;
+  height: 40px;
+  width: 96px;
+}
+.space[data-direction="Vertical"][data-size="md"][data-split="false"] {
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+.space[data-direction="Vertical"][data-size="md"][data-split="false"] [data-ds-part="0"],
+.space[data-direction="Vertical"][data-size="md"][data-split="false"] [data-ds-part="1"],
+.space[data-direction="Vertical"][data-size="md"][data-split="false"] [data-ds-part="2"] {
+  width: 240px;
+}
+.space[data-direction="Vertical"][data-size="md"][data-split="true"] {
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+.space[data-direction="Vertical"][data-size="md"][data-split="true"] [data-ds-part="0"],
+.space[data-direction="Vertical"][data-size="md"][data-split="true"] [data-ds-part="2"] {
+  width: 240px;
+}
+.space[data-direction="Vertical"][data-size="md"][data-split="true"] [data-ds-part="1"] {
+  align-self: stretch;
+  background-color: var(--outline-weak);
+  border-radius: 0px;
+  height: 1px;
+  width: auto;
+}
+.space[data-direction="Vertical"][data-size="md"][data-split="true"] [data-ds-part="3"] {
+  align-self: stretch;
+  background-color: var(--outline-weak);
+  height: 1px;
+  width: auto;
+}
+.space[data-direction="Vertical"][data-size="md"][data-split="true"] [data-ds-part="4"] {
+  background-color: var(--bg-surface-low);
+  border-radius: 8px;
+  height: 40px;
+  width: 240px;
+}
+.space[data-direction="Vertical"][data-size="sm"][data-split="false"] {
+  flex-direction: column;
+}
+.space[data-direction="Vertical"][data-size="sm"][data-split="false"] [data-ds-part="0"],
+.space[data-direction="Vertical"][data-size="sm"][data-split="false"] [data-ds-part="1"],
+.space[data-direction="Vertical"][data-size="sm"][data-split="false"] [data-ds-part="2"] {
+  width: 240px;
+}
+.space[data-direction="Vertical"][data-size="sm"][data-split="true"] {
+  flex-direction: column;
+}
+.space[data-direction="Vertical"][data-size="sm"][data-split="true"] [data-ds-part="0"],
+.space[data-direction="Vertical"][data-size="sm"][data-split="true"] [data-ds-part="2"] {
+  width: 240px;
+}
+.space[data-direction="Vertical"][data-size="sm"][data-split="true"] [data-ds-part="1"] {
+  align-self: stretch;
+  background-color: var(--outline-weak);
+  border-radius: 0px;
+  height: 1px;
+  width: auto;
+}
+.space[data-direction="Vertical"][data-size="sm"][data-split="true"] [data-ds-part="3"] {
+  align-self: stretch;
+  background-color: var(--outline-weak);
+  height: 1px;
+  width: auto;
+}
+.space[data-direction="Vertical"][data-size="sm"][data-split="true"] [data-ds-part="4"] {
+  background-color: var(--bg-surface-low);
+  border-radius: 8px;
+  height: 40px;
+  width: 240px;
+}
+.space[data-direction="Vertical"][data-size="lg"][data-split="false"] {
+  flex-direction: column;
+  gap: var(--spacing-6);
+}
+.space[data-direction="Vertical"][data-size="lg"][data-split="false"] [data-ds-part="0"],
+.space[data-direction="Vertical"][data-size="lg"][data-split="false"] [data-ds-part="1"],
+.space[data-direction="Vertical"][data-size="lg"][data-split="false"] [data-ds-part="2"] {
+  width: 240px;
+}
+.space[data-direction="Vertical"][data-size="lg"][data-split="true"] {
+  flex-direction: column;
+  gap: var(--spacing-6);
+}
+.space[data-direction="Vertical"][data-size="lg"][data-split="true"] [data-ds-part="0"],
+.space[data-direction="Vertical"][data-size="lg"][data-split="true"] [data-ds-part="2"] {
+  width: 240px;
+}
+.space[data-direction="Vertical"][data-size="lg"][data-split="true"] [data-ds-part="1"] {
+  align-self: stretch;
+  background-color: var(--outline-weak);
+  border-radius: 0px;
+  height: 1px;
+  width: auto;
+}
+.space[data-direction="Vertical"][data-size="lg"][data-split="true"] [data-ds-part="3"] {
+  align-self: stretch;
+  background-color: var(--outline-weak);
+  height: 1px;
+  width: auto;
+}
+.space[data-direction="Vertical"][data-size="lg"][data-split="true"] [data-ds-part="4"] {
+  background-color: var(--bg-surface-low);
+  border-radius: 8px;
+  height: 40px;
+  width: 240px;
+}

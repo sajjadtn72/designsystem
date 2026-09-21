@@ -1,0 +1,13 @@
+.checklist {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.checklist [data-ds-part="0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 19.0079px;
+  width: 18.0075px;
+}

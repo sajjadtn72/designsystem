@@ -1,0 +1,30 @@
+.history {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.history [data-ds-part="0"],
+.history [data-ds-part="0.1"] {
+  height: 24.01px;
+  width: 24.01px;
+}
+.history [data-ds-part="0.0"] {
+  height: 18.0075px;
+  width: 17.0071px;
+}
+.history [data-ds-part="0.0.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 18.0075px;
+  width: 17.0071px;
+}
+.history [data-ds-part="0.0.1"],
+.history [data-ds-part="0.0.2"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 1.0004px;
+  width: 9.0037px;
+}

@@ -1,0 +1,22 @@
+._tour-spotlight {
+  box-sizing: border-box;
+  height: 280px;
+  width: 480px;
+}
+._tour-spotlight [data-ds-part="0"] {
+  background-color: var(--bg-scrim);
+  height: 280px;
+  opacity: 0.5600000023841858;
+  width: 480px;
+}
+._tour-spotlight [data-ds-part="0.0"] {
+  background-color: rgba(217, 217, 217, 1);
+  height: 280px;
+  width: 480px;
+}
+._tour-spotlight [data-ds-part="0.1"] {
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 8px;
+  height: 56px;
+  width: 168px;
+}

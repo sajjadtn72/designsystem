@@ -1,0 +1,27 @@
+.delete {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.delete [data-ds-part="0"],
+.delete [data-ds-part="0.0"] {
+  height: 18px;
+  width: 18px;
+}
+.delete [data-ds-part="0.0.0"] {
+  background-color: var(--feedback-error);
+  border-color: var(--feedback-error);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 18px;
+  width: 18px;
+}
+.delete [data-ds-part="0.0.1"],
+.delete [data-ds-part="0.0.2"] {
+  border-color: var(--primary-on);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 5.66px;
+  width: 5.66px;
+}

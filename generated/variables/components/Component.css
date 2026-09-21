@@ -1,0 +1,105 @@
+/* Variables used by Component */
+/* Tailwind V4 */
+
+:root {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+[data-theme="baseline"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="compact"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="dark"], .dark {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="default"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="light"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="light-mode"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="logistic-dark"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-500);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="logistic-light"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="mode-1"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="sale"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--sale-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="soniz"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--shoniz-500);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}
+
+[data-theme="value"] {
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+}

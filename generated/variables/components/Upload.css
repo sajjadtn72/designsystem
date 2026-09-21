@@ -1,0 +1,79 @@
+/* Variables used by Upload */
+/* Tailwind V4 */
+
+:root {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+[data-theme="baseline"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+
+[data-theme="compact"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+
+[data-theme="dark"], .dark {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-100);
+}
+
+[data-theme="default"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+
+[data-theme="light"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+
+[data-theme="light-mode"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+
+[data-theme="logistic-dark"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+
+[data-theme="logistic-light"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+
+[data-theme="mode-1"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+
+[data-theme="sale"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+
+[data-theme="soniz"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}
+
+[data-theme="value"] {
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --icon-main: var(--gray-900);
+}

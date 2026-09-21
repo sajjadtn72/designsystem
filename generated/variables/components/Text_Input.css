@@ -1,0 +1,391 @@
+/* Variables used by Text Input */
+/* Tailwind V4 */
+
+:root {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--logistic-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+[data-theme="baseline"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--logistic-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="compact"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--logistic-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="dark"], .dark {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-black);
+  --content-main: var(--gray-100);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-600);
+  --primary: var(--logistic-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="default"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--logistic-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="light"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--logistic-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="light-mode"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--logistic-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="logistic-dark"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--logistic-500);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="logistic-light"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--logistic-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="mode-1"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--logistic-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="sale"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--sale-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="soniz"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--shoniz-500);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+[data-theme="value"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --content-main: var(--gray-900);
+  --content-placeholder: var(--gray-550);
+  --focus-ring: var(--primary);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-500: #8c8c8c;
+  --gray-550: #757575;
+  --gray-600: #666666;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --outline-default: var(--gray-500);
+  --primary: var(--logistic-700);
+  --radius-lg: 8px;
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --primitives-spacing-spacing---7: 16px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
