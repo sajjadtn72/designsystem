@@ -1,0 +1,97 @@
+/* Variables used by Steps / Connector Line */
+/* Tailwind V4 */
+
+:root {
+  --bg-surface-high: #e0e0e0;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+[data-theme="baseline"] {
+  --bg-surface-high: #e0e0e0;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="compact"] {
+  --bg-surface-high: #e0e0e0;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-surface-high: #4d4d4d;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="default"] {
+  --bg-surface-high: #e0e0e0;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="light"] {
+  --bg-surface-high: #e0e0e0;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-surface-high: #e0e0e0;
+  --primary: #863bff;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-surface-high: #e0e0e0;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="mode-1"] {
+  --bg-surface-high: #e0e0e0;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="sale"] {
+  --bg-surface-high: #e0e0e0;
+  --primary: #ba4914;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="soniz"] {
+  --bg-surface-high: #e0e0e0;
+  --primary: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="value"] {
+  --bg-surface-high: #e0e0e0;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}

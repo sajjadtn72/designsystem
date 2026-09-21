@@ -1,0 +1,169 @@
+/* Variables used by Badge / Basic */
+/* Tailwind V4 */
+
+:root {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+[data-theme="baseline"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+
+[data-theme="compact"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-page: #020202;
+  --feedback-error: #f04438;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+
+[data-theme="default"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+
+[data-theme="light"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+
+[data-theme="mode-1"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+
+[data-theme="sale"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+
+[data-theme="soniz"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}
+
+[data-theme="value"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --leading-20: 20px;
+  --numbers-4: 4px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-xs: 12px;
+}

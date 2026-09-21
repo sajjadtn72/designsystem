@@ -1,0 +1,85 @@
+/* Variables used by Sidebar */
+/* Tailwind V4 */
+
+:root {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}
+[data-theme="baseline"] {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}
+
+[data-theme="compact"] {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-page: #020202;
+  --feedback-info-bg: #0e265d;
+  --outline-weak: #1f1f1f;
+  --spacing-4: 16px;
+}
+
+[data-theme="default"] {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}
+
+[data-theme="light"] {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}
+
+[data-theme="mode-1"] {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}
+
+[data-theme="sale"] {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}
+
+[data-theme="soniz"] {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}
+
+[data-theme="value"] {
+  --bg-page: #ffffff;
+  --feedback-info-bg: #d6eaff;
+  --outline-weak: #ebebeb;
+  --spacing-4: 16px;
+}

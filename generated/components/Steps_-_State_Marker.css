@@ -1,0 +1,31 @@
+.steps-state-marker {
+  box-sizing: border-box;
+  height: 20px;
+  width: 71px;
+}
+.steps-state-marker [data-ds-part="0"] {
+  color: var(--content-placeholder);
+  font-family: var(--font-font);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  height: 20px;
+  letter-spacing: 0em;
+  line-height: var(--leading-20);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 67px;
+}
+.steps-state-marker[data-state="In Progress"] {
+  width: 59px;
+}
+.steps-state-marker[data-state="In Progress"] [data-ds-part="0"] {
+  color: var(--primary);
+  width: 56px;
+}
+.steps-state-marker[data-state="Complete"] {
+  width: 56px;
+}
+.steps-state-marker[data-state="Complete"] [data-ds-part="0"] {
+  color: var(--feedback-success);
+  width: 55px;
+}

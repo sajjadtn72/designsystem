@@ -1,0 +1,337 @@
+/* Variables used by Notification */
+/* Tailwind V4 */
+
+:root {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+[data-theme="baseline"] {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="compact"] {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-page: #020202;
+  --content-main: #ebebeb;
+  --content-subtitle: #b3b3b3;
+  --feedback-error: #f04438;
+  --feedback-info: #1e83ff;
+  --feedback-success: #17b26a;
+  --feedback-warning: #df6016;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #1f1f1f;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="default"] {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="light"] {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #863bff;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="mode-1"] {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="sale"] {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #ba4914;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="soniz"] {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #5860fc;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="value"] {
+  --bg-page: #ffffff;
+  --content-main: #1f1f1f;
+  --content-subtitle: #666666;
+  --feedback-error: #d92d20;
+  --feedback-info: #0665ff;
+  --feedback-success: #067647;
+  --feedback-warning: #ba4914;
+  --font-weight-medium: Medium;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-20: 20px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-radius---2: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}

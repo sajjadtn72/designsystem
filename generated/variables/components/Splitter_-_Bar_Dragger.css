@@ -1,0 +1,157 @@
+/* Variables used by Splitter / Bar Dragger */
+/* Tailwind V4 */
+
+:root {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #7700ff;
+  --primary-container-hover: #dacdff;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+[data-theme="baseline"] {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #7700ff;
+  --primary-container-hover: #dacdff;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+
+[data-theme="compact"] {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #7700ff;
+  --primary-container-hover: #dacdff;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-page: #020202;
+  --bg-surface-low: #1f1f1f;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #7700ff;
+  --primary-container-hover: #dacdff;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+
+[data-theme="default"] {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #7700ff;
+  --primary-container-hover: #dacdff;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+
+[data-theme="light"] {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #7700ff;
+  --primary-container-hover: #dacdff;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #863bff;
+  --primary-container-hover: #7700ff;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #7700ff;
+  --primary-container-hover: #dacdff;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+
+[data-theme="mode-1"] {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #7700ff;
+  --primary-container-hover: #dacdff;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+
+[data-theme="sale"] {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #ba4914;
+  --primary-container-hover: #ba4914;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+
+[data-theme="soniz"] {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #5860fc;
+  --primary-container-hover: #362dd5;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}
+
+[data-theme="value"] {
+  --bg-page: #ffffff;
+  --bg-surface-low: #f2f2f2;
+  --components-splitter-component-split-bar-draggable-size: 20px;
+  --components-splitter-component-split-bar-size: 2px;
+  --content-placeholder: #757575;
+  --focus-ring: var(--primary);
+  --primary: #7700ff;
+  --primary-container-hover: #dacdff;
+  --spacing-0-5: 2px;
+  --spacing-1-5: 6px;
+}

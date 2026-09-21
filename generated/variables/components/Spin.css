@@ -1,0 +1,181 @@
+/* Variables used by Spin */
+/* Tailwind V4 */
+
+:root {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+[data-theme="baseline"] {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="compact"] {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="dark"], .dark {
+  --content-subtitle: #b3b3b3;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="default"] {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="light"] {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-dark"] {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #863bff;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="logistic-light"] {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="mode-1"] {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="sale"] {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #ba4914;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="soniz"] {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #5860fc;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+[data-theme="value"] {
+  --content-subtitle: #666666;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-subtle: #8c8c8c;
+  --leading-16: 16px;
+  --leading-20: 20px;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}

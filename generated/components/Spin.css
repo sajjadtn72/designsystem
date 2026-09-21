@@ -1,0 +1,145 @@
+.spin {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  height: fit-content;
+  justify-content: center;
+  width: fit-content;
+}
+.spin [data-ds-part="0"] {
+  height: 32px;
+  width: 32px;
+}
+.spin [data-ds-part="0.0"] {
+  background-color: var(--primary);
+  height: 32px;
+  opacity: 0.1599999964237213;
+  width: 32px;
+}
+.spin [data-ds-part="0.1"] {
+  background-color: var(--primary);
+  height: 32px;
+  width: 32px;
+}
+.spin [data-ds-part="1"] {
+  color: var(--content-subtitle);
+  display: none;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  height: 20px;
+  letter-spacing: 0em;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+  width: 94px;
+}
+.spin[data-size="lg"][data-tone="Neutral"] [data-ds-part="0.0"] {
+  background-color: var(--icon-subtle);
+  opacity: 0.23999999463558197;
+}
+.spin[data-size="lg"][data-tone="Neutral"] [data-ds-part="0.1"] {
+  background-color: var(--icon-subtle);
+}
+.spin[data-size="md"][data-tone="Brand"] [data-ds-part="0"],
+.spin[data-size="md"][data-tone="Brand"] [data-ds-part="0.0"],
+.spin[data-size="md"][data-tone="Brand"] [data-ds-part="0.1"] {
+  height: 24px;
+  width: 24px;
+}
+.spin[data-size="md"][data-tone="Neutral"] [data-ds-part="0"] {
+  height: 24px;
+  width: 24px;
+}
+.spin[data-size="md"][data-tone="Neutral"] [data-ds-part="0.0"] {
+  background-color: var(--icon-subtle);
+  height: 24px;
+  opacity: 0.23999999463558197;
+  width: 24px;
+}
+.spin[data-size="md"][data-tone="Neutral"] [data-ds-part="0.1"] {
+  background-color: var(--icon-subtle);
+  height: 24px;
+  width: 24px;
+}
+.spin[data-size="sm"][data-tone="Brand"] {
+  gap: var(--spacing-1-5);
+}
+.spin[data-size="sm"][data-tone="Brand"] [data-ds-part="0"],
+.spin[data-size="sm"][data-tone="Brand"] [data-ds-part="0.0"],
+.spin[data-size="sm"][data-tone="Brand"] [data-ds-part="0.1"] {
+  height: 16px;
+  width: 16px;
+}
+.spin[data-size="sm"][data-tone="Brand"] [data-ds-part="1"] {
+  font-size: var(--text-xs);
+  height: 16px;
+  line-height: var(--leading-16);
+  width: 80px;
+}
+.spin[data-size="sm"][data-tone="Neutral"] {
+  gap: var(--spacing-1-5);
+}
+.spin[data-size="sm"][data-tone="Neutral"] [data-ds-part="0"] {
+  height: 16px;
+  width: 16px;
+}
+.spin[data-size="sm"][data-tone="Neutral"] [data-ds-part="0.0"] {
+  background-color: var(--icon-subtle);
+  height: 16px;
+  opacity: 0.23999999463558197;
+  width: 16px;
+}
+.spin[data-size="sm"][data-tone="Neutral"] [data-ds-part="0.1"] {
+  background-color: var(--icon-subtle);
+  height: 16px;
+  width: 16px;
+}
+.spin[data-size="sm"][data-tone="Neutral"] [data-ds-part="1"] {
+  font-size: var(--text-xs);
+  height: 16px;
+  line-height: var(--leading-16);
+  width: 80px;
+}
+.spin[data-size="lg"][data-tone="Inverse"] [data-ds-part="0.0"],
+.spin[data-size="lg"][data-tone="Inverse"] [data-ds-part="0.1"] {
+  background-color: var(--primary-on);
+}
+.spin[data-size="lg"][data-tone="Inverse"] [data-ds-part="1"] {
+  color: var(--primary-on);
+}
+.spin[data-size="md"][data-tone="Inverse"] [data-ds-part="0"] {
+  height: 24px;
+  width: 24px;
+}
+.spin[data-size="md"][data-tone="Inverse"] [data-ds-part="0.0"],
+.spin[data-size="md"][data-tone="Inverse"] [data-ds-part="0.1"] {
+  background-color: var(--primary-on);
+  height: 24px;
+  width: 24px;
+}
+.spin[data-size="md"][data-tone="Inverse"] [data-ds-part="1"] {
+  color: var(--primary-on);
+}
+.spin[data-size="sm"][data-tone="Inverse"] {
+  gap: var(--spacing-1-5);
+}
+.spin[data-size="sm"][data-tone="Inverse"] [data-ds-part="0"] {
+  height: 16px;
+  width: 16px;
+}
+.spin[data-size="sm"][data-tone="Inverse"] [data-ds-part="0.0"],
+.spin[data-size="sm"][data-tone="Inverse"] [data-ds-part="0.1"] {
+  background-color: var(--primary-on);
+  height: 16px;
+  width: 16px;
+}
+.spin[data-size="sm"][data-tone="Inverse"] [data-ds-part="1"] {
+  color: var(--primary-on);
+  font-size: var(--text-xs);
+  height: 16px;
+  line-height: var(--leading-16);
+  width: 80px;
+}

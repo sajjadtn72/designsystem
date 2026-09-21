@@ -1,0 +1,97 @@
+/* Variables used by Divider */
+/* Tailwind V4 */
+
+:root {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+[data-theme="baseline"] {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="compact"] {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="dark"], .dark {
+  --outline-default: #666666;
+  --outline-weak: #1f1f1f;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="default"] {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="light"] {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-dark"] {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-light"] {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="mode-1"] {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="sale"] {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="soniz"] {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="value"] {
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}

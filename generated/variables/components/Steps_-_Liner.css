@@ -1,0 +1,133 @@
+/* Variables used by Steps / Liner */
+/* Tailwind V4 */
+
+:root {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+[data-theme="baseline"] {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+
+[data-theme="compact"] {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-disabled: #141414;
+  --bg-surface-low: #1f1f1f;
+  --bg-surface-medium: #333333;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+
+[data-theme="default"] {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+
+[data-theme="light"] {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #863bff;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+
+[data-theme="mode-1"] {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+
+[data-theme="sale"] {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #ba4914;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+
+[data-theme="soniz"] {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #5860fc;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}
+
+[data-theme="value"] {
+  --bg-disabled: #d0d0d0;
+  --bg-surface-low: #f2f2f2;
+  --bg-surface-medium: #ebebeb;
+  --primary: #7700ff;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+}

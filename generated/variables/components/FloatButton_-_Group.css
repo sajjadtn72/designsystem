@@ -1,0 +1,241 @@
+/* Variables used by FloatButton / Group */
+/* Tailwind V4 */
+
+:root {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+[data-theme="baseline"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+
+[data-theme="compact"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-page: #020202;
+  --feedback-error: #f04438;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #ebebeb;
+  --leading-16: 16px;
+  --outline-weak: #1f1f1f;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+
+[data-theme="default"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+
+[data-theme="light"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #863bff;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+
+[data-theme="mode-1"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+
+[data-theme="sale"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #ba4914;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+
+[data-theme="soniz"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #5860fc;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}
+
+[data-theme="value"] {
+  --bg-page: #ffffff;
+  --feedback-error: #d92d20;
+  --feedback-error-on: #ffffff;
+  --font-weight-medium: Medium;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-16: 16px;
+  --outline-weak: #ebebeb;
+  --primary: #7700ff;
+  --primary-on: #ffffff;
+  --radius-full: 500px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-12: 48px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --text-2xs: 10px;
+}

@@ -1,0 +1,2164 @@
+.mobile-date-picker {
+  align-items: flex-start;
+  background-color: var(--bg-page);
+  border-radius: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: flex-start;
+  min-width: 352px;
+  width: 352px;
+}
+.mobile-date-picker [data-ds-part="0"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-6);
+  padding-left: var(--spacing-6);
+  padding-right: var(--spacing-6);
+  padding-top: var(--spacing-6);
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="0.0"] {
+  align-items: flex-start;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: column;
+  gap: var(--spacing-4);
+  justify-content: flex-start;
+  width: 0px;
+}
+.mobile-date-picker [data-ds-part="0.0.0"] {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  padding-bottom: var(--spacing-1);
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: var(--spacing-1);
+  width: 304px;
+}
+.mobile-date-picker [data-ds-part="0.0.0.0"],
+.mobile-date-picker [data-ds-part="0.0.0.2"] {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4);
+  justify-content: flex-start;
+}
+.mobile-date-picker [data-ds-part="0.0.0.0.0"],
+.mobile-date-picker [data-ds-part="0.0.0.2.0"] {
+  height: 24px;
+  width: 24px;
+}
+.mobile-date-picker [data-ds-part="0.0.0.0.0.0"],
+.mobile-date-picker [data-ds-part="0.0.0.2.0.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 8px;
+  width: 4px;
+}
+.mobile-date-picker [data-ds-part="0.0.0.1"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  height: auto;
+  justify-content: center;
+  overflow: hidden;
+  width: 0px;
+}
+.mobile-date-picker [data-ds-part="0.0.0.1.0"] {
+  color: var(--content-main);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.mobile-date-picker [data-ds-part="0.0.1"],
+.mobile-date-picker [data-ds-part="1.0"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-3);
+  justify-content: flex-start;
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="0.0.1.0"] {
+  align-items: center;
+  background-color: var(--primary-container);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 64px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.0.0"],
+.mobile-date-picker [data-ds-part="0.0.1.0.2"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.0"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.2"],
+.mobile-date-picker [data-ds-part="1.0.0.0"],
+.mobile-date-picker [data-ds-part="1.0.0.2"],
+.mobile-date-picker [data-ds-part="1.0.1.0"],
+.mobile-date-picker [data-ds-part="1.0.1.2"] {
+  display: none;
+  height: 20px;
+  width: 20px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.0.0.0"],
+.mobile-date-picker [data-ds-part="0.0.1.0.2.0"] {
+  border-color: var(--primary-container-on);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.0.1"] {
+  color: var(--primary-container-on);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1"] {
+  align-items: flex-start;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 0px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0"] {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-spacing---2);
+  justify-content: flex-end;
+  padding-bottom: var(--spacing-spacing-none);
+  padding-left: var(--spacing-spacing-none);
+  padding-right: var(--spacing-spacing-none);
+  padding-top: var(--spacing-spacing-none);
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.0"] {
+  align-items: flex-start;
+  border-radius: 8px;
+  display: none;
+  flex-direction: row;
+  gap: var(--spacing-0-5);
+  height: 24px;
+  justify-content: flex-end;
+  width: 328px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.0.0"] {
+  color: var(--feedback-error);
+  display: none;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  height: 24px;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: left;
+  white-space: pre-wrap;
+  width: 7px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.0.1"] {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2);
+  justify-content: flex-end;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: var(--spacing-1);
+  padding-top: 0px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.0.1.0"] {
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1"] {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--bg-page);
+  border-color: var(--outline-default);
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1-5);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-spacing---3);
+  padding-left: var(--spacing-2);
+  padding-right: var(--spacing-2);
+  padding-top: var(--spacing-spacing---3);
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.0.0"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.2.0"] {
+  border-color: var(--content-placeholder);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1"] {
+  align-items: center;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 0px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.0"] {
+  background-color: var(--outline-strong);
+  border-color: var(--outline-strong);
+  border-style: solid;
+  border-width: 0px;
+  display: none;
+  flex-shrink: 0;
+  height: 1.1px;
+  width: 20px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.0"] {
+  color: var(--content-placeholder);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1"] {
+  align-items: flex-start;
+  display: none;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.0"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.1"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.2"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.3"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.4"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.5"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.6"] {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-2);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-2);
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.0.0"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.1.0"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.2.0"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.3.0"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.4.0"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.5.0"],
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.1.1.6.0"] {
+  background-color: var(--content-placeholder);
+  height: 8px;
+  width: 8px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.1.1.2"] {
+  background-color: var(--outline-strong);
+  border-color: var(--outline-strong);
+  border-style: solid;
+  border-width: 0px;
+  display: none;
+  flex-shrink: 0;
+  height: 1.1px;
+  width: 24px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.2"] {
+  align-items: center;
+  border-radius: 8px;
+  display: none;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  height: 20px;
+  justify-content: flex-end;
+  width: 328px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.2.0"] {
+  color: var(--content-subtitle);
+  font-family: var(--font-font);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-20);
+  text-align: right;
+  white-space: pre-wrap;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.2.1"] {
+  height: 16px;
+  width: 16px;
+}
+.mobile-date-picker [data-ds-part="0.0.1.1.0.2.1.0"] {
+  border-color: var(--content-subtitle);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 12px;
+  width: 12px;
+}
+.mobile-date-picker [data-ds-part="0.0.2"] {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+  justify-content: flex-start;
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="0.0.2.0"],
+.mobile-date-picker [data-ds-part="0.0.2.1"],
+.mobile-date-picker [data-ds-part="0.0.2.2"],
+.mobile-date-picker [data-ds-part="0.0.2.3"],
+.mobile-date-picker [data-ds-part="0.0.2.4"],
+.mobile-date-picker [data-ds-part="0.0.2.5"],
+.mobile-date-picker [data-ds-part="0.0.2.6"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  justify-content: space-between;
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="0.0.2.0.0"],
+.mobile-date-picker [data-ds-part="0.0.2.0.1"],
+.mobile-date-picker [data-ds-part="0.0.2.0.2"],
+.mobile-date-picker [data-ds-part="0.0.2.0.3"],
+.mobile-date-picker [data-ds-part="0.0.2.0.4"],
+.mobile-date-picker [data-ds-part="0.0.2.0.5"],
+.mobile-date-picker [data-ds-part="0.0.2.0.6"],
+.mobile-date-picker [data-ds-part="0.0.2.1.0"],
+.mobile-date-picker [data-ds-part="0.0.2.1.1"],
+.mobile-date-picker [data-ds-part="0.0.2.1.2"],
+.mobile-date-picker [data-ds-part="0.0.2.1.3"],
+.mobile-date-picker [data-ds-part="0.0.2.1.4"],
+.mobile-date-picker [data-ds-part="0.0.2.2.0"],
+.mobile-date-picker [data-ds-part="0.0.2.2.1"],
+.mobile-date-picker [data-ds-part="0.0.2.2.2"],
+.mobile-date-picker [data-ds-part="0.0.2.2.3"],
+.mobile-date-picker [data-ds-part="0.0.2.2.5"],
+.mobile-date-picker [data-ds-part="0.0.2.2.6"],
+.mobile-date-picker [data-ds-part="0.0.2.3.0"],
+.mobile-date-picker [data-ds-part="0.0.2.3.1"],
+.mobile-date-picker [data-ds-part="0.0.2.3.2"],
+.mobile-date-picker [data-ds-part="0.0.2.3.3"],
+.mobile-date-picker [data-ds-part="0.0.2.3.4"],
+.mobile-date-picker [data-ds-part="0.0.2.3.5"],
+.mobile-date-picker [data-ds-part="0.0.2.3.6"],
+.mobile-date-picker [data-ds-part="0.0.2.4.0"],
+.mobile-date-picker [data-ds-part="0.0.2.4.1"],
+.mobile-date-picker [data-ds-part="0.0.2.4.2"],
+.mobile-date-picker [data-ds-part="0.0.2.4.3"],
+.mobile-date-picker [data-ds-part="0.0.2.4.4"],
+.mobile-date-picker [data-ds-part="0.0.2.4.5"],
+.mobile-date-picker [data-ds-part="0.0.2.4.6"],
+.mobile-date-picker [data-ds-part="0.0.2.5.2"],
+.mobile-date-picker [data-ds-part="0.0.2.5.3"],
+.mobile-date-picker [data-ds-part="0.0.2.5.4"],
+.mobile-date-picker [data-ds-part="0.0.2.5.5"],
+.mobile-date-picker [data-ds-part="0.0.2.5.6"] {
+  align-items: center;
+  background-color: var(--bg-page);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker [data-ds-part="0.0.2.0.0.0"],
+.mobile-date-picker [data-ds-part="0.0.2.0.1.0"],
+.mobile-date-picker [data-ds-part="0.0.2.0.2.0"],
+.mobile-date-picker [data-ds-part="0.0.2.0.3.0"],
+.mobile-date-picker [data-ds-part="0.0.2.0.4.0"],
+.mobile-date-picker [data-ds-part="0.0.2.0.5.0"],
+.mobile-date-picker [data-ds-part="0.0.2.0.6.0"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="0.0.2.0.0.1"],
+.mobile-date-picker [data-ds-part="0.0.2.0.1.1"],
+.mobile-date-picker [data-ds-part="0.0.2.0.2.1"],
+.mobile-date-picker [data-ds-part="0.0.2.0.3.1"],
+.mobile-date-picker [data-ds-part="0.0.2.0.4.1"],
+.mobile-date-picker [data-ds-part="0.0.2.0.5.1"],
+.mobile-date-picker [data-ds-part="0.0.2.0.6.1"],
+.mobile-date-picker [data-ds-part="0.0.2.1.0.1"],
+.mobile-date-picker [data-ds-part="0.0.2.1.1.1"],
+.mobile-date-picker [data-ds-part="0.0.2.1.2.1"],
+.mobile-date-picker [data-ds-part="0.0.2.1.3.1"],
+.mobile-date-picker [data-ds-part="0.0.2.1.4.1"],
+.mobile-date-picker [data-ds-part="0.0.2.2.0.1"],
+.mobile-date-picker [data-ds-part="0.0.2.2.1.1"],
+.mobile-date-picker [data-ds-part="0.0.2.2.2.1"],
+.mobile-date-picker [data-ds-part="0.0.2.2.3.1"],
+.mobile-date-picker [data-ds-part="0.0.2.2.5.1"],
+.mobile-date-picker [data-ds-part="0.0.2.2.6.1"],
+.mobile-date-picker [data-ds-part="0.0.2.3.0.1"],
+.mobile-date-picker [data-ds-part="0.0.2.3.1.1"],
+.mobile-date-picker [data-ds-part="0.0.2.3.2.1"],
+.mobile-date-picker [data-ds-part="0.0.2.3.3.1"],
+.mobile-date-picker [data-ds-part="0.0.2.3.4.1"],
+.mobile-date-picker [data-ds-part="0.0.2.3.5.1"],
+.mobile-date-picker [data-ds-part="0.0.2.3.6.1"],
+.mobile-date-picker [data-ds-part="0.0.2.4.0.1"],
+.mobile-date-picker [data-ds-part="0.0.2.4.1.1"],
+.mobile-date-picker [data-ds-part="0.0.2.4.2.1"],
+.mobile-date-picker [data-ds-part="0.0.2.4.3.1"],
+.mobile-date-picker [data-ds-part="0.0.2.4.4.1"],
+.mobile-date-picker [data-ds-part="0.0.2.4.5.1"],
+.mobile-date-picker [data-ds-part="0.0.2.4.6.1"],
+.mobile-date-picker [data-ds-part="0.0.2.5.2.1"],
+.mobile-date-picker [data-ds-part="0.0.2.5.3.1"],
+.mobile-date-picker [data-ds-part="0.0.2.5.4.1"],
+.mobile-date-picker [data-ds-part="0.0.2.5.5.1"],
+.mobile-date-picker [data-ds-part="0.0.2.5.6.1"] {
+  background-color: var(--primary);
+  display: none;
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker [data-ds-part="0.0.2.1.0.0"],
+.mobile-date-picker [data-ds-part="0.0.2.1.1.0"],
+.mobile-date-picker [data-ds-part="0.0.2.1.2.0"],
+.mobile-date-picker [data-ds-part="0.0.2.1.3.0"],
+.mobile-date-picker [data-ds-part="0.0.2.1.4.0"],
+.mobile-date-picker [data-ds-part="0.0.2.2.0.0"],
+.mobile-date-picker [data-ds-part="0.0.2.2.1.0"],
+.mobile-date-picker [data-ds-part="0.0.2.2.2.0"],
+.mobile-date-picker [data-ds-part="0.0.2.2.3.0"],
+.mobile-date-picker [data-ds-part="0.0.2.2.5.0"],
+.mobile-date-picker [data-ds-part="0.0.2.2.6.0"],
+.mobile-date-picker [data-ds-part="0.0.2.3.0.0"],
+.mobile-date-picker [data-ds-part="0.0.2.3.1.0"],
+.mobile-date-picker [data-ds-part="0.0.2.3.2.0"],
+.mobile-date-picker [data-ds-part="0.0.2.3.3.0"],
+.mobile-date-picker [data-ds-part="0.0.2.3.4.0"],
+.mobile-date-picker [data-ds-part="0.0.2.3.5.0"],
+.mobile-date-picker [data-ds-part="0.0.2.3.6.0"],
+.mobile-date-picker [data-ds-part="0.0.2.4.0.0"],
+.mobile-date-picker [data-ds-part="0.0.2.4.1.0"],
+.mobile-date-picker [data-ds-part="0.0.2.4.2.0"],
+.mobile-date-picker [data-ds-part="0.0.2.4.3.0"],
+.mobile-date-picker [data-ds-part="0.0.2.4.4.0"],
+.mobile-date-picker [data-ds-part="0.0.2.4.5.0"],
+.mobile-date-picker [data-ds-part="0.0.2.4.6.0"],
+.mobile-date-picker [data-ds-part="0.0.2.5.2.0"],
+.mobile-date-picker [data-ds-part="0.0.2.5.3.0"],
+.mobile-date-picker [data-ds-part="0.0.2.5.4.0"],
+.mobile-date-picker [data-ds-part="0.0.2.5.5.0"],
+.mobile-date-picker [data-ds-part="0.0.2.5.6.0"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="0.0.2.1.5"],
+.mobile-date-picker [data-ds-part="0.0.2.1.6"],
+.mobile-date-picker [data-ds-part="0.0.2.5.0"],
+.mobile-date-picker [data-ds-part="0.0.2.5.1"],
+.mobile-date-picker [data-ds-part="0.0.2.6.0"],
+.mobile-date-picker [data-ds-part="0.0.2.6.1"],
+.mobile-date-picker [data-ds-part="0.0.2.6.2"],
+.mobile-date-picker [data-ds-part="0.0.2.6.3"],
+.mobile-date-picker [data-ds-part="0.0.2.6.4"],
+.mobile-date-picker [data-ds-part="0.0.2.6.5"],
+.mobile-date-picker [data-ds-part="0.0.2.6.6"] {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker [data-ds-part="0.0.2.1.5.0"],
+.mobile-date-picker [data-ds-part="0.0.2.1.6.0"],
+.mobile-date-picker [data-ds-part="0.0.2.5.0.0"],
+.mobile-date-picker [data-ds-part="0.0.2.5.1.0"],
+.mobile-date-picker [data-ds-part="0.0.2.6.0.0"],
+.mobile-date-picker [data-ds-part="0.0.2.6.1.0"],
+.mobile-date-picker [data-ds-part="0.0.2.6.2.0"],
+.mobile-date-picker [data-ds-part="0.0.2.6.3.0"],
+.mobile-date-picker [data-ds-part="0.0.2.6.4.0"],
+.mobile-date-picker [data-ds-part="0.0.2.6.5.0"],
+.mobile-date-picker [data-ds-part="0.0.2.6.6.0"] {
+  align-self: stretch;
+  color: var(--content-disabled);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="0.0.2.1.5.1"],
+.mobile-date-picker [data-ds-part="0.0.2.1.6.1"],
+.mobile-date-picker [data-ds-part="0.0.2.5.0.1"],
+.mobile-date-picker [data-ds-part="0.0.2.5.1.1"],
+.mobile-date-picker [data-ds-part="0.0.2.6.0.1"],
+.mobile-date-picker [data-ds-part="0.0.2.6.1.1"],
+.mobile-date-picker [data-ds-part="0.0.2.6.2.1"],
+.mobile-date-picker [data-ds-part="0.0.2.6.3.1"],
+.mobile-date-picker [data-ds-part="0.0.2.6.4.1"],
+.mobile-date-picker [data-ds-part="0.0.2.6.5.1"],
+.mobile-date-picker [data-ds-part="0.0.2.6.6.1"] {
+  background-color: var(--content-disabled);
+  display: none;
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker [data-ds-part="0.0.2.2.4"] {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker [data-ds-part="0.0.2.2.4.0"] {
+  align-self: stretch;
+  color: var(--primary-on);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="0.0.2.2.4.1"] {
+  background-color: var(--primary-on);
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker [data-ds-part="1"] {
+  align-items: flex-start;
+  align-self: stretch;
+  border-color: var(--outline-disabled);
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-0);
+  height: 72px;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-4);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+  padding-top: var(--spacing-4);
+  width: auto;
+}
+.mobile-date-picker [data-ds-part="1.0.0"] {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 0px;
+}
+.mobile-date-picker [data-ds-part="1.0.0.0.0"],
+.mobile-date-picker [data-ds-part="1.0.0.2.0"] {
+  border-color: var(--primary-on);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.mobile-date-picker [data-ds-part="1.0.0.1"] {
+  color: var(--primary-on);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.mobile-date-picker [data-ds-part="1.0.1"] {
+  align-items: center;
+  border-color: var(--outline-default);
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 0px;
+}
+.mobile-date-picker [data-ds-part="1.0.1.0.0"],
+.mobile-date-picker [data-ds-part="1.0.1.2.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.mobile-date-picker [data-ds-part="1.0.1.1"] {
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] {
+  border-radius: 16px 16px 0px 0px;
+  height: 708px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0"] {
+  flex: 1 1 0px;
+  gap: var(--spacing-6);
+  height: 0px;
+  overflow: hidden;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0"] {
+  gap: var(--spacing-6);
+  width: 304px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--spacing-4);
+  justify-content: flex-start;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.0"] {
+  justify-content: space-between;
+  overflow: hidden;
+  padding-bottom: var(--spacing-1);
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: var(--spacing-1);
+  width: 304px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.0.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.0.2"] {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4);
+  justify-content: flex-start;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.0.2.0"] {
+  border-width: 0px;
+  height: 24px;
+  width: 24px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.0.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.0.2.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.0.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.0.2.0.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 8px;
+  width: 4px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.0.1"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  height: auto;
+  justify-content: center;
+  overflow: hidden;
+  width: 0px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.0.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.0.1.0"] {
+  color: var(--content-main);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.0.2.0"] {
+  height: 24px;
+  width: 24px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1"] {
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  justify-content: space-between;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.6"] {
+  align-items: center;
+  background-color: var(--bg-page);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.6.0"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.0.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.6.1"] {
+  background-color: var(--primary);
+  display: none;
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.4.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.4.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.6.0"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.6"] {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.6.0"] {
+  align-self: stretch;
+  color: var(--content-disabled);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.1.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.5.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.6.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.1.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.5.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.6.6.1"] {
+  background-color: var(--content-disabled);
+  display: none;
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.6"] {
+  align-items: center;
+  background-color: var(--primary-container);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.2"] {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.2.0"] {
+  align-self: stretch;
+  color: var(--primary-on);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.3.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.3.2.1"] {
+  background-color: var(--primary-on);
+  display: none;
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.0.1.2.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.2.4.1"] {
+  background-color: var(--primary);
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1"] {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.0"] {
+  background-color: transparent;
+  border-radius: 0px;
+  justify-content: space-between;
+  overflow: hidden;
+  padding-bottom: var(--spacing-1);
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: var(--spacing-1);
+  width: 304px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1"] {
+  align-self: stretch;
+  gap: var(--spacing-1);
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0"] {
+  align-items: center;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  justify-content: space-between;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.0"] {
+  align-items: center;
+  background-color: var(--bg-page);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.0.0"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.1"] {
+  border-width: 0px;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.2"] {
+  background-color: var(--bg-page);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="0.0.1.1.0.2.0"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  line-height: var(--leading-24);
+  text-align: center;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1"] {
+  align-items: center;
+  flex-direction: row;
+  gap: var(--spacing-3);
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.0"] {
+  border-radius: 8px;
+  flex: 1 1 0px;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 0px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.0.0"] {
+  background-color: transparent;
+  border-radius: 0px;
+  display: none;
+  height: 20px;
+  width: 20px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.0.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.1.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.2.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.2.2.0"] {
+  border-color: var(--primary);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.0.1"] {
+  border-radius: 0px;
+  border-width: 0px;
+  color: var(--primary);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.0.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.1.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.2.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.0.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.1.2"] {
+  display: none;
+  height: 20px;
+  width: 20px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.2"] {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 0px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="1.2.1"] {
+  color: var(--primary);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2"] {
+  align-items: flex-start;
+  align-self: stretch;
+  border-color: var(--outline-disabled);
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+  height: 140px;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-4);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+  padding-top: var(--spacing-4);
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.0"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-3);
+  justify-content: space-between;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.0.0"] {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  justify-content: center;
+  width: 121px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.0.0.0"] {
+  align-self: stretch;
+  color: var(--content-helper);
+  font-family: var(--font-font);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-20);
+  text-align: left;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.0.0.1"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: left;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.0.1"] {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  justify-content: flex-start;
+  width: 121px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.0.1.0"] {
+  align-self: stretch;
+  color: var(--content-helper);
+  font-family: var(--font-font);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-20);
+  text-align: right;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.0.1.1"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-3);
+  justify-content: flex-start;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.0"] {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 0px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.0.2.0"] {
+  border-color: var(--primary-on);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.0.1"] {
+  color: var(--primary-on);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.1"] {
+  align-items: center;
+  border-color: var(--outline-default);
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 0px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.1.2.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Range"] [data-ds-part="2.1.1.1"] {
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.mobile-date-picker[data-mode="Bottom Sheet"][data-type="Single"] {
+  border-radius: 16px 16px 0px 0px;
+}
+.mobile-date-picker[data-mode="Bottom Sheet"][data-type="Single"] [data-ds-part="0"] {
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.mobile-date-picker[data-mode="Bottom Sheet"][data-type="Single"] [data-ds-part="0.0"] {
+  align-self: stretch;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Bottom Sheet"][data-type="Single"] [data-ds-part="0.0.2.2.4.1"] {
+  display: none;
+}
+.mobile-date-picker[data-mode="Bottom Sheet"][data-type="Single"] [data-ds-part="1"] {
+  border-color: var(--outline-weak);
+  gap: var(--spacing-3);
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1"] {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: var(--spacing-1);
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0"] {
+  align-self: stretch;
+  background-color: transparent;
+  border-radius: 0px;
+  gap: var(--spacing-1);
+  justify-content: space-between;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.6"] {
+  align-items: center;
+  background-color: var(--bg-page);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.2.0"] {
+  align-self: stretch;
+  border-width: 0px;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.6.1"] {
+  background-color: var(--primary);
+  display: none;
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.0.6.0"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1"] {
+  align-items: center;
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  justify-content: space-between;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.0"] {
+  align-items: center;
+  background-color: var(--bg-page);
+  border-radius: 8px;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.0.0"] {
+  align-self: stretch;
+  border-radius: 0px;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.0.1"] {
+  background-color: var(--primary);
+  border-radius: 0px;
+  border-width: 0px;
+  display: none;
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.6.0"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.6"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.6"] {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.6.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.4.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.5.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.6.0"] {
+  align-self: stretch;
+  color: var(--content-disabled);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.1.6.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.0.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.4.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.5.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6.6.1"] {
+  background-color: var(--content-disabled);
+  display: none;
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.6"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  justify-content: space-between;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.4"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.5"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.6"] {
+  align-items: center;
+  background-color: var(--primary-container);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.3"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.2"] {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2-5);
+  height: 40px;
+  justify-content: center;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 40px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.3.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.2.0"] {
+  align-self: stretch;
+  color: var(--primary-on);
+  font-family: var(--font-font);
+  font-size: var(--text-base);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.3.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.3.2.1"] {
+  background-color: var(--primary-on);
+  display: none;
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="0.0.1.2.4.1"] {
+  background-color: var(--primary);
+  height: 4px;
+  width: 4px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1"] {
+  align-items: center;
+  flex-direction: row;
+  gap: var(--spacing-3);
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.0"] {
+  border-radius: 8px;
+  flex: 1 1 0px;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 0px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.0.0"] {
+  background-color: transparent;
+  border-radius: 0px;
+  display: none;
+  height: 20px;
+  width: 20px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.0.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.1.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.2.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.2.2.0"] {
+  border-color: var(--primary);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.0.1"] {
+  border-radius: 0px;
+  border-width: 0px;
+  color: var(--primary);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.0.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.1.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.2.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.2.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.0.2"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.1.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.1.2"] {
+  display: none;
+  height: 20px;
+  width: 20px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.2"] {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 0px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.1.1"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="1.2.1"] {
+  color: var(--primary);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2"] {
+  align-items: flex-start;
+  align-self: stretch;
+  border-color: var(--outline-disabled);
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+  height: 140px;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-4);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+  padding-top: var(--spacing-4);
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.0"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-3);
+  justify-content: space-between;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.0.0"] {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  justify-content: center;
+  width: 121px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.0.0.0"] {
+  align-self: stretch;
+  color: var(--content-helper);
+  font-family: var(--font-font);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-20);
+  text-align: left;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.0.0.1"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: left;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.0.1"] {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  justify-content: flex-start;
+  width: 121px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.0.1.0"] {
+  align-self: stretch;
+  color: var(--content-helper);
+  font-family: var(--font-font);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-20);
+  text-align: right;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.0.1.1"] {
+  align-self: stretch;
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-3);
+  justify-content: flex-start;
+  width: auto;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.0"] {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 0px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.0.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.0.2.0"] {
+  border-color: var(--primary-on);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.0.1"] {
+  color: var(--primary-on);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.1"] {
+  align-items: center;
+  border-color: var(--outline-default);
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-spacing-4);
+  justify-content: center;
+  padding-bottom: var(--spacing-2-5);
+  padding-left: var(--spacing-2-5);
+  padding-right: var(--spacing-2-5);
+  padding-top: var(--spacing-2-5);
+  width: 0px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.1.0.0"],
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.1.2.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.mobile-date-picker[data-mode="Modal"][data-type="Two Dates"] [data-ds-part="2.1.1.1"] {
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}

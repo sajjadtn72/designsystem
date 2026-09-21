@@ -1,0 +1,277 @@
+/* Variables used by Navbar */
+/* Tailwind V4 */
+
+:root {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+[data-theme="baseline"] {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+
+[data-theme="compact"] {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-page: #020202;
+  --bg-surface-lowest: #141414;
+  --content-main: #ebebeb;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #ebebeb;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #666666;
+  --outline-weak: #1f1f1f;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+
+[data-theme="default"] {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+
+[data-theme="light"] {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+
+[data-theme="mode-1"] {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+
+[data-theme="sale"] {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+
+[data-theme="soniz"] {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
+
+[data-theme="value"] {
+  --bg-page: #ffffff;
+  --bg-surface-lowest: #f7f7f7;
+  --content-main: #1f1f1f;
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --icon-main: #1f1f1f;
+  --leading-24: 24px;
+  --numbers-4: 4px;
+  --outline-default: #8c8c8c;
+  --outline-weak: #ebebeb;
+  --radius-full: 500px;
+  --radius-lg: 8px;
+  --radius-radius---2: 8px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-spacing-4: var(--numbers-4);
+  --text-base: 16px;
+}
