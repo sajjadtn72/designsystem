@@ -1,0 +1,461 @@
+{
+  "warnings": [
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Default, Tone=Primary, Shape=Circle\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:279",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Hover, Tone=Primary, Shape=Circle\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:284",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Pressed, Tone=Primary, Shape=Circle\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:289",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Focus, Tone=Primary, Shape=Circle\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:294",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Disabled, Tone=Primary, Shape=Circle\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:299",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Default, Tone=Primary, Shape=Square\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:304",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Hover, Tone=Primary, Shape=Square\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:310",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Pressed, Tone=Primary, Shape=Square\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:316",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Focus, Tone=Primary, Shape=Square\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:322",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Disabled, Tone=Primary, Shape=Square\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:328",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Default, Tone=Default, Shape=Circle\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:334",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Hover, Tone=Default, Shape=Circle\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:339",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Pressed, Tone=Default, Shape=Circle\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:344",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Focus, Tone=Default, Shape=Circle\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:349",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Disabled, Tone=Default, Shape=Circle\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:354",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Default, Tone=Default, Shape=Square\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:359",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Hover, Tone=Default, Shape=Square\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:365",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Pressed, Tone=Default, Shape=Square\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:371",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Focus, Tone=Default, Shape=Square\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:377",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"State=Disabled, Tone=Default, Shape=Square\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:383",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"Open=false\" depends on component \"Icon\" (124:2522) which is external or not included in this scan scope.",
+      "nodeId": "66745:389",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"Open=true\" depends on component \"Icon\" (1167:556) which is external or not included in this scan scope.",
+      "nodeId": "66745:394",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"Open=true\" depends on component \"Icon\" (2395:347) which is external or not included in this scan scope.",
+      "nodeId": "66745:394",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"Open=true\" depends on component \"Icon\" (2424:250) which is external or not included in this scan scope.",
+      "nodeId": "66745:394",
+      "entityType": "component"
+    },
+    {
+      "code": "EXTERNAL_COMPONENT_DEPENDENCY",
+      "message": "Component \"Open=true\" depends on component \"Icon\" (2841:691) which is external or not included in this scan scope.",
+      "nodeId": "66745:394",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:282",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:287",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:292",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:297",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:302",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:308",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:314",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:320",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:326",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:332",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:337",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:342",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:347",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:352",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:357",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:363",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:369",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:375",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:381",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "66745:387",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "I66745:390;66745:282",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "I66745:395;66745:337",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "I66745:403;66745:337",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "I66745:408;66745:337",
+      "entityType": "component"
+    },
+    {
+      "code": "UNSUPPORTED_VISUAL_STYLE",
+      "message": "Absolute positioning or grid requires manual implementation: Badge",
+      "nodeId": "I66745:413;66745:282",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:280;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:285;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:290;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:295;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:300;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:305;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:311;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:317;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:323;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:329;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:335;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:340;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:345;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:350;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:355;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:360;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:366;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:372;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:378;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:384;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:390;66745:280;124:2521",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Path",
+      "nodeId": "I66745:395;66745:335;2841:689",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Path",
+      "nodeId": "I66745:395;66745:335;2841:690",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:403;66745:335;2424:249",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:408;66745:335;2395:346",
+      "entityType": "component"
+    },
+    {
+      "code": "VECTOR_CSS_UNSUPPORTED",
+      "message": "Vector geometry requires developer implementation; SVG export is disabled: Vector",
+      "nodeId": "I66745:413;66745:280;1167:555",
+      "entityType": "component"
+    }
+  ],
+  "visualParityVerified": false
+}
