@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Anchor Items",
+    "className": "anchor-items",
+    "examples": [
+      "examples/Anchor_Items/32-35-31-34-3a-34-30-34.html"
+    ]
+  },
+  {
+    "name": "FloatButton / Group",
+    "className": "float-button-group",
+    "examples": [
+      "examples/FloatButton_-_Group/36-36-37-34-35-3a-33-38-39.html",
+      "examples/FloatButton_-_Group/36-36-37-34-35-3a-33-39-34.html"
+    ]
+  }
+]
