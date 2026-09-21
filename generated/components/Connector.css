@@ -1,0 +1,21 @@
+._connector {
+  box-sizing: border-box;
+  height: 42px;
+  width: 0px;
+}
+._connector [data-ds-part="0"] {
+  border-color: var(--primary);
+  border-style: solid;
+  border-width: 2px;
+  height: 0px;
+  width: 42px;
+}
+._connector[data-state="In Progress"] [data-ds-part="0"] {
+  border-color: var(--outline-weak);
+}
+._connector [data-ds-part="0"] {
+  border-color: var(--outline-weak);
+}
+._connector[data-state="Default"] [data-ds-part="0"] {
+  border-color: var(--outline-weak);
+}

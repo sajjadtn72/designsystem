@@ -1,0 +1,183 @@
+/* Variables used by Steps / Connector Line */
+/* Tailwind V4 */
+
+:root {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+[data-theme="baseline"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="compact"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-surface-high: var(--gray-700);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="default"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="light"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="light-mode"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-500);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="mode-1"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="sale"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--sale-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="soniz"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--shoniz-500);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}
+
+[data-theme="value"] {
+  --bg-surface-high: var(--gray-200);
+  --gray-200: #e0e0e0;
+  --gray-700: #4d4d4d;
+  --logistic-500: #863bff;
+  --logistic-700: #7700ff;
+  --primary: var(--logistic-700);
+  --sale-700: #ba4914;
+  --shoniz-500: #5860fc;
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-2: 8px;
+}

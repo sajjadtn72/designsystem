@@ -1,0 +1,10 @@
+._qr-code-pattern {
+  box-sizing: border-box;
+  height: 210px;
+  width: 210px;
+}
+._qr-code-pattern [data-ds-part="0"] {
+  background-color: var(--static-black);
+  height: 210px;
+  width: 210px;
+}

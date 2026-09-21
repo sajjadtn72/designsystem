@@ -1,0 +1,54 @@
+._time-picker-cell {
+  align-items: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  height: 40px;
+  justify-content: center;
+  padding-bottom: 0px;
+  padding-left: var(--spacing-2);
+  padding-right: var(--spacing-2);
+  padding-top: 0px;
+  width: 64px;
+}
+._time-picker-cell [data-ds-part="0"] {
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: left;
+  white-space: pre-wrap;
+}
+._time-picker-cell[data-state="Selected"] {
+  background-color: var(--primary-container);
+}
+._time-picker-cell[data-state="Selected"] [data-ds-part="0"] {
+  color: var(--primary-container-on);
+  font-weight: 600;
+}
+._time-picker-cell:hover {
+  background-color: var(--bg-surface-low);
+}
+._time-picker-cell[data-state="Hover"] {
+  background-color: var(--bg-surface-low);
+}
+._time-picker-cell:focus-visible {
+  background-color: var(--bg-page);
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+._time-picker-cell[data-state="Focus"] {
+  background-color: var(--bg-page);
+  box-shadow: 0px 0px 0px 4px rgba(119, 0, 255, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+._time-picker-cell:disabled [data-ds-part="0"] {
+  color: var(--content-disabled);
+}
+._time-picker-cell[data-state="Disabled"] [data-ds-part="0"] {
+  color: var(--content-disabled);
+}

@@ -1,0 +1,13 @@
+.minus {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.minus [data-ds-part="0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 0px;
+  width: 10px;
+}

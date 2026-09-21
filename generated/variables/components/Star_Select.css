@@ -1,0 +1,79 @@
+/* Variables used by Star Select */
+/* Tailwind V4 */
+
+:root {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+[data-theme="baseline"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+
+[data-theme="compact"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+
+[data-theme="dark"], .dark {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--orange-300);
+  --orange-300: #fec84b;
+}
+
+[data-theme="default"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+
+[data-theme="light"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+
+[data-theme="light-mode"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+
+[data-theme="logistic-dark"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+
+[data-theme="logistic-light"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+
+[data-theme="mode-1"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+
+[data-theme="sale"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+
+[data-theme="soniz"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}
+
+[data-theme="value"] {
+  --gold-tag-200: #c38100;
+  --icon-rating: var(--gold-tag-200);
+  --orange-300: #fec84b;
+}

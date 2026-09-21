@@ -1,0 +1,66 @@
+/* Variables used by _QR Code / Pattern */
+/* Tailwind V4 */
+
+:root {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+[data-theme="baseline"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="compact"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="dark"], .dark {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="default"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="light"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="light-mode"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="logistic-dark"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="logistic-light"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="mode-1"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="sale"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="soniz"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}
+
+[data-theme="value"] {
+  --base-black: #020202;
+  --static-black: var(--base-black);
+}

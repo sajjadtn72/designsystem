@@ -1,0 +1,16 @@
+.deactive {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.deactive [data-ds-part="0"],
+.deactive [data-ds-part="0.0"] {
+  height: 10px;
+  width: 10px;
+}
+.deactive [data-ds-part="0.0.0"] {
+  background-color: var(--outline-default);
+  height: 10px;
+  width: 10px;
+}

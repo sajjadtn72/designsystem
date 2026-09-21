@@ -1,0 +1,23 @@
+.online {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.online [data-ds-part="0"],
+.online [data-ds-part="0.0"] {
+  height: 12px;
+  width: 12px;
+}
+.online [data-ds-part="0.0.0"] {
+  background-color: var(--feedback-success);
+  height: 8px;
+  width: 8px;
+}
+.online [data-ds-part="0.0.1"] {
+  border-color: var(--feedback-success);
+  border-style: solid;
+  border-width: 1.253px;
+  height: 12px;
+  width: 12px;
+}

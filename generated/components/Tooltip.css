@@ -1,0 +1,387 @@
+.tooltip {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
+  max-width: 250px;
+  width: 250px;
+}
+.tooltip [data-ds-part="0"] {
+  background-color: var(--bg-page-inverse);
+  border-radius: 0px 0px 0px 0px;
+  height: var(--spacing-2);
+  width: var(--spacing-4);
+}
+.tooltip [data-ds-part="1"] {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--bg-page-inverse);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+  width: auto;
+}
+.tooltip [data-ds-part="1.0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-0);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: auto;
+}
+.tooltip [data-ds-part="1.0.0"] {
+  color: var(--content-inverse);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.tooltip[data-placement="Left Bottom"] {
+  flex-direction: row;
+}
+.tooltip[data-placement="Left Bottom"] [data-ds-part="0"] {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+  width: 0px;
+}
+.tooltip[data-placement="Left Bottom"] [data-ds-part="0.0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-0);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: auto;
+}
+.tooltip[data-placement="Left Bottom"] [data-ds-part="0.0.0"] {
+  color: var(--content-inverse);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.tooltip[data-placement="Left Bottom"] [data-ds-part="0.1"] {
+  background-color: var(--bg-page-inverse);
+  border-radius: 0px 0px 0px 0px;
+  height: var(--spacing-2);
+  width: var(--spacing-4);
+}
+.tooltip[data-placement="Left"] {
+  flex-direction: row;
+}
+.tooltip[data-placement="Left"] [data-ds-part="0"] {
+  align-items: flex-start;
+  border-radius: 6px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+  width: 0px;
+}
+.tooltip[data-placement="Left"] [data-ds-part="0.0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-0);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: auto;
+}
+.tooltip[data-placement="Left"] [data-ds-part="0.0.0"] {
+  color: var(--content-inverse);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.tooltip[data-placement="Left"] [data-ds-part="1"] {
+  border-radius: 0px 0px 0px 0px;
+  height: var(--spacing-2);
+  width: var(--spacing-4);
+}
+.tooltip[data-placement="Left Top"] {
+  flex-direction: row;
+}
+.tooltip[data-placement="Left Top"] [data-ds-part="0"] {
+  align-items: flex-start;
+  border-radius: 6px;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+  width: 0px;
+}
+.tooltip[data-placement="Left Top"] [data-ds-part="0.0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-0);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: auto;
+}
+.tooltip[data-placement="Left Top"] [data-ds-part="0.0.0"] {
+  color: var(--content-inverse);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.tooltip[data-placement="Left Top"] [data-ds-part="1"] {
+  border-radius: 0px 0px 0px 0px;
+  height: var(--spacing-2);
+  width: var(--spacing-4);
+}
+.tooltip[data-placement="Bottom Left"] [data-ds-part="0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+  width: auto;
+}
+.tooltip[data-placement="Bottom Left"] [data-ds-part="0.0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-0);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: auto;
+}
+.tooltip[data-placement="Bottom Left"] [data-ds-part="0.0.0"] {
+  color: var(--content-inverse);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.tooltip[data-placement="Bottom Left"] [data-ds-part="1"] {
+  border-radius: 0px 0px 0px 0px;
+  height: var(--spacing-2);
+  width: var(--spacing-4);
+}
+.tooltip[data-placement="Bottom"] [data-ds-part="0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+  width: auto;
+}
+.tooltip[data-placement="Bottom"] [data-ds-part="0.0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-0);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: auto;
+}
+.tooltip[data-placement="Bottom"] [data-ds-part="0.0.0"] {
+  color: var(--content-inverse);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.tooltip[data-placement="Bottom"] [data-ds-part="1"] {
+  border-radius: 0px 0px 0px 0px;
+  height: var(--spacing-2);
+  width: var(--spacing-4);
+}
+.tooltip[data-placement="Top Right"] [data-ds-part="0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+  width: auto;
+}
+.tooltip[data-placement="Top Right"] [data-ds-part="0.0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-0);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: auto;
+}
+.tooltip[data-placement="Top Right"] [data-ds-part="0.0.0"] {
+  color: var(--content-inverse);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.tooltip[data-placement="Top Right"] [data-ds-part="1"] {
+  border-radius: 0px 0px 0px 0px;
+  height: var(--spacing-2);
+  width: var(--spacing-4);
+}
+.tooltip[data-placement="Bottom Right"] [data-ds-part="0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+  width: auto;
+}
+.tooltip[data-placement="Bottom Right"] [data-ds-part="0.0"] {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-0);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: auto;
+}
+.tooltip[data-placement="Bottom Right"] [data-ds-part="0.0.0"] {
+  color: var(--content-inverse);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.tooltip[data-placement="Bottom Right"] [data-ds-part="1"] {
+  border-radius: 0px 0px 0px 0px;
+  height: var(--spacing-2);
+  width: var(--spacing-4);
+}
+.tooltip[data-placement="Right"] {
+  flex-direction: row;
+}
+.tooltip[data-placement="Right"] [data-ds-part="1"] {
+  flex: 1 1 0px;
+  width: 0px;
+}
+.tooltip[data-placement="Right Bottom"] {
+  flex-direction: row;
+}
+.tooltip[data-placement="Right Bottom"] [data-ds-part="1"] {
+  flex: 1 1 0px;
+  width: 0px;
+}
+.tooltip[data-placement="Right Top"] {
+  flex-direction: row;
+}
+.tooltip[data-placement="Right Top"] [data-ds-part="1"] {
+  flex: 1 1 0px;
+  width: 0px;
+}

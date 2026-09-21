@@ -1,0 +1,11 @@
+.star-select {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.star-select [data-ds-part="0"] {
+  background-color: var(--icon-rating);
+  height: 18.0117px;
+  width: 19.0076px;
+}

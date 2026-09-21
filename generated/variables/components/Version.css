@@ -1,0 +1,196 @@
+/* Variables used by Version */
+/* Tailwind V4 */
+
+:root {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+[data-theme="baseline"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="compact"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="dark"], .dark {
+  --content-main: var(--gray-100);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-900);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="default"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="light"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="light-mode"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="logistic-dark"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="logistic-light"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="mode-1"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="sale"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="soniz"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}
+
+[data-theme="value"] {
+  --content-main: var(--gray-900);
+  --font-weight-normal: Regular;
+  --font-font: "Vazirmatn";
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --leading-24: 24px;
+  --outline-weak: var(--gray-100);
+  --radius-lg: 8px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --text-base: 16px;
+}

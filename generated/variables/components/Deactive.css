@@ -1,0 +1,79 @@
+/* Variables used by Deactive */
+/* Tailwind V4 */
+
+:root {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+[data-theme="baseline"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+
+[data-theme="compact"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+
+[data-theme="dark"], .dark {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-600);
+}
+
+[data-theme="default"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+
+[data-theme="light"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+
+[data-theme="light-mode"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+
+[data-theme="logistic-dark"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+
+[data-theme="logistic-light"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+
+[data-theme="mode-1"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+
+[data-theme="sale"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+
+[data-theme="soniz"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}
+
+[data-theme="value"] {
+  --gray-500: #8c8c8c;
+  --gray-600: #666666;
+  --outline-default: var(--gray-500);
+}

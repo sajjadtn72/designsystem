@@ -1,0 +1,11 @@
+.signal {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.signal [data-ds-part="0"] {
+  background-color: var(--icon-main);
+  height: 14px;
+  width: 18px;
+}

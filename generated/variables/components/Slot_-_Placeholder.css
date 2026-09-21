@@ -1,0 +1,92 @@
+/* Variables used by _Slot / Placeholder */
+/* Tailwind V4 */
+
+:root {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+[data-theme="baseline"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="compact"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="dark"], .dark {
+  --bg-surface-low: var(--gray-900);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="default"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="light"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="light-mode"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="logistic-dark"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="logistic-light"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="mode-1"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="sale"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="soniz"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
+
+[data-theme="value"] {
+  --bg-surface-low: var(--gray-50);
+  --gray-50: #f2f2f2;
+  --gray-900: #1f1f1f;
+  --radius-lg: 8px;
+}
