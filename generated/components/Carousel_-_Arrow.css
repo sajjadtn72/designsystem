@@ -1,0 +1,83 @@
+._carousel-arrow {
+  align-items: center;
+  background-color: var(--bg-page);
+  border-radius: 500px;
+  box-shadow: 0px 12px 16px -4px rgba(20, 20, 20, 0.07999999821186066);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: var(--spacing-10);
+  justify-content: center;
+  width: var(--spacing-10);
+}
+._carousel-arrow [data-ds-part="0"] {
+  height: 20px;
+  width: 20px;
+}
+._carousel-arrow [data-ds-part="0.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 6.6667px;
+  width: 3.3333px;
+}
+._carousel-arrow[data-direction="Previous"]:hover {
+  background-color: var(--bg-surface-low);
+}
+._carousel-arrow[data-direction="Previous"][data-state="Hover"] {
+  background-color: var(--bg-surface-low);
+}
+._carousel-arrow[data-direction="Previous"]:focus-visible {
+  border-color: var(--focus-ring);
+  border-style: solid;
+  border-width: 2px;
+}
+._carousel-arrow[data-direction="Previous"][data-state="Focus"] {
+  border-color: var(--focus-ring);
+  border-style: solid;
+  border-width: 2px;
+}
+._carousel-arrow[data-direction="Previous"]:disabled {
+  background-color: var(--bg-disabled);
+  box-shadow: none;
+}
+._carousel-arrow[data-direction="Previous"]:disabled [data-ds-part="0.0"] {
+  border-color: var(--icon-disabled);
+}
+._carousel-arrow[data-direction="Previous"][data-state="Disabled"] {
+  background-color: var(--bg-disabled);
+  box-shadow: none;
+}
+._carousel-arrow[data-direction="Previous"][data-state="Disabled"] [data-ds-part="0.0"] {
+  border-color: var(--icon-disabled);
+}
+._carousel-arrow[data-direction="Next"]:hover {
+  background-color: var(--bg-surface-low);
+}
+._carousel-arrow[data-direction="Next"][data-state="Hover"] {
+  background-color: var(--bg-surface-low);
+}
+._carousel-arrow[data-direction="Next"]:focus-visible {
+  border-color: var(--focus-ring);
+  border-style: solid;
+  border-width: 2px;
+}
+._carousel-arrow[data-direction="Next"][data-state="Focus"] {
+  border-color: var(--focus-ring);
+  border-style: solid;
+  border-width: 2px;
+}
+._carousel-arrow[data-direction="Next"]:disabled {
+  background-color: var(--bg-disabled);
+  box-shadow: none;
+}
+._carousel-arrow[data-direction="Next"]:disabled [data-ds-part="0.0"] {
+  border-color: var(--icon-disabled);
+}
+._carousel-arrow[data-direction="Next"][data-state="Disabled"] {
+  background-color: var(--bg-disabled);
+  box-shadow: none;
+}
+._carousel-arrow[data-direction="Next"][data-state="Disabled"] [data-ds-part="0.0"] {
+  border-color: var(--icon-disabled);
+}

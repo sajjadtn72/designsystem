@@ -1,0 +1,579 @@
+.sidebar-menu-open {
+  align-items: flex-end;
+  background-color: var(--bg-page);
+  border-color: var(--outline-weak);
+  border-style: solid;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  height: 1024px;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: fit-content;
+}
+.sidebar-menu-open [data-ds-part="0"] {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  height: 56px;
+  justify-content: center;
+  padding-bottom: var(--spacing-0);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-0);
+  width: 264px;
+}
+.sidebar-menu-open [data-ds-part="0.0"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2);
+  height: 56px;
+  justify-content: center;
+  padding-bottom: var(--spacing-4);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+  padding-top: var(--spacing-4);
+  width: auto;
+}
+.sidebar-menu-open [data-ds-part="0.0.0"] {
+  align-items: center;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  gap: var(--spacing-2);
+  justify-content: flex-end;
+  width: 0px;
+}
+.sidebar-menu-open [data-ds-part="0.0.0.0"] {
+  align-items: center;
+  background-color: var(--feedback-info-bg);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  height: var(--spacing-6);
+  justify-content: center;
+  overflow: hidden;
+  width: var(--spacing-6);
+}
+.sidebar-menu-open [data-ds-part="1"],
+.sidebar-menu-open [data-ds-part="2"],
+.sidebar-menu-open [data-ds-part="3"],
+.sidebar-menu-open [data-ds-part="4"],
+.sidebar-menu-open [data-ds-part="5"],
+.sidebar-menu-open [data-ds-part="6"],
+.sidebar-menu-open [data-ds-part="7"],
+.sidebar-menu-open [data-ds-part="8"],
+.sidebar-menu-open [data-ds-part="9"],
+.sidebar-menu-open [data-ds-part="10"],
+.sidebar-menu-open [data-ds-part="11"],
+.sidebar-menu-open [data-ds-part="12"],
+.sidebar-menu-open [data-ds-part="13"] {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2);
+  justify-content: flex-end;
+  width: auto;
+}
+.sidebar-menu-open [data-ds-part="1.0"],
+.sidebar-menu-open [data-ds-part="2.0"],
+.sidebar-menu-open [data-ds-part="3.0"],
+.sidebar-menu-open [data-ds-part="4.0"],
+.sidebar-menu-open [data-ds-part="5.0"],
+.sidebar-menu-open [data-ds-part="6.0"],
+.sidebar-menu-open [data-ds-part="7.0"],
+.sidebar-menu-open [data-ds-part="8.0"],
+.sidebar-menu-open [data-ds-part="9.0"],
+.sidebar-menu-open [data-ds-part="10.0"],
+.sidebar-menu-open [data-ds-part="11.0"],
+.sidebar-menu-open [data-ds-part="12.0"],
+.sidebar-menu-open [data-ds-part="13.0"] {
+  align-items: flex-end;
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: column;
+  gap: var(--spacing-1);
+  justify-content: flex-start;
+  width: 0px;
+}
+.sidebar-menu-open [data-ds-part="1.0.0"],
+.sidebar-menu-open [data-ds-part="2.0.0"],
+.sidebar-menu-open [data-ds-part="3.0.0"],
+.sidebar-menu-open [data-ds-part="4.0.0"],
+.sidebar-menu-open [data-ds-part="5.0.0"],
+.sidebar-menu-open [data-ds-part="6.0.0"],
+.sidebar-menu-open [data-ds-part="7.0.0"],
+.sidebar-menu-open [data-ds-part="8.0.0"],
+.sidebar-menu-open [data-ds-part="9.0.0"],
+.sidebar-menu-open [data-ds-part="10.0.0"],
+.sidebar-menu-open [data-ds-part="11.0.0"],
+.sidebar-menu-open [data-ds-part="12.0.0"],
+.sidebar-menu-open [data-ds-part="13.0.0"] {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  justify-content: center;
+  padding-bottom: 0px;
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: 0px;
+  width: auto;
+}
+.sidebar-menu-open [data-ds-part="1.0.0.0"],
+.sidebar-menu-open [data-ds-part="1.0.1.0"],
+.sidebar-menu-open [data-ds-part="1.0.1.2"],
+.sidebar-menu-open [data-ds-part="1.0.1.3"],
+.sidebar-menu-open [data-ds-part="1.0.1.4"],
+.sidebar-menu-open [data-ds-part="2.0.0.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.1"],
+.sidebar-menu-open [data-ds-part="2.0.1.2"],
+.sidebar-menu-open [data-ds-part="2.0.1.3"],
+.sidebar-menu-open [data-ds-part="2.0.1.4"],
+.sidebar-menu-open [data-ds-part="3.0.0.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.1"],
+.sidebar-menu-open [data-ds-part="3.0.1.2"],
+.sidebar-menu-open [data-ds-part="3.0.1.3"],
+.sidebar-menu-open [data-ds-part="3.0.1.4"],
+.sidebar-menu-open [data-ds-part="4.0.0.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.1"],
+.sidebar-menu-open [data-ds-part="4.0.1.2"],
+.sidebar-menu-open [data-ds-part="4.0.1.3"],
+.sidebar-menu-open [data-ds-part="4.0.1.4"],
+.sidebar-menu-open [data-ds-part="5.0.0.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.1"],
+.sidebar-menu-open [data-ds-part="5.0.1.2"],
+.sidebar-menu-open [data-ds-part="5.0.1.3"],
+.sidebar-menu-open [data-ds-part="5.0.1.4"],
+.sidebar-menu-open [data-ds-part="6.0.0.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.1"],
+.sidebar-menu-open [data-ds-part="6.0.1.2"],
+.sidebar-menu-open [data-ds-part="6.0.1.3"],
+.sidebar-menu-open [data-ds-part="6.0.1.4"],
+.sidebar-menu-open [data-ds-part="7.0.0.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.1"],
+.sidebar-menu-open [data-ds-part="7.0.1.2"],
+.sidebar-menu-open [data-ds-part="7.0.1.3"],
+.sidebar-menu-open [data-ds-part="7.0.1.4"],
+.sidebar-menu-open [data-ds-part="8.0.0.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.1"],
+.sidebar-menu-open [data-ds-part="8.0.1.2"],
+.sidebar-menu-open [data-ds-part="8.0.1.3"],
+.sidebar-menu-open [data-ds-part="8.0.1.4"],
+.sidebar-menu-open [data-ds-part="9.0.0.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.1"],
+.sidebar-menu-open [data-ds-part="9.0.1.2"],
+.sidebar-menu-open [data-ds-part="9.0.1.3"],
+.sidebar-menu-open [data-ds-part="9.0.1.4"],
+.sidebar-menu-open [data-ds-part="10.0.0.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.1"],
+.sidebar-menu-open [data-ds-part="10.0.1.2"],
+.sidebar-menu-open [data-ds-part="10.0.1.3"],
+.sidebar-menu-open [data-ds-part="10.0.1.4"],
+.sidebar-menu-open [data-ds-part="11.0.0.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.1"],
+.sidebar-menu-open [data-ds-part="11.0.1.2"],
+.sidebar-menu-open [data-ds-part="11.0.1.3"],
+.sidebar-menu-open [data-ds-part="11.0.1.4"],
+.sidebar-menu-open [data-ds-part="12.0.0.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.1"],
+.sidebar-menu-open [data-ds-part="12.0.1.2"],
+.sidebar-menu-open [data-ds-part="12.0.1.3"],
+.sidebar-menu-open [data-ds-part="12.0.1.4"],
+.sidebar-menu-open [data-ds-part="13.0.0.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.1"],
+.sidebar-menu-open [data-ds-part="13.0.1.2"],
+.sidebar-menu-open [data-ds-part="13.0.1.3"],
+.sidebar-menu-open [data-ds-part="13.0.1.4"] {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  height: 40px;
+  justify-content: flex-end;
+  padding-bottom: var(--spacing-2);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+  padding-top: var(--spacing-2);
+  width: auto;
+}
+.sidebar-menu-open [data-ds-part="1.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="1.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="1.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="1.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="1.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="1.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="1.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="2.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="2.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="2.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="2.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="2.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="2.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="2.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="3.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="3.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="3.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="3.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="3.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="3.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="3.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="4.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="4.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="4.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="4.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="4.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="4.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="4.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="5.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="5.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="5.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="5.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="5.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="5.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="5.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="6.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="6.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="6.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="6.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="6.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="6.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="6.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="7.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="7.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="7.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="7.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="7.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="7.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="7.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="8.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="8.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="8.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="8.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="8.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="8.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="8.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="9.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="9.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="9.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="9.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="9.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="9.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="9.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="10.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="10.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="10.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="10.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="10.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="10.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="10.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="11.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="11.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="11.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="11.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="11.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="11.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="11.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="12.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="12.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="12.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="12.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="12.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="12.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="12.0.1.4.1"],
+.sidebar-menu-open [data-ds-part="13.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="13.0.0.0.2"],
+.sidebar-menu-open [data-ds-part="13.0.1.0.1"],
+.sidebar-menu-open [data-ds-part="13.0.1.1.1"],
+.sidebar-menu-open [data-ds-part="13.0.1.2.1"],
+.sidebar-menu-open [data-ds-part="13.0.1.3.1"],
+.sidebar-menu-open [data-ds-part="13.0.1.4.1"] {
+  height: 20px;
+  width: 20px;
+}
+.sidebar-menu-open [data-ds-part="1.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="1.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="1.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="1.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="1.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="1.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="2.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="2.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="3.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="3.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="4.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="4.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="5.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="5.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="6.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="6.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="7.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="7.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="8.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="8.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="9.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="9.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="10.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="10.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="11.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="11.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="12.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="12.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.4.1.0"],
+.sidebar-menu-open [data-ds-part="13.0.0.0.0.0"],
+.sidebar-menu-open [data-ds-part="13.0.0.0.2.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.0.1.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.1.1.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.2.1.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.3.1.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.4.1.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.sidebar-menu-open [data-ds-part="1.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="2.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="3.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="4.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="5.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="6.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="7.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="8.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="9.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="10.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="11.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="12.0.0.0.1"],
+.sidebar-menu-open [data-ds-part="13.0.0.0.1"] {
+  color: var(--content-main);
+  flex: 1 1 0px;
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+  width: 0px;
+}
+.sidebar-menu-open [data-ds-part="1.0.1"] {
+  align-items: flex-end;
+  align-self: stretch;
+  background-color: var(--bg-surface-lowest);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: auto;
+}
+.sidebar-menu-open [data-ds-part="1.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="1.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="1.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="1.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="2.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="3.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="4.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="5.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="6.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="7.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="8.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="9.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="10.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="11.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="12.0.1.4.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.0.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.1.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.2.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.3.0"],
+.sidebar-menu-open [data-ds-part="13.0.1.4.0"] {
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+}
+.sidebar-menu-open [data-ds-part="1.0.1.1"] {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--primary-container);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  height: 40px;
+  justify-content: flex-end;
+  padding-bottom: var(--spacing-2);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+  padding-top: var(--spacing-2);
+  width: auto;
+}
+.sidebar-menu-open [data-ds-part="1.0.1.1.0"] {
+  color: var(--primary-container-on);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+}
+.sidebar-menu-open [data-ds-part="1.0.1.1.1.0"] {
+  border-color: var(--primary-container-on);
+  border-style: solid;
+  border-width: 1.25px;
+  height: 15px;
+  width: 15px;
+}
+.sidebar-menu-open [data-ds-part="2.0.1"],
+.sidebar-menu-open [data-ds-part="3.0.1"],
+.sidebar-menu-open [data-ds-part="4.0.1"],
+.sidebar-menu-open [data-ds-part="5.0.1"],
+.sidebar-menu-open [data-ds-part="6.0.1"],
+.sidebar-menu-open [data-ds-part="7.0.1"],
+.sidebar-menu-open [data-ds-part="8.0.1"],
+.sidebar-menu-open [data-ds-part="9.0.1"],
+.sidebar-menu-open [data-ds-part="10.0.1"],
+.sidebar-menu-open [data-ds-part="11.0.1"],
+.sidebar-menu-open [data-ds-part="12.0.1"],
+.sidebar-menu-open [data-ds-part="13.0.1"] {
+  align-items: flex-end;
+  background-color: var(--bg-surface-lowest);
+  display: none;
+  flex-direction: column;
+  gap: var(--spacing-1);
+  justify-content: flex-start;
+  padding-bottom: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing-1);
+  width: 150px;
+}

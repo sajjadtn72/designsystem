@@ -1,0 +1,13 @@
+.star-default {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.star-default [data-ds-part="0"] {
+  border-color: var(--icon-subtle);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 18.0117px;
+  width: 19.0076px;
+}

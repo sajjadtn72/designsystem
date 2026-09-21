@@ -1,0 +1,170 @@
+/* Variables used by Sidebar */
+/* Tailwind V4 */
+
+:root {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+[data-theme="baseline"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+
+[data-theme="compact"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+
+[data-theme="dark"], .dark {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-black);
+  --feedback-info-bg: var(--inventory-950);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-900);
+  --spacing-4: 16px;
+}
+
+[data-theme="default"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+
+[data-theme="light"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+
+[data-theme="light-mode"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+
+[data-theme="logistic-dark"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+
+[data-theme="logistic-light"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+
+[data-theme="mode-1"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+
+[data-theme="sale"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+
+[data-theme="soniz"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}
+
+[data-theme="value"] {
+  --base-black: #020202;
+  --base-white: #ffffff;
+  --bg-page: var(--base-white);
+  --feedback-info-bg: var(--inventory-100);
+  --gray-100: #ebebeb;
+  --gray-900: #1f1f1f;
+  --inventory-100: #d6eaff;
+  --inventory-950: #0e265d;
+  --outline-weak: var(--gray-100);
+  --spacing-4: 16px;
+}

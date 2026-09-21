@@ -1,0 +1,30 @@
+.slot-basic {
+  align-items: center;
+  background-color: var(--feedback-info-bg);
+  border-color: var(--feedback-info);
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 16px;
+  height: 54px;
+  justify-content: center;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  width: 304px;
+}
+.slot-basic [data-ds-part="0"] {
+  color: var(--feedback-info);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: center;
+  white-space: pre-wrap;
+}

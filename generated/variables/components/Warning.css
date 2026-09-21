@@ -1,0 +1,105 @@
+/* Variables used by Warning */
+/* Tailwind V4 */
+
+:root {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+[data-theme="baseline"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="compact"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="dark"], .dark {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-600);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="default"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="light"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="light-mode"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="logistic-dark"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="logistic-light"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="mode-1"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="sale"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="soniz"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}
+
+[data-theme="value"] {
+  --base-white: #ffffff;
+  --feedback-warning: var(--sale-700);
+  --primary-on: var(--base-white);
+  --sale-600: #df6016;
+  --sale-700: #ba4914;
+}

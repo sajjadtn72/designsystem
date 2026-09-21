@@ -1,0 +1,32 @@
+.pin {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+}
+.pin [data-ds-part="0"],
+.pin [data-ds-part="0.0"] {
+  height: 18.0001px;
+  width: 18px;
+}
+.pin [data-ds-part="0.0.0"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 6.795px;
+  width: 18px;
+}
+.pin [data-ds-part="0.0.1"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 8px;
+  width: 1px;
+}
+.pin [data-ds-part="0.0.2"] {
+  border-color: var(--icon-main);
+  border-style: solid;
+  border-width: 1.5px;
+  height: 6px;
+  width: 6px;
+}
