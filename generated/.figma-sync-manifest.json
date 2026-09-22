@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "files": [
+    "README.md",
+    "components.css",
+    "components.json",
+    "components/Alert.css",
+    "diagnostics.json",
+    "docs/components/Alert.html",
+    "docs/index.html",
+    "docs/tokens.html",
+    "examples/Alert/32-32-36-37-3a-37-38-30.html",
+    "examples/Alert/32-32-36-37-3a-37-38-31.html",
+    "examples/Alert/32-32-36-37-3a-37-38-32.html",
+    "examples/Alert/32-32-36-37-3a-37-38-33.html",
+    "examples/Alert/32-32-36-37-3a-37-38-34.html",
+    "examples/Alert/32-32-36-37-3a-37-38-35.html",
+    "examples/Alert/32-32-36-37-3a-37-38-36.html",
+    "examples/Alert/32-32-36-37-3a-37-38-37.html",
+    "index.css",
+    "tailwind.config.ts",
+    "tailwind.css",
+    "theme.css",
+    "variables.css",
+    "variables/all.css",
+    "variables/components/Alert.css"
+  ]
+}

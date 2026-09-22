@@ -1,0 +1,130 @@
+.alert {
+  align-items: center;
+  background-color: var(--tag-red-bg);
+  border: 1px solid var(--tag-red-outline);
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-10);
+  height: 56px;
+  justify-content: space-between;
+  min-width: 400px;
+  padding: var(--spacing-3);
+  width: 444px;
+}
+
+/* Left section (icon + text) */
+.alert .alert-left {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4);
+  justify-content: flex-start;
+}
+
+/* Icon wrappers (lead icon & close icon) */
+.alert .alert-icon,
+.alert .alert-close-icon {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2);
+  justify-content: flex-start;
+  padding: var(--spacing-0-5);
+}
+
+/* Outer icon containers (size) */
+.alert .alert-icon,
+.alert .alert-close-icon .alert-close-icon-inner {
+  height: 20px;
+  width: 20px;
+}
+
+/* Inner icon shape (stroke) */
+.alert .alert-icon-inner,
+.alert .alert-close-icon-inner .alert-close-icon-inner-shape {
+  border: 1.25px solid var(--icon-main);
+  height: 6.6667px;
+  width: 6.6667px;
+}
+
+/* Text wrapper */
+.alert .alert-text-wrapper {
+  align-items: center;
+  border-radius: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1);
+  justify-content: center;
+  padding: var(--spacing-1-5);
+}
+
+/* Hidden icons inside text wrapper (if any) */
+.alert .alert-text-icon {
+  display: none;
+  height: 20px;
+  width: 20px;
+}
+
+/* Inner part of hidden icons */
+.alert .alert-text-icon-inner {
+  border: 1.25px solid var(--primary);
+  height: 15px;
+  width: 15px;
+}
+
+/* Main text */
+.alert .alert-text {
+  color: var(--primary);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: var(--leading-20);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+/* Right section (action button) */
+.alert .alert-action {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2);
+  justify-content: flex-start;
+}
+
+/* Action button text */
+.alert .alert-action-text {
+  color: var(--content-main);
+  font-family: var(--font-font);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: var(--leading-24);
+  text-align: right;
+  white-space: pre-wrap;
+}
+
+/* Action icon outer size */
+.alert .alert-action-icon,
+.alert .alert-action-icon .alert-action-icon-inner {
+  height: 15px;
+  width: 15px;
+}
+
+/* Action icon background */
+.alert .alert-action-icon-bg {
+  background-color: var(--feedback-error);
+  border: 1.5px solid var(--feedback-error);
+  height: 15px;
+  width: 15px;
+}
+
+/* Action icon inner details */
+.alert .alert-action-icon-detail {
+  border: 1.5px solid var(--primary-on);
+  height: 4.7167px;
+  width: 4.7167px;
+}
